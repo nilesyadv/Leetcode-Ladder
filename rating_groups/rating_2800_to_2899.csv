@@ -1,0 +1,14 @@
+Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Jan. 12, 2025",3420,Count Non-Decreasing Subarrays After K Operations,2868,https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/,Weekly Contest 432,"array, two pointers, stack, segment tree, queue, monotonic stack, monotonic queue"
+"Jan. 4, 2025",3410,Maximize Subarray Sum Aft…ccurrences of One Element,2840,https://leetcode.com/problems/maximize-subarray-sum-after-removing-all-occurrences-of-one-element/,Biweekly Contest 147,"array, dynamic programming, segment tree"
+"Dec. 21, 2024",3395,Subsequences with a Unique Middle Mode I,2818,https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/,Biweekly Contest 146,
+"Nov. 17, 2024",3357,Minimize the Maximum Adjacent Element Difference,2850,https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference/,Weekly Contest 424,"array, binary search, greedy"
+"May 11, 2024",3145,Find Products of Elements of Big Array,2877,https://leetcode.com/problems/find-products-of-elements-of-big-array/,Biweekly Contest 130,"array, binary search, bit manipulation"
+"April 27, 2024",3130,Find All Possible Stable Binary Arrays II,2810,https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/,Biweekly Contest 129,"dynamic programming, prefix sum"
+"Dec. 31, 2023",2983,Palindrome Rearrangement Queries,2800,https://leetcode.com/problems/palindrome-rearrangement-queries/,Weekly Contest 378,"hash table, string, prefix sum"
+"Oct. 28, 2023",2916,Subarrays Distinct Element Sum of Squares II,2809,https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/,Biweekly Contest 116,"array, dynamic programming, binary indexed tree, segment tree"
+"Sept. 10, 2023",2851,String Transformation,2881,https://leetcode.com/problems/string-transformation/,Weekly Contest 362,"math, string, dynamic programming, string matching"
+"April 2, 2023",2612,Minimum Reverse Operations,2860,https://leetcode.com/problems/minimum-reverse-operations/,Weekly Contest 339,"array, breadth-first search, ordered set"
+"Oct. 31, 2021",2060,Check if an Original Stri…Given Two Encoded Strings,2863,https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/,Weekly Contest 265,"string, dynamic programming"
+"Aug. 21, 2021",1977,Number of Ways to Separate Numbers,2828,https://leetcode.com/problems/number-of-ways-to-separate-numbers/,Biweekly Contest 59,"string, dynamic programming, suffix array"
+"Jan. 17, 2021",1728,Cat and Mouse II,2868,https://leetcode.com/problems/cat-and-mouse-ii/,Weekly Contest 224,"dynamic programming, array, math, graph, topological sort, memoization, matrix, game theory"

@@ -1,0 +1,2 @@
+Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 28, 2024",3235,Check if the Rectangle Corner Is Reachable,3808,https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/,Weekly Contest 408,"array, math, depth-first search, breadth-first search, union find, geometry"

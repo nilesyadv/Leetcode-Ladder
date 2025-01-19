@@ -1,0 +1,77 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+th:hover {
+    background-color: #e9ecef;
+}
+
+select {
+    padding: 10px;
+    margin: 20px 0;
+    width: 200px;
+}
+
+.error {
+    color: red;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #ffe6e6;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.problem-link {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.problem-link:hover {
+    text-decoration: underline;
+}
+
+.tag-badge {
+    display: inline-block;
+    padding: 0.25em 0.6em;
+    margin: 0.2em;
+    border-radius: 12px;
+    background-color: #e7f3ff;
+    color: #1967d2;
+    font-size: 0.85em;
+}
+
+#loading {
+    text-align: center;
+    padding: 2rem;
+}
+
+.rating-cell {
+    font-weight: 600;
+}
+
+.solved-problem {
+    background-color: rgba(40, 167, 69, 0.1) !important;
+}
+
+.toggle-solved {
+    min-width: 100px;
+}
