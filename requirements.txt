@@ -1,6 +1,6 @@
 attrs==24.2.0
 backports.zoneinfo==0.2.1
-beautifulsoup4==4.12.3
+beautifulsoup4==4.10.0
 bitarray==2.9.2
 cachetools==4.2.4
 certifi==2023.11.17
@@ -19,6 +19,7 @@ google-auth-oauthlib==0.4.1
 greenlet==3.0.3
 gspread==3.6.0
 gspread-formatting==1.1.2
+gunicorn==20.1.0
 h11==0.14.0
 hdfs==2.7.3
 httplib2==0.22.0
@@ -28,6 +29,7 @@ importlib-metadata==6.7.0
 impyla==0.16.3
 itsdangerous==2.1.2
 Jinja2==3.1.5
+lxml==4.6.3
 MarkupSafe==2.1.5
 mockito==1.4.0
 mysql-connector-python==8.0.24
@@ -35,7 +37,7 @@ numpy==1.21.6
 oauth2client==3.0.0
 oauthlib==3.2.2
 outcome==1.3.0.post0
-pandas==1.1.5
+pandas==1.3.3
 ply==3.11
 protobuf==3.19.0
 psutil==5.9.8
@@ -49,7 +51,7 @@ pyparsing==3.1.1
 PySocks==1.7.1
 python-dateutil==2.8.2
 pytz==2023.4
-requests==2.23.0
+requests==2.26.0
 requests-oauthlib==1.3.1
 rsa==4.5
 sasl==0.3.1
@@ -74,3 +76,4 @@ urllib3==1.26.20
 Werkzeug==2.2.3
 wsproto==1.2.0
 zipp==3.15.0
+# Add any other dependencies your import scripts need
