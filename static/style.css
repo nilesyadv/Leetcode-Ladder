@@ -1,77 +1,361 @@
-.container {
+:root {
+    --primary-color: #1a73e8;
+    --secondary-color: #f8f9fa;
+    --text-color: #212529;
+    --background-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --border-color: #e9ecef;
+    --success-color: #28a745;
+    --tag-bg: #e7f3ff;
+    --tag-color: #1967d2;
+
+    /* Codeforces Rating Colors */
+    --newbie-color: #808080;
+    --pupil-color: #008000;
+    --specialist-color: #03a89e;
+    --expert-color: #0000ff;
+    --candidate-master-color: #a0a;
+    --master-color: #ff8c00;
+    --grandmaster-color: #ff0000;
+    --legendary-grandmaster-color: #ff0000;
+}
+
+.dark-theme {
+    --primary-color: #4285f4;
+    --secondary-color: #292d36;
+    --text-color: #e9ecef;
+    --background-color: #121212;
+    --card-bg: #1e1e1e;
+    --border-color: #2d3748;
+    --success-color: #2ea043;
+    --tag-bg: #1e3a5f;
+    --tag-color: #8ab4f8;
+
+    /* Codeforces Rating Colors (slightly adjusted for dark mode) */
+    --newbie-color: #aaaaaa;
+    --pupil-color: #00b300;
+    --specialist-color: #03c9c9;
+    --expert-color: #4d4dff;
+    --candidate-master-color: #d266d2;
+    --master-color: #ffae5a;
+    --grandmaster-color: #ff6666;
+    --legendary-grandmaster-color: #ff6666;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.main-container {
+    flex: 1;
+    padding: 20px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 20px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
 }
 
-th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
+.card-header {
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
+    font-weight: 500;
 }
 
-th {
-    background-color: #f5f5f5;
-    cursor: pointer;
-}
-
-th:hover {
-    background-color: #e9ecef;
-}
-
-select {
-    padding: 10px;
-    margin: 20px 0;
-    width: 200px;
-}
-
-.error {
-    color: red;
-    padding: 10px;
-    border: 1px solid red;
-    background-color: #ffe6e6;
-    border-radius: 4px;
-    margin: 10px 0;
-}
-
-.problem-link {
-    color: #1a73e8;
-    text-decoration: none;
-}
-
-.problem-link:hover {
-    text-decoration: underline;
+.rating-card,
+.search-card {
+    height: 100%;
 }
 
 .tag-badge {
     display: inline-block;
     padding: 0.25em 0.6em;
     margin: 0.2em;
+    font-size: 0.75em;
+    font-weight: 500;
     border-radius: 12px;
-    background-color: #e7f3ff;
-    color: #1967d2;
-    font-size: 0.85em;
+    background-color: var(--tag-bg);
+    color: var(--tag-color);
 }
 
-#loading {
-    text-align: center;
-    padding: 2rem;
+.problem-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.problem-link:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+th:hover {
+    background-color: var(--border-color);
+}
+
+.sort-icon {
+    display: inline-block;
+    width: 0.8em;
+    margin-left: 5px;
+    opacity: 0.6;
 }
 
 .rating-cell {
     font-weight: 600;
+    white-space: nowrap;
 }
 
-.solved-problem {
-    background-color: rgba(40, 167, 69, 0.1) !important;
+.rating-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 2px solid;
+    min-width: 50px;
+    text-align: center;
+}
+
+/* Add color transitions on hover */
+.rating-badge:hover {
+    background-color: currentColor;
+    color: white !important;
+    transition: all 0.2s ease;
 }
 
 .toggle-solved {
     min-width: 100px;
+}
+
+.solved-problem {
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+.loading-text {
+    font-size: 1.1em;
+    color: var(--primary-color);
+}
+
+.badge {
+    background-color: var(--primary-color);
+    font-weight: 500;
+    font-size: 0.9em;
+    padding: 0.5em 0.8em;
+}
+
+#problemsHeader {
+    color: var(--text-color);
+}
+
+.footer {
+    background-color: var(--card-bg);
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.global-search-form {
+    width: 40%;
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .global-search-form {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+#globalSearchInput:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Additional styles for search result rating badge */
+.badge.bg-secondary {
+    font-size: 0.85em;
+    padding: 0.35em 0.65em;
+}
+
+.rating-distribution {
+    display: flex;
+    height: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.rating-range {
+    height: 100%;
+}
+
+.rating-range.newbie { background-color: var(--newbie-color); }
+.rating-range.pupil { background-color: var(--pupil-color); }
+.rating-range.specialist { background-color: var(--specialist-color); }
+.rating-range.expert { background-color: var(--expert-color); }
+.rating-range.candidate-master { background-color: var(--candidate-master-color); }
+.rating-range.master { background-color: var(--master-color); }
+.rating-range.international-master { background-color: var(--master-color); }
+.rating-range.grandmaster { background-color: var(--grandmaster-color); }
+.rating-range.legendary-grandmaster { 
+    background: linear-gradient(to right, var(--grandmaster-color) 60%, #000 100%);
+}
+
+/* LeetCode user profile styles */
+#userProfileCard {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#userProfileCard .card-header {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.rating-display {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0.3rem 1rem;
+    border-radius: 12px;
+    border: 3px solid;
+    min-width: 80px;
+    margin: 0 auto; /* Center the rating display */
+}
+
+#userProfileCard .col-md-4 h5 {
+    margin-bottom: 1rem;
+}
+
+/* Dropdown menu adjustments */
+.dropdown-menu.p-3 {
+    min-width: 260px;
+}
+
+/* Recommendation card styles */
+#recommendationCard {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    animation: pulse 2s infinite;
+}
+
+#recommendationCard .card-header {
+    background: linear-gradient(45deg, #0099ff, #66ccff);
+    color: white;
+    border: none;
+}
+
+.recommendation-range {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.dark-theme .recommendation-range {
+    color: #66ccff;
+}
+
+#loadRecommendedProblems {
+    transition: all 0.2s ease;
+}
+
+#loadRecommendedProblems:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 153, 255, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 153, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 153, 255, 0);
+    }
+}
+
+.dark-theme #recommendationCard {
+    animation: pulse 2s infinite;
+}
+
+/* Status badge styles */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+}
+
+.status-badge.solved {
+    background-color: rgba(40, 167, 69, 0.2);
+    color: #28a745;
+}
+
+.status-badge.unsolved {
+    background-color: rgba(108, 117, 125, 0.2);
+    color: #6c757d;
+}
+
+.status-badge i {
+    margin-right: 0.25rem;
+}
+
+/* Sync status indicator */
+.sync-status {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 123, 255, 0.1);
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.sync-status.success {
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+.sync-status.error {
+    background-color: rgba(220, 53, 69, 0.1);
 }

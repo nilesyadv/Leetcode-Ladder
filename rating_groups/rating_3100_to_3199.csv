@@ -1,4 +1,4 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-"Nov. 9, 2024",3348,Smallest Divisible Digit Product II,3109,https://leetcode.com/problems/smallest-divisible-digit-product-ii/,Biweekly Contest 143,"math, string, backtracking, greedy, number theory"
+"Nov. 9, 2024",3348,Smallest Divisible Digit Product II,3109,https://leetcode.com/problems/smallest-divisible-digit-product-ii/,Biweekly Contest 143,"backtracking, greedy, math, number theory, string"
 "Aug. 4, 2024",3245,Alternating Groups III,3107,https://leetcode.com/problems/alternating-groups-iii/,Weekly Contest 409,"array, binary indexed tree"
 "Feb. 25, 2024",3049,Earliest Second to Mark Indices II,3123,https://leetcode.com/problems/earliest-second-to-mark-indices-ii/,Weekly Contest 386,"array, binary search, greedy, heap (priority queue)"

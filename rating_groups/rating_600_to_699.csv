@@ -1,17 +1,18 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-"Dec. 22, 2024",3396,Minimum Number of Operati…lements in Array Distinct,667,https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/,Weekly Contest 429,
+"Feb. 23, 2025",3461,Check If Digits Are Equal in …String After Operations I,648,https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/,Weekly Contest 438,"combinatorics, math, number theory, simulation, string"
+"Dec. 22, 2024",3396,Minimum Number of Operations to Make E…lements in Array Distinct,667,https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/,Weekly Contest 429,
 "Nov. 10, 2024",3349,Adjacent Increasing Subarrays Detection I,623,https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/,Weekly Contest 423,array
 "Sept. 22, 2024",3295,Report Spam Message,614,https://leetcode.com/problems/report-spam-message/,Weekly Contest 416,"array, hash table, string"
 "Sept. 8, 2024",3280,Convert Date to Binary,600,https://leetcode.com/problems/convert-date-to-binary/,Weekly Contest 414,"math, string"
-"Sept. 1, 2024",3274,Check if Two Chessboard S…uares Have the Same Color,610,https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/,Weekly Contest 413,"math, string"
+"Sept. 1, 2024",3274,Check if Two Chessboard Sq…uares Have the Same Color,610,https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/,Weekly Contest 413,"math, string"
 "Aug. 17, 2024",3254,Find the Power of K-Size Subarrays I,620,https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/,Biweekly Contest 137,"array, sliding window"
-"July 20, 2024",3222,Find the Winning Player in Coin Game,684,https://leetcode.com/problems/find-the-winning-player-in-coin-game/,Biweekly Contest 135,"math, simulation, game theory"
+"July 20, 2024",3222,Find the Winning Player in Coin Game,684,https://leetcode.com/problems/find-the-winning-player-in-coin-game/,Biweekly Contest 135,"game theory, math, simulation"
 "July 7, 2024",3210,Find the Encrypted String,656,https://leetcode.com/problems/find-the-encrypted-string/,Weekly Contest 405,string
 "July 6, 2024",3206,Alternating Groups I,614,https://leetcode.com/problems/alternating-groups-i/,Biweekly Contest 134,"array, sliding window"
-"June 23, 2024",3194,Minimum Average of Smallest and Largest Elements,631,https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/,Weekly Contest 403,"array, two pointers, sorting"
-"June 22, 2024",3190,Find Minimum Operations t…ements Divisible by Three,618,https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/,Biweekly Contest 133,"array, math"
-"June 16, 2024",3184,Count Pairs That Form a Complete Day I,678,https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/,Weekly Contest 402,"array, hash table, counting"
-"June 2, 2024",3168,Minimum Number of Chairs in a Waiting Room,677,https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/,Weekly Contest 400,"string, simulation"
+"June 23, 2024",3194,Minimum Average of Smallest and Largest Elements,631,https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/,Weekly Contest 403,"array, sorting, two pointers"
+"June 22, 2024",3190,Find Minimum Operations to Make All El…ements Divisible by Three,618,https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/,Biweekly Contest 133,"array, math"
+"June 16, 2024",3184,Count Pairs That Form a Complete Day I,678,https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/,Weekly Contest 402,"array, counting, hash table"
+"June 2, 2024",3168,Minimum Number of Chairs in a Waiting Room,677,https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/,Weekly Contest 400,"simulation, string"
 "May 26, 2024",3162,Find the Number of Good Pairs I,645,https://leetcode.com/problems/find-the-number-of-good-pairs-i/,Weekly Contest 399,"array, hash table"
 "May 19, 2024",3151,Special Array I,631,https://leetcode.com/problems/special-array-i/,Weekly Contest 398,array
 "May 11, 2024",3142,Check if Grid Satisfies Conditions,621,https://leetcode.com/problems/check-if-grid-satisfies-conditions/,Biweekly Contest 130,"array, matrix"
@@ -25,83 +26,83 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Nov. 25, 2023",2942,Find Words Containing Character,614,https://leetcode.com/problems/find-words-containing-character/,Biweekly Contest 118,"array, string"
 "Nov. 5, 2023",2923,Find Champion I,662,https://leetcode.com/problems/find-champion-i/,Weekly Contest 370,"array, matrix"
 "Aug. 20, 2023",2828,Check if a String Is an Acronym of Words,679,https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/,Weekly Contest 359,"array, string"
-"Aug. 19, 2023",2824,Count Pairs Whose Sum is Less than Target,622,https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/,Biweekly Contest 111,"array, two pointers, sorting, binary search"
+"Aug. 19, 2023",2824,Count Pairs Whose Sum is Less than Target,622,https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/,Biweekly Contest 111,"array, binary search, sorting, two pointers"
 "July 30, 2023",2798,Number of Employees Who Met the Target,607,https://leetcode.com/problems/number-of-employees-who-met-the-target/,Weekly Contest 356,array
 "July 16, 2023",2778,Sum of Squares of Special Elements,658,https://leetcode.com/problems/sum-of-squares-of-special-elements/,Weekly Contest 354,"array, enumeration"
-"June 24, 2023",2744,Find Maximum Number of String Pairs,667,https://leetcode.com/problems/find-maximum-number-of-string-pairs/,Biweekly Contest 107,"array, hash table, string, simulation"
+"June 24, 2023",2744,Find Maximum Number of String Pairs,667,https://leetcode.com/problems/find-maximum-number-of-string-pairs/,Biweekly Contest 107,"array, hash table, simulation, string"
 "April 29, 2023",2656,Maximum Sum With Exactly K Elements,695,https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/,Biweekly Contest 103,"array, greedy"
 "April 23, 2023",2651,Calculate Delayed Arrival Time,699,https://leetcode.com/problems/calculate-delayed-arrival-time/,Weekly Contest 342,math
 "Feb. 26, 2023",2574,Left and Right Sum Differences,671,https://leetcode.com/problems/left-and-right-sum-differences/,Weekly Contest 334,"array, prefix sum"
-"Jan. 15, 2023",2535,Difference Between Elemen…and Digit Sum of an Array,618,https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/,Weekly Contest 328,"array, math"
+"Jan. 15, 2023",2535,Difference Between Element Sum …and Digit Sum of an Array,618,https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/,Weekly Contest 328,"array, math"
 "Jan. 1, 2023",2520,Count the Digits That Divide a Number,643,https://leetcode.com/problems/count-the-digits-that-divide-a-number/,Weekly Contest 326,math
 "Nov. 13, 2022",2469,Convert the Temperature,611,https://leetcode.com/problems/convert-the-temperature/,Weekly Contest 319,math
-"Oct. 30, 2022",2455,Average Value of Even Num…at Are Divisible by Three,635,https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/,Weekly Contest 317,"array, math"
+"Oct. 30, 2022",2455,Average Value of Even Numbers Th…at Are Divisible by Three,635,https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/,Weekly Contest 317,"array, math"
 "Sept. 18, 2022",2413,Smallest Even Multiple,679,https://leetcode.com/problems/smallest-even-multiple/,Weekly Contest 311,"math, number theory"
-"Aug. 7, 2022",2367,Number of Arithmetic Triplets,633,https://leetcode.com/problems/number-of-arithmetic-triplets/,Weekly Contest 305,"array, hash table, two pointers, enumeration"
-"Aug. 6, 2022",2363,Merge Similar Items,611,https://leetcode.com/problems/merge-similar-items/,Biweekly Contest 84,"array, hash table, sorting, ordered set"
-"July 31, 2022",2357,Make Array Zero by Subtracting Equal Amounts,618,https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/,Weekly Contest 304,"array, hash table, sorting, heap (priority queue), simulation, greedy"
+"Aug. 7, 2022",2367,Number of Arithmetic Triplets,633,https://leetcode.com/problems/number-of-arithmetic-triplets/,Weekly Contest 305,"array, enumeration, hash table, two pointers"
+"Aug. 6, 2022",2363,Merge Similar Items,611,https://leetcode.com/problems/merge-similar-items/,Biweekly Contest 84,"array, hash table, ordered set, sorting"
+"July 31, 2022",2357,Make Array Zero by Subtracting Equal Amounts,618,https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/,Weekly Contest 304,"array, greedy, hash table, heap (priority queue), simulation, sorting"
 "June 12, 2022",2303,Calculate Amount Paid in Taxes,664,https://leetcode.com/problems/calculate-amount-paid-in-taxes/,Weekly Contest 297,"array, simulation"
 "June 11, 2022",2299,Strong Password Checker II,617,https://leetcode.com/problems/strong-password-checker-ii/,Biweekly Contest 80,string
-"May 28, 2022",2283,Check if Number Has Equal…git Count and Digit Value,649,https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/,Biweekly Contest 79,"hash table, string, counting"
+"May 28, 2022",2283,Check if Number Has Equal Di…git Count and Digit Value,649,https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/,Biweekly Contest 79,"counting, hash table, string"
 "May 8, 2022",2264,Largest 3-Same-Digit Number in String,639,https://leetcode.com/problems/largest-3-same-digit-number-in-string/,Weekly Contest 292,string
-"April 24, 2022",2248,Intersection of Multiple Arrays,650,https://leetcode.com/problems/intersection-of-multiple-arrays/,Weekly Contest 290,"array, hash table, counting, sorting"
+"April 24, 2022",2248,Intersection of Multiple Arrays,650,https://leetcode.com/problems/intersection-of-multiple-arrays/,Weekly Contest 290,"array, counting, hash table, sorting"
 "April 16, 2022",2239,Find Closest Number to Zero,669,https://leetcode.com/problems/find-closest-number-to-zero/,Biweekly Contest 76,array
 "March 13, 2022",2200,Find All K-Distant Indices in an Array,699,https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/,Weekly Contest 284,"array, two pointers"
 "March 6, 2022",2194,Cells in a Range on an Excel Sheet,640,https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/,Weekly Contest 283,string
 "Feb. 19, 2022",2176,Count Equal and Divisible Pairs in an Array,654,https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/,Biweekly Contest 72,array
 "Feb. 6, 2022",2164,Sort Even and Odd Indices Independently,688,https://leetcode.com/problems/sort-even-and-odd-indices-independently/,Weekly Contest 279,"array, sorting"
-"Jan. 16, 2022",2138,Divide a String Into Groups of Size k,658,https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/,Weekly Contest 276,"string, simulation"
+"Jan. 16, 2022",2138,Divide a String Into Groups of Size k,658,https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/,Weekly Contest 276,"simulation, string"
 "Jan. 9, 2022",2133,Check if Every Row and Column Contains All Numbers,681,https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/,Weekly Contest 275,"array, hash table, matrix"
 "Dec. 12, 2021",2103,Rings and Rods,686,https://leetcode.com/problems/rings-and-rods/,Weekly Contest 271,"hash table, string"
 "Oct. 17, 2021",2042,Check if Numbers Are Ascending in a Sentence,662,https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/,Weekly Contest 263,string
-"Oct. 10, 2021",2032,Two Out of Three,618,https://leetcode.com/problems/two-out-of-three/,Weekly Contest 262,"array, hash table, bit manipulation"
+"Oct. 10, 2021",2032,Two Out of Three,618,https://leetcode.com/problems/two-out-of-three/,Weekly Contest 262,"array, bit manipulation, hash table"
 "Sept. 5, 2021",1995,Count Special Quadruplets,620,https://leetcode.com/problems/count-special-quadruplets/,Weekly Contest 257,"array, enumeration, hash table"
-"Aug. 21, 2021",1974,Minimum Time to Type Word Using Special Typewriter,674,https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/,Biweekly Contest 59,"string, greedy"
-"Aug. 15, 2021",1967,Number of Strings That Ap…ear as Substrings in Word,613,https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/,Weekly Contest 254,string
+"Aug. 21, 2021",1974,Minimum Time to Type Word Using Special Typewriter,674,https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/,Biweekly Contest 59,"greedy, string"
+"Aug. 15, 2021",1967,Number of Strings That App…ear as Substrings in Word,613,https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/,Weekly Contest 254,string
 "July 18, 2021",1935,Maximum Number of Words You Can Type,686,https://leetcode.com/problems/maximum-number-of-words-you-can-type/,Weekly Contest 250,"hash table, string"
-"July 10, 2021",1925,Count Square Sum Triples,694,https://leetcode.com/problems/count-square-sum-triples/,Biweekly Contest 56,"math, enumeration"
-"June 13, 2021",1897,Redistribute Characters to Make All Strings Equal,670,https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/,Weekly Contest 245,"hash table, string, counting"
+"July 10, 2021",1925,Count Square Sum Triples,694,https://leetcode.com/problems/count-square-sum-triples/,Biweekly Contest 56,"enumeration, math"
+"June 13, 2021",1897,Redistribute Characters to Make All Strings Equal,670,https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/,Weekly Contest 245,"counting, hash table, string"
 "May 1, 2021",1844,Replace All Digits with Characters,600,https://leetcode.com/problems/replace-all-digits-with-characters/,Biweekly Contest 51,string
 "April 25, 2021",1837,Sum of Digits in Base K,688,https://leetcode.com/problems/sum-of-digits-in-base-k/,Weekly Contest 238,math
-"March 20, 2021",1796,Second Largest Digit in a String,661,https://leetcode.com/problems/second-largest-digit-in-a-string/,Biweekly Contest 48,"string, hash table"
-"Jan. 24, 2021",1736,Latest Time by Replacing Hidden Digits,698,https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/,Weekly Contest 225,"string, greedy"
-"Jan. 3, 2021",1710,Maximum Units on a Truck,629,https://leetcode.com/problems/maximum-units-on-a-truck/,Weekly Contest 222,"greedy, array, sorting"
+"March 20, 2021",1796,Second Largest Digit in a String,661,https://leetcode.com/problems/second-largest-digit-in-a-string/,Biweekly Contest 48,"hash table, string"
+"Jan. 24, 2021",1736,Latest Time by Replacing Hidden Digits,698,https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/,Weekly Contest 225,"greedy, string"
+"Jan. 3, 2021",1710,Maximum Units on a Truck,629,https://leetcode.com/problems/maximum-units-on-a-truck/,Weekly Contest 222,"array, greedy, sorting"
 "Dec. 6, 2020",1678,Goal Parser Interpretation,635,https://leetcode.com/problems/goal-parser-interpretation/,Weekly Contest 218,string
-"Nov. 22, 2020",1662,Check If Two String Arrays are Equivalent,666,https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/,Weekly Contest 216,"string, array"
+"Nov. 22, 2020",1662,Check If Two String Arrays are Equivalent,666,https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/,Weekly Contest 216,"array, string"
 "Nov. 14, 2020",1652,Defuse the Bomb,617,https://leetcode.com/problems/defuse-the-bomb/,Biweekly Contest 39,"array, sliding window"
-"Sept. 27, 2020",1598,Crawler Log Folder,603,https://leetcode.com/problems/crawler-log-folder/,Weekly Contest 208,"stack, array, string"
-"June 27, 2020",1491,Average Salary Excluding…inimum and Maximum Salary,600,https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/,Biweekly Contest 29,"array, sorting"
-"May 24, 2020",1455,Check If a Word Occurs As…of Any Word in a Sentence,628,https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/,Weekly Contest 190,"string, string matching, two pointers"
-"April 26, 2020",1422,Maximum Score After Splitting a String,622,https://leetcode.com/problems/maximum-score-after-splitting-a-string/,Weekly Contest 186,"string, prefix sum"
+"Sept. 27, 2020",1598,Crawler Log Folder,603,https://leetcode.com/problems/crawler-log-folder/,Weekly Contest 208,"array, stack, string"
+"June 27, 2020",1491,Average Salary Excluding the M…inimum and Maximum Salary,600,https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/,Biweekly Contest 29,"array, sorting"
+"May 24, 2020",1455,Check If a Word Occurs As a Prefix …of Any Word in a Sentence,628,https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/,Weekly Contest 190,"string, string matching, two pointers"
+"April 26, 2020",1422,Maximum Score After Splitting a String,622,https://leetcode.com/problems/maximum-score-after-splitting-a-string/,Weekly Contest 186,"prefix sum, string"
 "April 18, 2020",1413,Minimum Value to Get Positive Step by Step Sum,699,https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/,Biweekly Contest 24,"array, prefix sum"
-"March 8, 2020",1374,Generate a String With Ch…ters That Have Odd Counts,686,https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/,Weekly Contest 179,string
-"March 1, 2020",1365,How Many Numbers Are Smal…r Than the Current Number,627,https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/,Weekly Contest 178,"array, hash table, sorting, counting"
+"March 8, 2020",1374,Generate a String With Charac…ters That Have Odd Counts,686,https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/,Weekly Contest 179,string
+"March 1, 2020",1365,How Many Numbers Are Smalle…r Than the Current Number,627,https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/,Weekly Contest 178,"array, counting, hash table, sorting"
 "Feb. 16, 2020",1351,Count Negative Numbers in a Sorted Matrix,619,https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/,Weekly Contest 176,"array, binary search, matrix"
-"Feb. 9, 2020",1346,Check If N and Its Double Exist,691,https://leetcode.com/problems/check-if-n-and-its-double-exist/,Weekly Contest 175,"hash table, two pointers, binary search, sorting, array"
-"Jan. 19, 2020",1323,Maximum 69 Number,648,https://leetcode.com/problems/maximum-69-number/,Weekly Contest 172,"math, greedy"
-"Dec. 28, 2019",1299,Replace Elements with Gre…est Element on Right Side,683,https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/,Biweekly Contest 16,array
+"Feb. 9, 2020",1346,Check If N and Its Double Exist,691,https://leetcode.com/problems/check-if-n-and-its-double-exist/,Weekly Contest 175,"array, binary search, hash table, sorting, two pointers"
+"Jan. 19, 2020",1323,Maximum 69 Number,648,https://leetcode.com/problems/maximum-69-number/,Weekly Contest 172,"greedy, math"
+"Dec. 28, 2019",1299,Replace Elements with Great…est Element on Right Side,683,https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/,Biweekly Contest 16,array
 "Dec. 15, 2019",1290,Convert Binary Number in a Linked List to Integer,655,https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/,Weekly Contest 167,"linked list, math"
-"Oct. 19, 2019",1228,Missing Number In Arithmetic Progression,625,https://leetcode.com/problems/missing-number-in-arithmetic-progression/,Biweekly Contest 11,"math, array"
-"Sept. 21, 2019",1196,How Many Apples Can You Put into the Basket,664,https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/,Biweekly Contest 9,"greedy, array, sorting"
-"July 28, 2019",1137,N-th Tribonacci Number,683,https://leetcode.com/problems/n-th-tribonacci-number/,Weekly Contest 147,"math, dynamic programming, memoization"
+"Oct. 19, 2019",1228,Missing Number In Arithmetic Progression,625,https://leetcode.com/problems/missing-number-in-arithmetic-progression/,Biweekly Contest 11,"array, math"
+"Sept. 21, 2019",1196,How Many Apples Can You Put into the Basket,664,https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/,Biweekly Contest 9,"array, greedy, sorting"
+"July 28, 2019",1137,N-th Tribonacci Number,683,https://leetcode.com/problems/n-th-tribonacci-number/,Weekly Contest 147,"dynamic programming, math, memoization"
 "July 27, 2019",1134,Armstrong Number,634,https://leetcode.com/problems/armstrong-number/,Biweekly Contest 5,math
-"July 14, 2019",1122,Relative Sort Array,688,https://leetcode.com/problems/relative-sort-array/,Weekly Contest 145,"array, hash table, sorting, counting sort"
+"July 14, 2019",1122,Relative Sort Array,688,https://leetcode.com/problems/relative-sort-array/,Weekly Contest 145,"array, counting sort, hash table, sorting"
 "July 7, 2019",1108,Defanging an IP Address,607,https://leetcode.com/problems/defanging-an-ip-address/,Weekly Contest 144,string
-"June 29, 2019",1099,Two Sum Less Than K,644,https://leetcode.com/problems/two-sum-less-than-k/,Biweekly Contest 3,"array, two pointers, binary search, sorting"
+"June 29, 2019",1099,Two Sum Less Than K,644,https://leetcode.com/problems/two-sum-less-than-k/,Biweekly Contest 3,"array, binary search, sorting, two pointers"
 "Nov. 18, 2018",941,Valid Mountain Array,650,https://leetcode.com/problems/valid-mountain-array/,Weekly Contest 111,array
-"Oct. 21, 2018",925,Long Pressed Name,625,https://leetcode.com/problems/long-pressed-name/,Weekly Contest 107,"two pointers, string"
-"Oct. 14, 2018",922,Sort Array By Parity II,683,https://leetcode.com/problems/sort-array-by-parity-ii/,Weekly Contest 106,"array, two pointers, sorting"
+"Oct. 21, 2018",925,Long Pressed Name,625,https://leetcode.com/problems/long-pressed-name/,Weekly Contest 107,"string, two pointers"
+"Oct. 14, 2018",922,Sort Array By Parity II,683,https://leetcode.com/problems/sort-array-by-parity-ii/,Weekly Contest 106,"array, sorting, two pointers"
 "Oct. 7, 2018",917,Reverse Only Letters,620,https://leetcode.com/problems/reverse-only-letters/,Weekly Contest 105,"string, two pointers"
-"Sept. 23, 2018",908,Smallest Range I,623,https://leetcode.com/problems/smallest-range-i/,Weekly Contest 103,"math, array"
+"Sept. 23, 2018",908,Smallest Range I,623,https://leetcode.com/problems/smallest-range-i/,Weekly Contest 103,"array, math"
 "Sept. 2, 2018",896,Monotonic Array,687,https://leetcode.com/problems/monotonic-array/,Weekly Contest 100,array
 "July 29, 2018",876,Middle of the Linked List,624,https://leetcode.com/problems/middle-of-the-linked-list/,Weekly Contest 95,"linked list, two pointers"
-"July 22, 2018",872,Leaf-Similar Trees,662,https://leetcode.com/problems/leaf-similar-trees/,Weekly Contest 94,"tree, depth-first search, binary tree"
+"July 22, 2018",872,Leaf-Similar Trees,662,https://leetcode.com/problems/leaf-similar-trees/,Weekly Contest 94,"binary tree, depth-first search, tree"
 "July 8, 2018",867,Transpose Matrix,668,https://leetcode.com/problems/transpose-matrix/,Weekly Contest 92,"array, matrix, simulation"
-"July 1, 2018",860,Lemonade Change,662,https://leetcode.com/problems/lemonade-change/,Weekly Contest 91,"greedy, array"
-"May 13, 2018",832,Flipping an Image,639,https://leetcode.com/problems/flipping-an-image/,Weekly Contest 84,"array, two pointers, matrix, simulation, bit manipulation"
+"July 1, 2018",860,Lemonade Change,662,https://leetcode.com/problems/lemonade-change/,Weekly Contest 91,"array, greedy"
+"May 13, 2018",832,Flipping an Image,639,https://leetcode.com/problems/flipping-an-image/,Weekly Contest 84,"array, bit manipulation, matrix, simulation, two pointers"
 "May 6, 2018",830,Positions of Large Groups,684,https://leetcode.com/problems/positions-of-large-groups/,Weekly Contest 83,string
-"April 22, 2018",821,Shortest Distance to a Character,656,https://leetcode.com/problems/shortest-distance-to-a-character/,Weekly Contest 81,"array, two pointers, string"
+"April 22, 2018",821,Shortest Distance to a Character,656,https://leetcode.com/problems/shortest-distance-to-a-character/,Weekly Contest 81,"array, string, two pointers"
 "Jan. 28, 2018",771,Jewels and Stones,631,https://leetcode.com/problems/jewels-and-stones/,Weekly Contest 69,"hash table, string"
-"Jan. 7, 2018",760,Find Anagram Mappings,607,https://leetcode.com/problems/find-anagram-mappings/,Weekly Contest 66,"hash table, array"
-"Dec. 10, 2017",744,Find Smallest Letter Greater Than Target,685,https://leetcode.com/problems/find-smallest-letter-greater-than-target/,Weekly Contest 62,"binary search, array"
-"July 23, 2017",645,Set Mismatch,660,https://leetcode.com/problems/set-mismatch/,Weekly Contest 42,"hash table, array, bit manipulation, sorting"
+"Jan. 7, 2018",760,Find Anagram Mappings,607,https://leetcode.com/problems/find-anagram-mappings/,Weekly Contest 66,"array, hash table"
+"Dec. 10, 2017",744,Find Smallest Letter Greater Than Target,685,https://leetcode.com/problems/find-smallest-letter-greater-than-target/,Weekly Contest 62,"array, binary search"
+"July 23, 2017",645,Set Mismatch,660,https://leetcode.com/problems/set-mismatch/,Weekly Contest 42,"array, bit manipulation, hash table, sorting"
