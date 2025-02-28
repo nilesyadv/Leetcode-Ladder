@@ -6,7 +6,7 @@ services:
     startCommand: gunicorn wsgi:app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.9.1
+        value: 3.9
       - key: FLASK_ENV
         value: production
     autoDeploy: true
