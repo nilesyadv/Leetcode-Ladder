@@ -327,5 +327,33 @@ def problem_mapping():
         app.logger.error(f"Error generating problem mapping: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/problem-distribution')
+def problem_distribution():
+    try:
+        # Get the distribution of problems by rating range
+        rating_dir = 'rating_groups'
+        distribution = {}
+        
+        for file in os.listdir(rating_dir):
+            if file.startswith('rating_') and file.endswith('.csv'):
+                range_str = file.replace('rating_', '').replace('.csv', '')
+                file_path = os.path.join(rating_dir, file)
+                
+                try:
+                    df = pd.read_csv(file_path)
+                    count = len(df)
+                    distribution[range_str] = count
+                except Exception as e:
+                    app.logger.error(f"Error reading {file}: {str(e)}")
+                    distribution[range_str] = 0
+        
+        return jsonify({
+            'distribution': distribution,
+            'total': sum(distribution.values())
+        })
+    except Exception as e:
+        app.logger.error(f"Error generating problem distribution: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001, debug=True)
