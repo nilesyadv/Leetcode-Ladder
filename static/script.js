@@ -797,7 +797,7 @@ function displayUserProfile(data) {
         else if (stat.difficulty === "Hard") solveStats.hard = stat.count;
     });
     
-    // Calculate the total (sum of the individual difficulty counts)
+    // Calculate the total
     solveStats.total = solveStats.easy + solveStats.medium + solveStats.hard;
     
     // Get contest rating
@@ -809,59 +809,71 @@ function displayUserProfile(data) {
     // User avatar
     const avatarUrl = user.profile.userAvatar || 'https://assets.leetcode.com/users/default_avatar.jpg';
     
-    // Create basic profile card HTML
+    // Create a more compact and cleaner profile card HTML
     profileCard.innerHTML = `
-        <div class="card-header d-flex justify-content-between align-items-center">
-            <h5 class="mb-0">
-                <i class="bi bi-person-circle"></i> LeetCode Profile
-            </h5>
+        <div class="card-header d-flex justify-content-between align-items-center py-2">
+            <div class="d-flex align-items-center">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="me-2">
+                    <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.661 1.837-.661s1.357.195 1.824.661l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.055 5.055 0 0 0-3.831-1.427c-1.459 0-2.781.538-3.786 1.543l-4.329 4.398C2.087 11.793 1.5 13.164 1.5 14.634c0 1.47.545 2.842 1.59 3.888l4.344 4.376c1.005 1.005 2.327 1.543 3.786 1.543 1.459 0 2.781-.538 3.786-1.543l2.697-2.606c.515-.515.498-1.366-.037-1.901-.534-.535-1.387-.552-1.902-.038z"/>
+                    <path d="M20.811 13.01H10.189a1.25 1.25 0 1 1 0-2.5h10.622a1.25 1.25 0 1 1 0 2.5z"/>
+                </svg>
+                <span class="mb-0 fw-bold">LeetCode Profile: ${user.username}</span>
+            </div>
             <button type="button" class="btn-close" aria-label="Close" id="closeProfileCard"></button>
         </div>
-        <div class="card-body">
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <img src="${avatarUrl}" alt="${user.username}" 
-                         class="rounded-circle mb-3" style="width: 100px; height: 100px;">
-                    <h5>${user.username}</h5>
-                    <p>Ranking: <b>${user.profile.ranking || 'N/A'}</b></p>
+        <div class="card-body py-3">
+            <div class="d-flex align-items-center mb-3">
+                <img src="${avatarUrl}" alt="${user.username}" 
+                     class="rounded-circle me-3" style="width: 50px; height: 50px;">
+                <div class="d-flex flex-column align-items-center">
+                    <div class="rating-pill" style="background-color: ${contestRatingColor};">
+                        ${contestRatingFormatted !== 'N/A' ? contestRatingFormatted : '-'}
+                    </div>
+                    <div class="text-muted small mt-1">
+                        ${data.userContestRanking ? 
+                            `Global Rank: #${data.userContestRanking.globalRanking || 'N/A'}` : 
+                            'No contest participation'}
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h5 class="text-center mb-3">Problem Solving</h5>
-                    <div class="d-flex justify-content-between">
-                        <span>Total Solved:</span>
+                <div class="ms-auto text-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <span class="me-2">Problems Solved:</span>
                         <span class="fw-bold">${solveStats.total}</span>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <span>Easy:</span>
-                        <span class="fw-bold text-success">${solveStats.easy}</span>
+                    <div class="d-flex gap-2 mt-1">
+                        <span class="badge bg-success-subtle text-success">E: ${solveStats.easy}</span>
+                        <span class="badge bg-warning-subtle text-warning">M: ${solveStats.medium}</span>
+                        <span class="badge bg-danger-subtle text-danger">H: ${solveStats.hard}</span>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <span>Medium:</span>
-                        <span class="fw-bold text-warning">${solveStats.medium}</span>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                        <span>Hard:</span>
-                        <span class="fw-bold text-danger">${solveStats.hard}</span>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h5 class="mb-3">Contest Rating</h5>
-                    <div class="rating-display" style="border-color: ${contestRatingColor}; color: ${contestRatingColor};">
-                        ${contestRatingFormatted}
-                    </div>
-                    <p class="mt-2">${contestRatingLabel}</p>
-                    ${data.userContestRanking ? 
-                        `<p class="text-muted small">Global Rank: ${data.userContestRanking.globalRanking || 'N/A'}</p>` : 
-                        '<p class="text-muted small">No contest participation</p>'}
                 </div>
             </div>
-            <div class="text-center mt-3">
+            <div class="text-center">
                 <a href="https://leetcode.com/${user.username}" target="_blank" class="btn btn-sm btn-outline-primary">
-                    <i class="bi bi-box-arrow-up-right"></i> View on LeetCode
+                    <i class="bi bi-box-arrow-up-right"></i> View Profile
                 </a>
+                <div id="syncStatusContainer" class="mt-2"></div>
             </div>
         </div>
     `;
+    
+    // Add custom CSS for the rating pill
+    if (!document.getElementById('ratingPillStyle')) {
+        const style = document.createElement('style');
+        style.id = 'ratingPillStyle';
+        style.textContent = `
+            .rating-pill {
+                display: inline-block;
+                padding: 0.25rem 0.6rem;
+                border-radius: 1rem;
+                color: white;
+                font-weight: bold;
+                font-size: 0.9rem;
+                min-width: 45px;
+                text-align: center;
+            }
+        `;
+        document.head.appendChild(style);
+    }
     
     // Add event handler for close button
     document.getElementById('closeProfileCard').addEventListener('click', () => {
@@ -925,11 +937,11 @@ async function autoLoadRecommendedProblems(ratingRange, username = null, userRat
         if (username && userRating) {
             const displayRange = ratingRange.replace('_to_', '-');
             problemsHeader.innerHTML = `
-                Problems with Rating ${displayRange} 
-                <small class="text-muted ms-2">
-                    • Suggested for your profile
-                </small>
-            `;
+            Problems with Rating ${displayRange} 
+            <small class="text-muted ms-2">
+                • Suggested for your profile
+            </small>
+        `;
             
         } else {
             problemsHeader.textContent = `Problems with Rating ${ratingRange.replace('_to_', '-')}`;
@@ -962,12 +974,11 @@ async function syncSolvedProblems(username) {
         syncStatus.className = 'sync-status';
         syncStatus.innerHTML = `
             <div class="spinner-border spinner-border-sm text-primary" role="status"></div>
-            <span class="ms-2">Syncing solved problems from LeetCode...</span>
+            <span class="ms-2">Syncing solved problems...</span>
         `;
         
-        const profileCard = document.getElementById('userProfileCard');
-        const cardBody = profileCard.querySelector('.card-body');
-        cardBody.appendChild(syncStatus);
+        const syncContainer = document.getElementById('syncStatusContainer');
+        syncContainer.appendChild(syncStatus);
         
         // Step 1: Get the mapping from problem names to problem numbers
         const mappingResponse = await fetch('/api/problem-mapping');
@@ -1025,7 +1036,7 @@ async function syncSolvedProblems(username) {
         syncStatus.className = 'sync-status success';
         syncStatus.innerHTML = `
             <i class="bi bi-check-circle-fill text-success"></i>
-            <span class="ms-2">Synced ${syncedCount} problems from ${username}'s LeetCode account</span>
+            <span class="ms-2">${syncedCount} problems synced</span>
         `;
         
         // Auto-remove the message after 5 seconds
@@ -1046,12 +1057,9 @@ async function syncSolvedProblems(username) {
             <span class="ms-2">Error: ${error.message}</span>
         `;
         
-        const profileCard = document.getElementById('userProfileCard');
-        if (profileCard) {
-            const cardBody = profileCard.querySelector('.card-body');
-            if (!document.getElementById('syncStatus')) {
-                cardBody.appendChild(syncStatus);
-            }
+        const syncContainer = document.getElementById('syncStatusContainer');
+        if (!document.getElementById('syncStatus')) {
+            syncContainer.appendChild(syncStatus);
         }
     }
 }
