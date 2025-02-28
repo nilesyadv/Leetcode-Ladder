@@ -123,7 +123,13 @@ function loadProblems() {
     fetch(url)
         .then(response => {
             console.log(`Response status: ${response.status}`);
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            if (!response.ok) {
+                console.error('Error response headers:', response.headers);
+                return response.text().then(text => {
+                    console.error('Error response body:', text);
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                });
+            }
             return response.json();
         })
         .then(data => {
@@ -264,6 +270,32 @@ function createTable(data) {
 
 // Other global functions
 
+// Move the updateSortButtons function definition outside of any other function
+// Place it at the top of your script with other global functions
+function updateSortButtons() {
+    const ratingBtn = document.getElementById('sortRatingBtn');
+    const numberBtn = document.getElementById('sortNumberBtn');
+    
+    if (!ratingBtn || !numberBtn) return; // Guard clause in case elements don't exist yet
+    
+    ratingBtn.classList.toggle('btn-outline-secondary', currentSort.field !== 'Problem Rating');
+    ratingBtn.classList.toggle('btn-secondary', currentSort.field === 'Problem Rating');
+    
+    numberBtn.classList.toggle('btn-outline-secondary', currentSort.field !== 'Problem Number');
+    numberBtn.classList.toggle('btn-secondary', currentSort.field === 'Problem Number');
+    
+    // Add sort indicators
+    const orderIcon = currentSort.order === 'asc' ? '↑' : '↓';
+    
+    if (currentSort.field === 'Problem Rating') {
+        ratingBtn.textContent = `Sort by Rating ${orderIcon}`;
+        numberBtn.textContent = 'Sort by Number';
+    } else if (currentSort.field === 'Problem Number') {
+        numberBtn.textContent = `Sort by Number ${orderIcon}`;
+        ratingBtn.textContent = 'Sort by Rating';
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const ratingSelect = document.getElementById('ratingSelect');
     const searchInput = document.getElementById('searchInput');
@@ -394,30 +426,9 @@ document.addEventListener('DOMContentLoaded', function() {
             currentSort.order = field === 'Problem Number' ? 'desc' : 'asc'; // Default newest problems first for number
         }
         
+        // Call the global function - no need to define it locally
         updateSortButtons();
         loadProblems();
-    }
-
-    function updateSortButtons() {
-        const ratingBtn = document.getElementById('sortRatingBtn');
-        const numberBtn = document.getElementById('sortNumberBtn');
-        
-        ratingBtn.classList.toggle('btn-outline-secondary', currentSort.field !== 'Problem Rating');
-        ratingBtn.classList.toggle('btn-secondary', currentSort.field === 'Problem Rating');
-        
-        numberBtn.classList.toggle('btn-outline-secondary', currentSort.field !== 'Problem Number');
-        numberBtn.classList.toggle('btn-secondary', currentSort.field === 'Problem Number');
-        
-        // Add sort indicators
-        const orderIcon = currentSort.order === 'asc' ? '↑' : '↓';
-        
-        if (currentSort.field === 'Problem Rating') {
-            ratingBtn.textContent = `Sort by Rating ${orderIcon}`;
-            numberBtn.textContent = 'Sort by Number';
-        } else if (currentSort.field === 'Problem Number') {
-            numberBtn.textContent = `Sort by Number ${orderIcon}`;
-            ratingBtn.textContent = 'Sort by Rating';
-        }
     }
 
     // Add controls for tags and sorting
@@ -470,8 +481,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Call this after the dropdown is populated
     updateRatingSelectColors();
 
-    // Call this to add the rating distribution bar
-    addRatingDistributionBar();
+    // // Call this to add the rating distribution bar
+    // addRatingDistributionBar();
 
     // Call this function in your DOMContentLoaded event
     addLeetCodeUserSearch();
@@ -696,9 +707,6 @@ function addLeetCodeUserSearch() {
     });
 }
 
-// Call this function in your DOMContentLoaded event
-addLeetCodeUserSearch();
-
 async function fetchLeetCodeUserProfile(username) {
     // Show loading indicator
     showUserLoadingIndicator(username);
@@ -728,9 +736,6 @@ async function fetchLeetCodeUserProfile(username) {
 }
 
 function showUserLoadingIndicator(username) {
-    // Remove any existing recommendation cards first
-    removeExistingRecommendationCard();
-    
     // Create or update user profile card with loading state
     let profileCard = document.getElementById('userProfileCard');
     
@@ -756,9 +761,6 @@ function showUserLoadingIndicator(username) {
 }
 
 function showUserError(message) {
-    // Remove any existing recommendation cards
-    removeExistingRecommendationCard();
-    
     const profileCard = document.getElementById('userProfileCard');
     if (profileCard) {
         profileCard.innerHTML = `
@@ -864,7 +866,6 @@ function displayUserProfile(data) {
     // Add event handler for close button
     document.getElementById('closeProfileCard').addEventListener('click', () => {
         profileCard.remove();
-        removeExistingRecommendationCard(); // Remove recommendation card when profile is closed
     });
     
     // Automatically sync solved problems whenever a profile is loaded
@@ -878,67 +879,20 @@ function displayUserProfile(data) {
 
 // Updated function for personalized recommendations
 function addPersonalizedRecommendations(userRating, username) {
-    // First, remove any existing recommendation cards to prevent stacking
-    removeExistingRecommendationCard();
-    
     // Calculate the recommended rating range (+200 from user's rating)
     const baseRating = Math.floor(userRating / 100) * 100;
     const recommendedLowerBound = baseRating + 200;
     const recommendedUpperBound = recommendedLowerBound + 99;
     
     // Format the range for display and for selecting the right rating range
-    const recommendedRangeDisplay = `${recommendedLowerBound}-${recommendedUpperBound}`;
     const recommendedRangeValue = `${recommendedLowerBound}_to_${recommendedUpperBound}`;
-    
-    // Get difficulty label and color for the recommended range
-    const recommendedRatingLabel = getRatingLabel(recommendedLowerBound);
-    const recommendedRatingColor = getRatingColor(recommendedLowerBound);
-    
-    // Create recommendation card
-    const recommendationCard = document.createElement('div');
-    recommendationCard.id = 'recommendationCard';
-    recommendationCard.className = 'card mb-4';
-    recommendationCard.innerHTML = `
-        <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
-            <h5 class="mb-0">
-                <i class="bi bi-stars"></i> Personalized Recommendations for ${username}
-            </h5>
-            <button type="button" class="btn-close btn-close-white" aria-label="Close" id="closeRecommendationCard"></button>
-        </div>
-        <div class="card-body">
-            <div class="alert alert-info mb-0">
-                <i class="bi bi-lightbulb"></i> 
-                <strong>Improve your skills:</strong> Based on your current rating of 
-                <span class="fw-bold">${Math.round(userRating)}</span>, we've loaded problems 
-                in the <span class="recommendation-range fw-bold">${recommendedRangeDisplay}</span> rating range 
-                (<span style="color: ${recommendedRatingColor}; font-weight: bold;">${recommendedRatingLabel}</span> level).
-            </div>
-        </div>
-    `;
-    
-    // Insert after profile card
-    const profileCard = document.getElementById('userProfileCard');
-    profileCard.insertAdjacentElement('afterend', recommendationCard);
-    
-    // Add event handler for close button
-    document.getElementById('closeRecommendationCard').addEventListener('click', () => {
-        removeExistingRecommendationCard();
-    });
-    
-    // Auto-load the recommended problems
-    autoLoadRecommendedProblems(recommendedRangeValue);
+
+    // Auto-load the recommended problems (without creating a separate card)
+    autoLoadRecommendedProblems(recommendedRangeValue, username, userRating);
 }
 
-// Helper function to remove existing recommendation card
-function removeExistingRecommendationCard() {
-    const existingCard = document.getElementById('recommendationCard');
-    if (existingCard) {
-        existingCard.remove();
-    }
-}
-
-// Updated function to automatically load recommended problems
-function autoLoadRecommendedProblems(ratingRange) {
+// Updated function to automatically load recommended problems with personalized header
+async function autoLoadRecommendedProblems(ratingRange, username = null, userRating = null) {
     console.log(`Auto-loading problems for rating range: ${ratingRange}`);
     
     // Select the rating range in the dropdown
@@ -965,14 +919,28 @@ function autoLoadRecommendedProblems(ratingRange) {
         searchInput.value = ''; // Clear any existing search
     }
     
-    // Update the header text
+    // Update the header text with recommendation context if username is provided
     const problemsHeader = document.getElementById('problemsHeader');
     if (problemsHeader) {
-        problemsHeader.textContent = `Problems with Rating ${ratingRange.replace('_to_', '-')}`;
+        if (username && userRating) {
+            const displayRange = ratingRange.replace('_to_', '-');
+            problemsHeader.innerHTML = `
+                Problems with Rating ${displayRange} 
+                <small class="text-muted ms-2">
+                    • Suggested for your profile
+                </small>
+            `;
+            
+        } else {
+            problemsHeader.textContent = `Problems with Rating ${ratingRange.replace('_to_', '-')}`;
+        }
     }
     
     // Mark as not user initiated
     window.userInitiatedAction = false;
+    
+    // Add a small delay before loading problems to avoid connection issues
+    await new Promise(resolve => setTimeout(resolve, 100));
     
     // Load problems
     loadProblems();
@@ -1115,4 +1083,162 @@ function updateAllProblemStatus() {
             }
         }
     });
+}
+
+// Add a function to create a rating distribution bar
+function addRatingDistributionBar() {
+    // Create a container for the distribution bar
+    const mainContainer = document.querySelector('.main-container');
+    const firstRow = mainContainer.querySelector('.row');
+    
+    const distributionRow = document.createElement('div');
+    distributionRow.className = 'row mb-4';
+    distributionRow.innerHTML = `
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="bi bi-bar-chart-line"></i> Problem Rating Distribution
+                    </h5>
+                    <button class="btn btn-sm btn-outline-secondary" id="collapseDistributionBtn">
+                        <i class="bi bi-chevron-up"></i>
+                    </button>
+                </div>
+                <div class="card-body" id="distributionContent">
+                    <div class="distribution-loading text-center py-3">
+                        <div class="spinner-border spinner-border-sm text-primary" role="status"></div>
+                        <span class="ms-2">Loading distribution data...</span>
+                    </div>
+                    <div class="distribution-container" style="height: 60px;"></div>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    // Insert after the first row
+    firstRow.insertAdjacentElement('afterend', distributionRow);
+    
+    // Add toggle functionality
+    const collapseBtn = document.getElementById('collapseDistributionBtn');
+    const distributionContent = document.getElementById('distributionContent');
+    
+    // Check localStorage for preferred state
+    const isCollapsed = localStorage.getItem('distributionCollapsed') === 'true';
+    
+    if (isCollapsed) {
+        distributionContent.style.display = 'none';
+        collapseBtn.innerHTML = '<i class="bi bi-chevron-down"></i>';
+    }
+    
+    collapseBtn.addEventListener('click', function() {
+        const isCurrentlyCollapsed = distributionContent.style.display === 'none';
+        
+        if (isCurrentlyCollapsed) {
+            distributionContent.style.display = '';
+            collapseBtn.innerHTML = '<i class="bi bi-chevron-up"></i>';
+            localStorage.setItem('distributionCollapsed', 'false');
+        } else {
+            distributionContent.style.display = 'none';
+            collapseBtn.innerHTML = '<i class="bi bi-chevron-down"></i>';
+            localStorage.setItem('distributionCollapsed', 'true');
+        }
+    });
+    
+    // Fetch the distribution data
+    fetch('/api/problem-distribution')
+        .then(response => {
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            return response.json();
+        })
+        .then(data => {
+            // Remove loading indicator
+            document.querySelector('.distribution-loading').remove();
+            
+            // Create the distribution bar
+            createDistributionBar(data.distribution);
+        })
+        .catch(error => {
+            console.error('Error loading distribution:', error);
+            document.querySelector('.distribution-loading').innerHTML = `
+                <div class="alert alert-danger mb-0">
+                    <i class="bi bi-exclamation-triangle-fill"></i> Error loading distribution: ${error.message}
+                </div>
+            `;
+        });
+}
+
+// Helper function to create the distribution bar visualization
+function createDistributionBar(distribution) {
+    const container = document.querySelector('.distribution-container');
+    if (!container) return;
+    
+    // Clear container
+    container.innerHTML = '';
+    
+    // Find the max count for scaling
+    const maxCount = Math.max(...Object.values(distribution));
+    
+    // Sort rating ranges
+    const sortedRanges = Object.keys(distribution).sort((a, b) => {
+        const aStart = parseInt(a.split('_to_')[0]);
+        const bStart = parseInt(b.split('_to_')[0]);
+        return aStart - bStart;
+    });
+    
+    // Create a bar for each rating range
+    sortedRanges.forEach(range => {
+        const count = distribution[range];
+        const height = (count / maxCount) * 100;
+        
+        const startRating = parseInt(range.split('_to_')[0]);
+        const color = getRatingColor(startRating);
+        const label = getRatingLabel(startRating);
+        
+        const bar = document.createElement('div');
+        bar.className = 'distribution-bar';
+        bar.style.height = `${height}%`;
+        bar.style.backgroundColor = color;
+        bar.title = `${range.replace('_to_', '-')}: ${count} problems`;
+        
+        // Create a tooltip with Bootstrap
+        const tooltip = new bootstrap.Tooltip(bar, {
+            title: `${range.replace('_to_', '-')}: ${count} problems (${label})`,
+            placement: 'top'
+        });
+        
+        // Make the bar clickable to select that rating range
+        bar.addEventListener('click', () => {
+            const ratingSelect = document.getElementById('ratingSelect');
+            if (ratingSelect) {
+                ratingSelect.value = range;
+                ratingSelect.dispatchEvent(new Event('change'));
+            }
+        });
+        
+        container.appendChild(bar);
+    });
+    
+    // Add CSS for the distribution bar
+    const style = document.createElement('style');
+    style.textContent = `
+        .distribution-container {
+            display: flex;
+            align-items: flex-end;
+            height: 60px;
+            gap: 2px;
+        }
+        .distribution-bar {
+            flex: 1;
+            min-width: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+        .distribution-bar:hover {
+            opacity: 0.8;
+            transform: scaleY(1.05);
+        }
+    `;
+    document.head.appendChild(style);
 }
