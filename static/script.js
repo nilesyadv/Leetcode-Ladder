@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', function() {
             loadProblems(); // Call the now-global loadProblems function
             
             document.getElementById('problemsHeader').textContent = 
-                `Problems with Rating ${rating.replace('_to_', '-')}`;
+                `Problems With Rating ${rating.replace('_to_', '-')}`;
         } else {
             searchInput.disabled = true;
             problemTable.innerHTML = '';
@@ -941,14 +941,14 @@ async function autoLoadRecommendedProblems(ratingRange, username = null, userRat
         if (username && userRating) {
             const displayRange = ratingRange.replace('_to_', '-');
             problemsHeader.innerHTML = `
-            Problems with Rating ${displayRange} 
+            Problems With Rating ${displayRange} 
             <small class="text-muted ms-2">
-                • Suggested for your profile
+                • Recommended Ladder For You
             </small>
         `;
             
         } else {
-            problemsHeader.textContent = `Problems with Rating ${ratingRange.replace('_to_', '-')}`;
+            problemsHeader.textContent = `Problems With Rating ${ratingRange.replace('_to_', '-')}`;
         }
     }
     
