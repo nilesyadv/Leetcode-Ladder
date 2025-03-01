@@ -826,6 +826,7 @@ function displayUserProfile(data) {
                 <img src="${avatarUrl}" alt="${user.username}" 
                      class="rounded-circle me-3" style="width: 50px; height: 50px;">
                 <div class="d-flex flex-column align-items-center">
+                    <div class="rating-label small text-muted mb-1">Contest Rating</div>
                     <div class="rating-pill" style="background-color: ${contestRatingColor};">
                         ${contestRatingFormatted !== 'N/A' ? contestRatingFormatted : '-'}
                     </div>

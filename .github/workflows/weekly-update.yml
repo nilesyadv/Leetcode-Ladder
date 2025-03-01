@@ -2,8 +2,8 @@ name: Weekly Problem Update
 
 on:
   schedule:
-    # Runs at 00:00 UTC on Sunday
-    - cron: '0 0 * * 0'
+    # Runs at 00:00 UTC on Wednesday
+    - cron: '0 0 * * 3'
   # Also allow manual triggering
   workflow_dispatch:
 
@@ -38,5 +38,5 @@ jobs:
             echo "No changes detected"
           else
             git commit -m "Weekly automatic update of problem ratings ($(date +%Y-%m-%d))"
-            git push
+            git push origin main # Explicitly push to main branch
           fi
