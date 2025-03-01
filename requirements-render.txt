@@ -1,5 +1,6 @@
 # Absolute minimal requirements for initial deployment
 Flask==2.2.5
+Flask-Cors==5.0.0
 gunicorn==20.1.0
 
 # More flexible version specifications
