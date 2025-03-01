@@ -486,6 +486,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Call this function in your DOMContentLoaded event
     addLeetCodeUserSearch();
+
+    // Add this line at the end
+    centerNavbarSearchBar();
 });
 
 // Global search function
@@ -1247,6 +1250,40 @@ function createDistributionBar(distribution) {
         .distribution-bar:hover {
             opacity: 0.8;
             transform: scaleY(1.05);
+        }
+    `;
+    document.head.appendChild(style);
+}
+
+// Add this function to center the search bar in the navbar
+function centerNavbarSearchBar() {
+    // Get the navbar elements
+    const navbar = document.querySelector('.navbar-collapse');
+    const searchForm = document.querySelector('.global-search-form');
+    
+    if (!navbar || !searchForm) return;
+    
+    // Apply specific centering styles
+    const style = document.createElement('style');
+    style.textContent = `
+        .navbar-collapse {
+            display: flex !important;
+            justify-content: space-between !important;
+        }
+        
+        .global-search-form {
+            position: absolute !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            margin: 0 !important;
+        }
+        
+        @media (max-width: 991px) {
+            .global-search-form {
+                position: static !important;
+                transform: none !important;
+                margin: 0.5rem 0 !important;
+            }
         }
     `;
     document.head.appendChild(style);
