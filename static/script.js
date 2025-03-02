@@ -303,24 +303,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const problemStats = document.getElementById('problemStats');
     const problemsHeader = document.getElementById('problemsHeader');
     const loading = document.getElementById('loading');
-    const themeSwitcher = document.getElementById('themeSwitcher');
-    
-    // Theme switcher
-    const isDarkMode = localStorage.getItem('darkMode') === 'true';
-    if (isDarkMode) {
-        document.body.classList.add('dark-theme');
-        themeSwitcher.innerHTML = '<i class="bi bi-sun-fill"></i>';
-    }
-    
-    themeSwitcher.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.body.classList.toggle('dark-theme');
-        const isDark = document.body.classList.contains('dark-theme');
-        localStorage.setItem('darkMode', isDark);
-        themeSwitcher.innerHTML = isDark ? 
-            '<i class="bi bi-sun-fill"></i>' : 
-            '<i class="bi bi-moon-fill"></i>';
-    });
+
     
     // Rating select change
     ratingSelect.addEventListener('change', function() {
