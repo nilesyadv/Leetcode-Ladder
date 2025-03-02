@@ -1,43 +1,78 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+today,3472,Longest Palindromic Subsequence A…fter at Most K Operations,1842,https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/,Weekly Contest 439,
 "Feb. 2, 2025",3443,Maximum Manhattan Distance After K Changes,1802,https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/,Weekly Contest 435,"counting, hash table, math, string"
 "Dec. 1, 2024",3372,Maximize the Number of Target Nodes …After Connecting Trees I,1879,https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/,Weekly Contest 426,"breadth-first search, depth-first search, tree"
 "Nov. 9, 2024",3346,Maximum Frequency of an Element Afte…r Performing Operations I,1856,https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/,Biweekly Contest 143,"array, binary search, prefix sum, sliding window, sorting"
 "Sept. 22, 2024",3298,Count Substrings That Can Be Rearrang…ed to Contain a String II,1851,https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/,Weekly Contest 416,"hash table, sliding window, string"
 "Aug. 11, 2024",3250,Find the Count of Monotonic Pairs I,1898,https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/,Weekly Contest 410,"array, combinatorics, dynamic programming, math, prefix sum"
 "June 23, 2024",3196,Maximize Total Cost of Alternating Subarrays,1829,https://leetcode.com/problems/maximize-total-cost-of-alternating-subarrays/,Weekly Contest 403,"array, dynamic programming"
+"June 22, 2024",3189,Minimum Moves to Get a Peaceful Board,1854,https://leetcode.com/problems/minimum-moves-to-get-a-peaceful-board/,,"array, counting sort, greedy, sorting"
 "June 16, 2024",3186,Maximum Total Damage With Spell Casting,1810,https://leetcode.com/problems/maximum-total-damage-with-spell-casting/,Weekly Contest 402,"array, binary search, counting, dynamic programming, hash table, sorting, two pointers"
 "June 9, 2024",3180,Maximum Total Reward Using Operations I,1824,https://leetcode.com/problems/maximum-total-reward-using-operations-i/,Weekly Contest 401,"array, dynamic programming"
 "June 8, 2024",3176,Find the Maximum Length of a Good Subsequence I,1848,https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-i/,Biweekly Contest 132,"array, dynamic programming, hash table"
+"June 2, 2024",3167,Better Compression of String,1854,https://leetcode.com/problems/better-compression-of-string/,,"counting, hash table, sorting, string"
 "May 11, 2024",3144,Minimum Substring Partition of …Equal Character Frequency,1889,https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/,Biweekly Contest 130,"counting, dynamic programming, hash table, string"
+"April 27, 2024",3126,Server Utilization Time,1860,https://leetcode.com/problems/server-utilization-time/,,database
 "March 30, 2024",3097,Shortest Subarray With OR at Least K II,1856,https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/,Biweekly Contest 127,"array, bit manipulation, sliding window"
 "Feb. 11, 2024",3035,Maximum Palindromes After Operations,1859,https://leetcode.com/problems/maximum-palindromes-after-operations/,Weekly Contest 384,"array, counting, greedy, hash table, sorting, string"
 "Feb. 4, 2024",3030,Find the Grid of Region Average,1887,https://leetcode.com/problems/find-the-grid-of-region-average/,Weekly Contest 383,"array, matrix"
 "Feb. 3, 2024",3026,Maximum Good Subarray Sum,1849,https://leetcode.com/problems/maximum-good-subarray-sum/,Biweekly Contest 123,"array, hash table, prefix sum"
 "Jan. 20, 2024",3012,Minimize Length of Array Using Operations,1833,https://leetcode.com/problems/minimize-length-of-array-using-operations/,Biweekly Contest 122,"array, greedy, math, number theory"
 "Jan. 7, 2024",3002,Maximum Size of a Set After Removals,1896,https://leetcode.com/problems/maximum-size-of-a-set-after-removals/,Weekly Contest 379,"array, greedy, hash table"
+"Dec. 31, 2023",2979,Most Expensive Item That Can Not Be Bought,1834,https://leetcode.com/problems/most-expensive-item-that-can-not-be-bought/,,"dynamic programming, math, number theory"
 "Dec. 24, 2023",2976,Minimum Cost to Convert String I,1872,https://leetcode.com/problems/minimum-cost-to-convert-string-i/,Weekly Contest 377,"array, graph, shortest path, string"
 "Dec. 24, 2023",2975,Maximum Square Area by Rem…oving Fences From a Field,1866,https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/,Weekly Contest 377,"array, enumeration, hash table"
+"Dec. 17, 2023",2964,Number of Divisible Triplet Sums,1824,https://leetcode.com/problems/number-of-divisible-triplet-sums/,,"array, hash table"
+"Dec. 3, 2023",2950,Number of Divisible Substrings,1887,https://leetcode.com/problems/number-of-divisible-substrings/,,"counting, hash table, prefix sum, string"
 "Oct. 14, 2023",2901,Longest Unequal Adjacent Groups Subsequence II,1861,https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/,Biweekly Contest 115,"array, dynamic programming, string"
+"Oct. 8, 2023",2893,Calculate Orders Within Each Interval,1878,https://leetcode.com/problems/calculate-orders-within-each-interval/,,database
+"Sept. 16, 2023",2854,Rolling Average Steps,1890,https://leetcode.com/problems/rolling-average-steps/,,database
 "Aug. 20, 2023",2830,Maximize the Profit as the Salesman,1844,https://leetcode.com/problems/maximize-the-profit-as-the-salesman/,Weekly Contest 359,"array, binary search, dynamic programming, hash table, sorting"
+"Aug. 19, 2023",2821,Delay the Resolution of Each Promise,1894,https://leetcode.com/problems/delay-the-resolution-of-each-promise/,,javascript
+"Aug. 19, 2023",2820,Election Results,1878,https://leetcode.com/problems/election-results/,,database
 "Aug. 13, 2023",2817,Minimum Absolute Difference Between …Elements With Constraint,1878,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/,Weekly Contest 358,"array, binary search, ordered set"
 "Aug. 5, 2023",2808,Minimum Seconds to Equalize a Circular Array,1863,https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/,Biweekly Contest 110,"array, hash table"
 "July 30, 2023",2800,Shortest String That Contains Three Strings,1851,https://leetcode.com/problems/shortest-string-that-contains-three-strings/,Weekly Contest 356,"enumeration, greedy, string"
 "July 22, 2023",2787,Ways to Express an Integer as Sum of Powers,1816,https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/,Biweekly Contest 109,dynamic programming
+"July 16, 2023",2775,Undefined to Null,1886,https://leetcode.com/problems/undefined-to-null/,,javascript
+"July 8, 2023",2764,Is Array a Preorder of Some ‌Binary Tree,1874,https://leetcode.com/problems/is-array-a-preorder-of-some-binary-tree/,,"binary tree, depth-first search, stack, tree"
+"July 2, 2023",2757,Generate Circular Array Values,1883,https://leetcode.com/problems/generate-circular-array-values/,,javascript
+"May 21, 2023",2686,Immediate Food Delivery III,1839,https://leetcode.com/problems/immediate-food-delivery-iii/,,database
+"May 13, 2023",2674,Split a Circular Linked List,1832,https://leetcode.com/problems/split-a-circular-linked-list/,,"linked list, two pointers"
 "March 19, 2023",2598,Smallest Missing Non-negative …Integer After Operations,1847,https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/,Weekly Contest 337,"array, greedy, hash table, math"
 "March 18, 2023",2594,Minimum Time to Repair Cars,1885,https://leetcode.com/problems/minimum-time-to-repair-cars/,Biweekly Contest 100,"array, binary search"
+"March 18, 2023",2590,Design a Todo List,1851,https://leetcode.com/problems/design-a-todo-list/,,"array, design, hash table, sorting, string"
 "Feb. 26, 2023",2576,Find the Maximum Number of Marked Indices,1842,https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/,Weekly Contest 334,"array, binary search, greedy, sorting, two pointers"
+"Jan. 29, 2023",2548,Maximum Price to Fill a Bag,1894,https://leetcode.com/problems/maximum-price-to-fill-a-bag/,,"array, greedy, sorting"
 "Jan. 15, 2023",2537,Count the Number of Good Subarrays,1882,https://leetcode.com/problems/count-the-number-of-good-subarrays/,Weekly Contest 328,"array, hash table, sliding window"
+"Dec. 24, 2022",2510,Check if There is a Path With Eq…ual Number of 0's And 1's,1864,https://leetcode.com/problems/check-if-there-is-a-path-with-equal-number-of-0s-and-1s/,,"array, dynamic programming, matrix"
+"Dec. 18, 2022",2505,Bitwise OR of All Subsequence Sums,1866,https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums/,,"array, bit manipulation, brainteaser, math"
+"Dec. 10, 2022",2495,Number of Subarrays Having Even Product,1846,https://leetcode.com/problems/number-of-subarrays-having-even-product/,,"array, dynamic programming, math"
+"Oct. 29, 2022",2450,Number of Distinct Binary Strings …After Applying Operations,1894,https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/,,"math, string"
+"Oct. 23, 2022",2445,Number of Nodes With Value One,1894,https://leetcode.com/problems/number-of-nodes-with-value-one/,,"binary tree, breadth-first search, depth-first search, tree"
+"Oct. 15, 2022",2436,Minimum Split Into Subarrays …With GCD Greater Than One,1865,https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one/,,"array, dynamic programming, greedy, math, number theory"
+"Oct. 9, 2022",2431,Maximize Total Tastiness of Purchased Fruits,1871,https://leetcode.com/problems/maximize-total-tastiness-of-purchased-fruits/,,"array, dynamic programming"
+"Sept. 3, 2022",2394,Employees With Deductions,1866,https://leetcode.com/problems/employees-with-deductions/,,database
+"Aug. 28, 2022",2388,Change Null Values in a Ta…ble to the Previous Value,1874,https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value/,,database
+"Aug. 28, 2022",2387,Median of a Row Wise Sorted Matrix,1812,https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/,,"array, binary search, matrix"
 "Aug. 7, 2022",2370,Longest Ideal Subsequence,1835,https://leetcode.com/problems/longest-ideal-subsequence/,Weekly Contest 305,"dynamic programming, hash table, string"
+"July 23, 2022",2346,Compute the Rank as a Percentage,1866,https://leetcode.com/problems/compute-the-rank-as-a-percentage/,,database
+"July 23, 2022",2345,Finding the Number of Visible Mountains,1881,https://leetcode.com/problems/finding-the-number-of-visible-mountains/,,"array, monotonic stack, sorting, stack"
 "July 9, 2022",2332,The Latest Time to Catch a Bus,1821,https://leetcode.com/problems/the-latest-time-to-catch-a-bus/,Biweekly Contest 82,"array, binary search, sorting, two pointers"
 "July 3, 2022",2327,Number of People Aware of a Secret,1888,https://leetcode.com/problems/number-of-people-aware-of-a-secret/,Weekly Contest 300,"dynamic programming, queue, simulation"
 "June 19, 2022",2311,Longest Binary Subsequence Less Than or Equal to K,1834,https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/,Weekly Contest 298,"dynamic programming, greedy, memoization, string"
 "June 12, 2022",2305,Fair Distribution of Cookies,1893,https://leetcode.com/problems/fair-distribution-of-cookies/,Weekly Contest 297,"array, backtracking, bit manipulation, bitmask, dynamic programming"
 "June 11, 2022",2302,Count Subarrays With Score Less Than K,1810,https://leetcode.com/problems/count-subarrays-with-score-less-than-k/,Biweekly Contest 80,"array, binary search, prefix sum, sliding window"
 "June 11, 2022",2301,Match Substring After Replacement,1871,https://leetcode.com/problems/match-substring-after-replacement/,Biweekly Contest 80,"array, hash table, string, string matching"
+"June 5, 2022",2292,Products With Three or More Orders …in Two Consecutive Years,1867,https://leetcode.com/problems/products-with-three-or-more-orders-in-two-consecutive-years/,,database
+"April 16, 2022",2237,Count Positions on Street With Required Brightness,1841,https://leetcode.com/problems/count-positions-on-street-with-required-brightness/,,"array, prefix sum"
 "March 27, 2022",2217,Find Palindrome With Fixed Length,1817,https://leetcode.com/problems/find-palindrome-with-fixed-length/,Weekly Contest 286,"array, math"
 "March 20, 2022",2212,Maximum Points in an Archery Competition,1846,https://leetcode.com/problems/maximum-points-in-an-archery-competition/,Weekly Contest 285,"array, backtracking, bit manipulation, enumeration"
+"March 5, 2022",2189,Number of Ways to Build House of Cards,1879,https://leetcode.com/problems/number-of-ways-to-build-house-of-cards/,,"dynamic programming, math"
 "Jan. 22, 2022",2146,K Highest Ranked Items Within a Price Range,1831,https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/,Biweekly Contest 70,"array, breadth-first search, heap (priority queue), matrix, sorting"
+"Jan. 16, 2022",2137,Pour Water Between Buckets t…o Make Water Levels Equal,1853,https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal/,,"array, binary search"
 "Jan. 9, 2022",2135,Count Words Obtained After Adding a Letter,1818,https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/,Weekly Contest 275,"array, bit manipulation, hash table, sorting, string"
+"Dec. 25, 2021",2113,Elements in Array After Removi…ng and Replacing Elements,1865,https://leetcode.com/problems/elements-in-array-after-removing-and-replacing-elements/,,array
 "Dec. 11, 2021",2101,Detonate the Maximum Bombs,1829,https://leetcode.com/problems/detonate-the-maximum-bombs/,Biweekly Contest 67,"array, breadth-first search, depth-first search, geometry, graph, math"
 "Nov. 7, 2021",2064,Minimized Maximum of Products …Distributed to Any Store,1826,https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/,Weekly Contest 266,"array, binary search"
 "Oct. 31, 2021",2059,Minimum Operations to Convert Number,1868,https://leetcode.com/problems/minimum-operations-to-convert-number/,Weekly Contest 265,"array, breadth-first search"
@@ -50,9 +85,12 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Sept. 12, 2021",2002,Maximum Product of the Length of Two …Palindromic Subsequences,1868,https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/,Weekly Contest 258,"backtracking, bit manipulation, bitmask, dynamic programming, string"
 "Sept. 5, 2021",1996,The Number of Weak Characters in the Game,1826,https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/,Weekly Contest 257,"array, greedy, monotonic stack, sorting, stack"
 "Sept. 4, 2021",1993,Operations on Tree,1840,https://leetcode.com/problems/operations-on-tree/,Biweekly Contest 60,"array, breadth-first search, depth-first search, design, hash table, tree"
+"June 26, 2021",1908,Game of Nim,1849,https://leetcode.com/problems/game-of-nim/,,"array, bit manipulation, brainteaser, dynamic programming, game theory, math"
 "April 25, 2021",1838,Frequency of the Most Frequent Element,1873,https://leetcode.com/problems/frequency-of-the-most-frequent-element/,Weekly Contest 238,"array, binary search, greedy, prefix sum, sliding window, sorting"
 "April 18, 2021",1835,Find XOR Sum of All Pairs Bitwise AND,1815,https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/,Weekly Contest 237,"array, bit manipulation, math"
 "April 18, 2021",1834,Single-Threaded CPU,1839,https://leetcode.com/problems/single-threaded-cpu/,Weekly Contest 237,"array, heap (priority queue), sorting"
+"April 11, 2021",1820,Maximum Number of Accepted Invitations,1850,https://leetcode.com/problems/maximum-number-of-accepted-invitations/,,"array, depth-first search, graph, matrix"
+"April 3, 2021",1810,Minimum Path Cost in a Hidden Grid,1833,https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid/,,"breadth-first search, depth-first search, graph, heap (priority queue), interactive"
 "March 14, 2021",1792,Maximum Average Pass Ratio,1828,https://leetcode.com/problems/maximum-average-pass-ratio/,Weekly Contest 232,"array, greedy, heap (priority queue)"
 "Feb. 28, 2021",1775,Equal Sum Arrays With Minimum Number of Operations,1849,https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/,Weekly Contest 230,"array, counting, greedy, hash table"
 "Feb. 28, 2021",1774,Closest Dessert Cost,1840,https://leetcode.com/problems/closest-dessert-cost/,Weekly Contest 230,"array, backtracking, dynamic programming"
@@ -78,6 +116,7 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "March 22, 2020",1392,Longest Happy Prefix,1879,https://leetcode.com/problems/longest-happy-prefix/,Weekly Contest 181,"hash function, rolling hash, string, string matching"
 "March 8, 2020",1377,Frog Position After T Seconds,1835,https://leetcode.com/problems/frog-position-after-t-seconds/,Weekly Contest 179,"breadth-first search, depth-first search, graph, tree"
 "March 7, 2020",1373,Maximum Sum BST in Binary Tree,1898,https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/,Biweekly Contest 21,"binary search tree, binary tree, depth-first search, dynamic programming, tree"
+"March 7, 2020",1369,Get the Second Most Recent Activity,1823,https://leetcode.com/problems/get-the-second-most-recent-activity/,,database
 "Feb. 23, 2020",1363,Largest Multiple of Three,1817,https://leetcode.com/problems/largest-multiple-of-three/,Weekly Contest 177,"array, dynamic programming, greedy"
 "Feb. 8, 2020",1345,Jump Game IV,1812,https://leetcode.com/problems/jump-game-iv/,Biweekly Contest 19,"array, breadth-first search, hash table"
 "Feb. 2, 2020",1340,Jump Game V,1875,https://leetcode.com/problems/jump-game-v/,Weekly Contest 174,"array, dynamic programming, sorting"
@@ -91,12 +130,15 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Nov. 16, 2019",1258,Synonymous Sentences,1802,https://leetcode.com/problems/synonymous-sentences/,Biweekly Contest 13,"array, backtracking, hash table, string, union find"
 "Nov. 10, 2019",1255,Maximum Score Words Formed by Letters,1870,https://leetcode.com/problems/maximum-score-words-formed-by-letters/,Weekly Contest 162,"array, backtracking, bit manipulation, bitmask, dynamic programming, string"
 "Oct. 20, 2019",1234,Replace the Substring for Balanced String,1886,https://leetcode.com/problems/replace-the-substring-for-balanced-string/,Weekly Contest 159,"sliding window, string"
+"Oct. 19, 2019",1225,Report Contiguous Dates,1861,https://leetcode.com/problems/report-contiguous-dates/,,database
 "Sept. 22, 2019",1202,Smallest String With Swaps,1858,https://leetcode.com/problems/smallest-string-with-swaps/,Weekly Contest 155,"array, breadth-first search, depth-first search, hash table, sorting, string, union find"
+"Sept. 21, 2019",1194,Tournament Winners,1896,https://leetcode.com/problems/tournament-winners/,,database
 "Sept. 1, 2019",1177,Can Make Palindrome from Substring,1824,https://leetcode.com/problems/can-make-palindrome-from-substring/,Weekly Contest 152,"array, bit manipulation, hash table, prefix sum, string"
 "Aug. 18, 2019",1163,Last Substring in Lexicographical Order,1878,https://leetcode.com/problems/last-substring-in-lexicographical-order/,Weekly Contest 150,"string, two pointers"
 "Aug. 10, 2019",1152,Analyze User Website Visit Pattern,1839,https://leetcode.com/problems/analyze-user-website-visit-pattern/,Biweekly Contest 6,"array, hash table, sorting"
 "Aug. 4, 2019",1147,Longest Chunked Palindrome Decomposition,1871,https://leetcode.com/problems/longest-chunked-palindrome-decomposition/,Weekly Contest 148,"dynamic programming, greedy, hash function, rolling hash, string, two pointers"
 "June 30, 2019",1106,Parsing A Boolean Expression,1866,https://leetcode.com/problems/parsing-a-boolean-expression/,Weekly Contest 143,"recursion, stack, string"
+"June 29, 2019",1097,Game Play Analysis V,1834,https://leetcode.com/problems/game-play-analysis-v/,,database
 "June 1, 2019",1066,Campus Bikes II,1871,https://leetcode.com/problems/campus-bikes-ii/,Biweekly Contest 1,"array, backtracking, bit manipulation, bitmask, dynamic programming"
 "May 12, 2019",1043,Partition Array for Maximum Sum,1878,https://leetcode.com/problems/partition-array-for-maximum-sum/,Weekly Contest 136,"array, dynamic programming"
 "March 24, 2019",1015,Smallest Integer Divisible by K,1840,https://leetcode.com/problems/smallest-integer-divisible-by-k/,Weekly Contest 129,"hash table, math"
@@ -128,10 +170,33 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "July 30, 2017",652,Find Duplicate Subtrees,1803,https://leetcode.com/problems/find-duplicate-subtrees/,Weekly Contest 43,"binary tree, depth-first search, hash table, tree"
 "July 30, 2017",651,4 Keys Keyboard,1880,https://leetcode.com/problems/4-keys-keyboard/,Weekly Contest 43,"dynamic programming, math"
 "July 30, 2017",649,Dota2 Senate,1875,https://leetcode.com/problems/dota2-senate/,Weekly Contest 43,"greedy, queue, string"
+"June 11, 2017",615,Average Salary: Departments VS Company,1884,https://leetcode.com/problems/average-salary-departments-vs-company/,,database
+"June 11, 2017",601,Human Traffic of Stadium,1864,https://leetcode.com/problems/human-traffic-of-stadium/,,database
 "May 7, 2017",576,Out of Boundary Paths,1835,https://leetcode.com/problems/out-of-boundary-paths/,Weekly Contest 31,dynamic programming
 "April 30, 2017",568,Maximum Vacation Days,1850,https://leetcode.com/problems/maximum-vacation-days/,Weekly Contest 30,"array, dynamic programming, matrix"
 "April 2, 2017",548,Split Array with Equal Sum,1894,https://leetcode.com/problems/split-array-with-equal-sum/,Weekly Contest 26,"array, hash table, prefix sum"
 "Feb. 12, 2017",493,Reverse Pairs,1854,https://leetcode.com/problems/reverse-pairs/,Weekly Contest 19,"array, binary indexed tree, binary search, divide and conquer, merge sort, ordered set, segment tree"
 "Dec. 18, 2016",472,Concatenated Words,1851,https://leetcode.com/problems/concatenated-words/,Weekly Contest 13,"array, depth-first search, dynamic programming, string, trie"
+"Oct. 30, 2016",444,Sequence Reconstruction,1874,https://leetcode.com/problems/sequence-reconstruction/,Smarking Algorit…hm Contest 2,"array, graph, topological sort"
+"Dec. 4, 2016",432,All O`one Data Structure,1861,https://leetcode.com/problems/all-oone-data-structure/,,"design, doubly-linked list, hash table, linked list"
 "Oct. 16, 2016",425,Word Squares,1883,https://leetcode.com/problems/word-squares/,Weekly Contest 9,"array, backtracking, string, trie"
 "Aug. 28, 2016",390,Elimination Game,1819,https://leetcode.com/problems/elimination-game/,Weekly Contest 2,"math, recursion"
+"Aug. 21, 2016",388,Longest Absolute File Path,1815,https://leetcode.com/problems/longest-absolute-file-path/,Warm Up Contest,"depth-first search, stack, string"
+"Aug. 20, 2016",315,Count of Smaller Numbers After Self,1858,https://leetcode.com/problems/count-of-smaller-numbers-after-self/,,"array, binary indexed tree, binary search, divide and conquer, merge sort, ordered set, segment tree"
+"Aug. 20, 2016",305,Number of Islands II,1899,https://leetcode.com/problems/number-of-islands-ii/,,"array, hash table, union find"
+"Aug. 20, 2016",295,Find Median from Data Stream,1889,https://leetcode.com/problems/find-median-from-data-stream/,,"data stream, design, heap (priority queue), sorting, two pointers"
+"Aug. 20, 2016",262,Trips and Users,1860,https://leetcode.com/problems/trips-and-users/,,database
+"Aug. 20, 2016",239,Sliding Window Maximum,1852,https://leetcode.com/problems/sliding-window-maximum/,,"array, heap (priority queue), monotonic queue, queue, sliding window"
+"Aug. 20, 2016",214,Shortest Palindrome,1855,https://leetcode.com/problems/shortest-palindrome/,,"hash function, rolling hash, string, string matching"
+"Aug. 20, 2016",212,Word Search II,1849,https://leetcode.com/problems/word-search-ii/,,"array, backtracking, matrix, string, trie"
+"Aug. 20, 2016",188,Best Time to Buy and Sell Stock IV,1884,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/,,"array, dynamic programming"
+"Aug. 20, 2016",135,Candy,1893,https://leetcode.com/problems/candy/,,"array, greedy"
+"Aug. 20, 2016",126,Word Ladder II,1861,https://leetcode.com/problems/word-ladder-ii/,,"backtracking, breadth-first search, hash table, string"
+"Aug. 20, 2016",124,Binary Tree Maximum Path Sum,1882,https://leetcode.com/problems/binary-tree-maximum-path-sum/,,"binary tree, depth-first search, dynamic programming, tree"
+"Aug. 20, 2016",123,Best Time to Buy and Sell Stock III,1862,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/,,"array, dynamic programming"
+"Aug. 20, 2016",85,Maximal Rectangle,1862,https://leetcode.com/problems/maximal-rectangle/,,"array, dynamic programming, matrix, monotonic stack, stack"
+"Aug. 20, 2016",84,Largest Rectangle in Histogram,1847,https://leetcode.com/problems/largest-rectangle-in-histogram/,,"array, monotonic stack, stack"
+"Aug. 20, 2016",76,Minimum Window Substring,1861,https://leetcode.com/problems/minimum-window-substring/,,"hash table, sliding window, string"
+"Aug. 20, 2016",65,Valid Number,1802,https://leetcode.com/problems/valid-number/,,string
+"Aug. 20, 2016",51,N-Queens,1827,https://leetcode.com/problems/n-queens/,,"array, backtracking"
+"Aug. 20, 2016",37,Sudoku Solver,1892,https://leetcode.com/problems/sudoku-solver/,,"array, backtracking, hash table, matrix"

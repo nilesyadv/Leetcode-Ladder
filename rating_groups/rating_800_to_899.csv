@@ -15,7 +15,10 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Sept. 3, 2023",2843,Count Symmetric Integers,877,https://leetcode.com/problems/count-symmetric-integers/,Weekly Contest 361,"enumeration, math"
 "July 23, 2023",2788,Split Strings by Separator,809,https://leetcode.com/problems/split-strings-by-separator/,Weekly Contest 355,"array, string"
 "June 10, 2023",2729,Check if The Number is Fascinating,819,https://leetcode.com/problems/check-if-the-number-is-fascinating/,Biweekly Contest 106,"hash table, math"
+"June 10, 2023",2725,Interval Cancellation,832,https://leetcode.com/problems/interval-cancellation/,,javascript
+"June 4, 2023",2715,Timeout Cancellation,837,https://leetcode.com/problems/timeout-cancellation/,,javascript
 "May 27, 2023",2706,Buy Two Chocolates,832,https://leetcode.com/problems/buy-two-chocolates/,Biweekly Contest 105,"array, sorting"
+"May 27, 2023",2704,To Be Or Not To Be,814,https://leetcode.com/problems/to-be-or-not-to-be/,,javascript
 "May 7, 2023",2670,Find the Distinct Difference Array,874,https://leetcode.com/problems/find-the-distinct-difference-array/,Weekly Contest 344,"array, hash table"
 "Feb. 19, 2023",2570,Merge Two 2D Arrays by Summing Values,849,https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/,Weekly Contest 333,"array, hash table, two pointers"
 "Jan. 22, 2023",2544,Alternating Digit Sum,810,https://leetcode.com/problems/alternating-digit-sum/,Weekly Contest 329,math
@@ -24,9 +27,11 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Nov. 27, 2022",2485,Find the Pivot Integer,828,https://leetcode.com/problems/find-the-pivot-integer/,Weekly Contest 321,"math, prefix sum"
 "Nov. 20, 2022",2475,Number of Unequal Triplets in Array,809,https://leetcode.com/problems/number-of-unequal-triplets-in-array/,Weekly Contest 320,"array, hash table, sorting"
 "Sept. 11, 2022",2404,Most Frequent Even Element,888,https://leetcode.com/problems/most-frequent-even-element/,Weekly Contest 310,"array, counting, hash table"
+"July 17, 2022",2339,All the Matches of the League,858,https://leetcode.com/problems/all-the-matches-of-the-league/,,database
 "June 19, 2022",2309,Greatest English Letter in Upper and Lower Case,823,https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/,Weekly Contest 298,"enumeration, hash table, string"
 "May 15, 2022",2273,Find Resultant Array After Removing Anagrams,885,https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/,Weekly Contest 293,"array, hash table, sorting, string"
 "April 17, 2022",2243,Calculate Digit Sum of a String,888,https://leetcode.com/problems/calculate-digit-sum-of-a-string/,Weekly Contest 289,"simulation, string"
+"April 16, 2022",2236,Root Equals Sum of Children,813,https://leetcode.com/problems/root-equals-sum-of-children/,,"binary tree, tree"
 "April 10, 2022",2231,Largest Number After Digit Swaps by Parity,873,https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/,Weekly Contest 288,"heap (priority queue), sorting"
 "April 2, 2022",2220,Minimum Bit Flips to Convert Number,826,https://leetcode.com/problems/minimum-bit-flips-to-convert-number/,Biweekly Contest 75,bit manipulation
 "March 20, 2022",2210,Count Hills and Valleys in an Array,814,https://leetcode.com/problems/count-hills-and-valleys-in-an-array/,Weekly Contest 285,array
@@ -34,7 +39,9 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Feb. 5, 2022",2160,Minimum Sum of Four Digit Numb…er After Splitting Digits,842,https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/,Biweekly Contest 71,"greedy, math, sorting"
 "Dec. 5, 2021",2095,Delete the Middle Node of a Linked List,887,https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/,Weekly Contest 270,"linked list, two pointers"
 "Oct. 3, 2021",2027,Minimum Moves to Convert String,877,https://leetcode.com/problems/minimum-moves-to-convert-string/,Weekly Contest 261,"greedy, string"
+"July 24, 2021",1939,Users That Actively Request Confirmation Messages,879,https://leetcode.com/problems/users-that-actively-request-confirmation-messages/,,database
 "May 23, 2021",1869,Longer Contiguous Segments of Ones than Zeros,805,https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/,Weekly Contest 242,string
+"April 3, 2021",1809,Ad-Free Sessions,833,https://leetcode.com/problems/ad-free-sessions/,,database
 "March 14, 2021",1791,Find Center of Star Graph,883,https://leetcode.com/problems/find-center-of-star-graph/,Weekly Contest 232,graph
 "Feb. 14, 2021",1758,Minimum Changes To Make Alternating Binary String,889,https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/,Weekly Contest 228,string
 "Jan. 10, 2021",1720,Decode XORed Array,856,https://leetcode.com/problems/decode-xored-array/,Weekly Contest 223,"array, bit manipulation"
@@ -50,8 +57,10 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "June 27, 2020",1492,The kth Factor of n,882,https://leetcode.com/problems/the-kth-factor-of-n/,Biweekly Contest 29,"math, number theory"
 "May 3, 2020",1437,Check If All 1's Are at Least Length K Places Away,828,https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/,Weekly Contest 187,array
 "May 3, 2020",1436,Destination City,820,https://leetcode.com/problems/destination-city/,Weekly Contest 187,"array, hash table, string"
+"May 3, 2020",1435,Create a Session Bar Chart,870,https://leetcode.com/problems/create-a-session-bar-chart/,,database
 "April 12, 2020",1408,String Matching in an Array,839,https://leetcode.com/problems/string-matching-in-an-array/,Weekly Contest 184,"array, string, string matching"
 "March 22, 2020",1389,Create Target Array in the Given Order,808,https://leetcode.com/problems/create-target-array-in-the-given-order/,Weekly Contest 181,"array, simulation"
+"March 15, 2020",1379,Find a Corresponding Node of a Binary Tre…e in a Clone of That Tree,856,https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/,,"binary tree, breadth-first search, depth-first search, tree"
 "Feb. 22, 2020",1356,Sort Integers by The Number of 1 Bits,829,https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/,Biweekly Contest 20,"array, bit manipulation, counting, sorting"
 "Jan. 5, 2020",1309,Decrypt String from Alphabet to Integer Mapping,854,https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/,Weekly Contest 170,string
 "Nov. 10, 2019",1252,Cells with Odd Values in a Matrix,827,https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/,Weekly Contest 162,"array, math, simulation"
@@ -59,9 +68,12 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Sept. 8, 2019",1184,Distance Between Bus Stops,821,https://leetcode.com/problems/distance-between-bus-stops/,Weekly Contest 153,array
 "Sept. 7, 2019",1180,Count Substrings with Only One Distinct Letter,872,https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/,Biweekly Contest 8,"math, string"
 "Aug. 18, 2019",1160,Find Words That Can Be Formed by Characters,886,https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/,Weekly Contest 150,"array, hash table, string"
+"Aug. 4, 2019",1142,User Activity for the Past 30 Days II,806,https://leetcode.com/problems/user-activity-for-the-past-30-days-ii/,,database
 "June 30, 2019",1103,Distribute Candies to People,875,https://leetcode.com/problems/distribute-candies-to-people/,Weekly Contest 143,"math, simulation"
 "June 16, 2019",1089,Duplicate Zeros,889,https://leetcode.com/problems/duplicate-zeros/,Weekly Contest 141,"array, two pointers"
+"June 15, 2019",1084,Sales Analysis III,851,https://leetcode.com/problems/sales-analysis-iii/,,database
 "June 9, 2019",1078,Occurrences After Bigram,823,https://leetcode.com/problems/occurrences-after-bigram/,Weekly Contest 140,string
+"June 1, 2019",1056,Confusing Number,850,https://leetcode.com/problems/confusing-number/,,math
 "May 19, 2019",1046,Last Stone Weight,815,https://leetcode.com/problems/last-stone-weight/,Weekly Contest 137,"array, heap (priority queue)"
 "March 17, 2019",1009,Complement of Base 10 Integer,832,https://leetcode.com/problems/complement-of-base-10-integer/,Weekly Contest 128,bit manipulation
 "Feb. 24, 2019",997,Find the Town Judge,801,https://leetcode.com/problems/find-the-town-judge/,Weekly Contest 125,"array, graph, hash table"
@@ -74,11 +86,40 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Feb. 18, 2018",784,Letter Case Permutation,825,https://leetcode.com/problems/letter-case-permutation/,Weekly Contest 72,"backtracking, bit manipulation, string"
 "Feb. 11, 2018",783,Minimum Distance Between BST Nodes,815,https://leetcode.com/problems/minimum-distance-between-bst-nodes/,Weekly Contest 71,"binary search tree, binary tree, breadth-first search, depth-first search, tree"
 "Nov. 12, 2017",724,Find Pivot Index,803,https://leetcode.com/problems/find-pivot-index/,Weekly Contest 58,"array, prefix sum"
+"Oct. 22, 2017",709,To Lower Case,813,https://leetcode.com/problems/to-lower-case/,,string
+"June 18, 2017",619,Biggest Single Number,804,https://leetcode.com/problems/biggest-single-number/,,database
+"June 11, 2017",613,Shortest Distance in a Line,867,https://leetcode.com/problems/shortest-distance-in-a-line/,,database
+"June 11, 2017",610,Triangle Judgement,816,https://leetcode.com/problems/triangle-judgement/,,database
+"June 4, 2017",607,Sales Person,879,https://leetcode.com/problems/sales-person/,,database
 "June 4, 2017",605,Can Place Flowers,885,https://leetcode.com/problems/can-place-flowers/,Weekly Contest 35,"array, greedy"
 "May 28, 2017",599,Minimum Index Sum of Two Lists,876,https://leetcode.com/problems/minimum-index-sum-of-two-lists/,Weekly Contest 34,"array, hash table, string"
+"May 28, 2017",595,Big Countries,804,https://leetcode.com/problems/big-countries/,,database
+"June 4, 2017",589,N-ary Tree Preorder Traversal,830,https://leetcode.com/problems/n-ary-tree-preorder-traversal/,,"depth-first search, stack, tree"
+"May 14, 2017",586,Customer Placing the Largest Number of Orders,863,https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/,,database
 "April 30, 2017",566,Reshape the Matrix,824,https://leetcode.com/problems/reshape-the-matrix/,Weekly Contest 30,"array, matrix, simulation"
+"Feb. 12, 2017",509,Fibonacci Number,868,https://leetcode.com/problems/fibonacci-number/,,"dynamic programming, math, memoization, recursion"
 "Feb. 4, 2017",500,Keyboard Row,806,https://leetcode.com/problems/keyboard-row/,Weekly Contest 18A,"array, hash table, string"
 "Dec. 18, 2016",461,Hamming Distance,826,https://leetcode.com/problems/hamming-distance/,Weekly Contest 13,bit manipulation
 "Oct. 16, 2016",422,Valid Word Square,843,https://leetcode.com/problems/valid-word-square/,Weekly Contest 9,"array, matrix"
+"Oct. 9, 2016",414,Third Maximum Number,845,https://leetcode.com/problems/third-maximum-number/,,"array, sorting"
+"Oct. 9, 2016",412,Fizz Buzz,843,https://leetcode.com/problems/fizz-buzz/,,"math, simulation, string"
 "Oct. 2, 2016",409,Longest Palindrome,882,https://leetcode.com/problems/longest-palindrome/,Weekly Contest 7,"greedy, hash table, string"
 "Sept. 4, 2016",392,Is Subsequence,875,https://leetcode.com/problems/is-subsequence/,Weekly Contest 3,"dynamic programming, string, two pointers"
+"Aug. 20, 2016",345,Reverse Vowels of a String,865,https://leetcode.com/problems/reverse-vowels-of-a-string/,,"string, two pointers"
+"Aug. 20, 2016",342,Power of Four,895,https://leetcode.com/problems/power-of-four/,,"bit manipulation, math, recursion"
+"Aug. 20, 2016",338,Counting Bits,883,https://leetcode.com/problems/counting-bits/,,"bit manipulation, dynamic programming"
+"Aug. 20, 2016",326,Power of Three,877,https://leetcode.com/problems/power-of-three/,,"math, recursion"
+"Aug. 20, 2016",266,Palindrome Permutation,874,https://leetcode.com/problems/palindrome-permutation/,,"bit manipulation, hash table, string"
+"Aug. 20, 2016",263,Ugly Number,897,https://leetcode.com/problems/ugly-number/,,math
+"Aug. 20, 2016",258,Add Digits,852,https://leetcode.com/problems/add-digits/,,"math, number theory, simulation"
+"Aug. 20, 2016",242,Valid Anagram,857,https://leetcode.com/problems/valid-anagram/,,"hash table, sorting, string"
+"Aug. 20, 2016",226,Invert Binary Tree,838,https://leetcode.com/problems/invert-binary-tree/,,"binary tree, breadth-first search, depth-first search, tree"
+"Aug. 20, 2016",206,Reverse Linked List,865,https://leetcode.com/problems/reverse-linked-list/,,"linked list, recursion"
+"Aug. 20, 2016",197,Rising Temperature,885,https://leetcode.com/problems/rising-temperature/,,database
+"Aug. 20, 2016",183,Customers Who Never Order,891,https://leetcode.com/problems/customers-who-never-order/,,database
+"Aug. 20, 2016",181,Employees Earning More Than Their Managers,806,https://leetcode.com/problems/employees-earning-more-than-their-managers/,,database
+"Aug. 20, 2016",175,Combine Two Tables,848,https://leetcode.com/problems/combine-two-tables/,,database
+"Aug. 20, 2016",145,Binary Tree Postorder Traversal,852,https://leetcode.com/problems/binary-tree-postorder-traversal/,,"binary tree, depth-first search, stack, tree"
+"Aug. 20, 2016",144,Binary Tree Preorder Traversal,852,https://leetcode.com/problems/binary-tree-preorder-traversal/,,"binary tree, depth-first search, stack, tree"
+"Aug. 20, 2016",118,Pascal's Triangle,865,https://leetcode.com/problems/pascals-triangle/,,"array, dynamic programming"
+"Aug. 20, 2016",104,Maximum Depth of Binary Tree,838,https://leetcode.com/problems/maximum-depth-of-binary-tree/,,"binary tree, breadth-first search, depth-first search, tree"

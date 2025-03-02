@@ -21,7 +21,9 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Aug. 19, 2023",2827,Number of Beautiful Integers in the Range,2348,https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/,Biweekly Contest 111,"dynamic programming, math"
 "July 30, 2023",2801,Count Stepping Numbers in Range,2388,https://leetcode.com/problems/count-stepping-numbers-in-range/,Weekly Contest 356,"dynamic programming, string"
 "June 4, 2023",2719,Count of Integers,2383,https://leetcode.com/problems/count-of-integers/,Weekly Contest 348,"dynamic programming, math, string"
+"May 13, 2023",2675,Array of Objects to Matrix,2353,https://leetcode.com/problems/array-of-objects-to-matrix/,,javascript
 "April 29, 2023",2659,Make Array Empty,2307,https://leetcode.com/problems/make-array-empty/,Biweekly Contest 103,"array, binary indexed tree, binary search, greedy, ordered set, segment tree, sorting"
+"April 15, 2023",2630,Memoize II,2344,https://leetcode.com/problems/memoize-ii/,,javascript
 "Feb. 26, 2023",2577,Minimum Time to Visit a Cell In a Grid,2399,https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/,Weekly Contest 334,"array, breadth-first search, graph, heap (priority queue), matrix, shortest path"
 "Feb. 18, 2023",2569,Handling Sum Queries After Update,2394,https://leetcode.com/problems/handling-sum-queries-after-update/,Biweekly Contest 98,"array, segment tree"
 "Feb. 4, 2023",2556,Disconnect Path in a Binary M…atrix by at Most One Flip,2394,https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/,Biweekly Contest 97,"array, breadth-first search, depth-first search, dynamic programming, matrix"
@@ -29,17 +31,26 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Nov. 12, 2022",2468,Split Message Based on Limit,2399,https://leetcode.com/problems/split-message-based-on-limit/,Biweekly Contest 91,"binary search, string"
 "Oct. 30, 2022",2458,Height of Binary Tree Afte…r Subtree Removal Queries,2328,https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/,Weekly Contest 317,"array, binary tree, breadth-first search, depth-first search, tree"
 "Sept. 11, 2022",2407,Longest Increasing Subsequence II,2307,https://leetcode.com/problems/longest-increasing-subsequence-ii/,Weekly Contest 310,"array, binary indexed tree, divide and conquer, dynamic programming, monotonic queue, queue, segment tree"
+"Aug. 14, 2022",2371,Minimize Maximum Value in a Grid,2316,https://leetcode.com/problems/minimize-maximum-value-in-a-grid/,,"array, graph, matrix, sorting, topological sort, union find"
+"Aug. 6, 2022",2362,Generate the Invoice,2387,https://leetcode.com/problems/generate-the-invoice/,,database
 "July 9, 2022",2334,Subarray With Elements Great…er Than Varying Threshold,2398,https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/,Biweekly Contest 82,"array, monotonic stack, stack, union find"
 "June 12, 2022",2306,Naming a Company,2346,https://leetcode.com/problems/naming-a-company/,Weekly Contest 297,"array, bit manipulation, enumeration, hash table, string"
+"May 22, 2022",2277,Closest Node to Path in Tree,2312,https://leetcode.com/problems/closest-node-to-path-in-tree/,,"array, breadth-first search, depth-first search, tree"
 "April 30, 2022",2258,Escape the Spreading Fire,2370,https://leetcode.com/problems/escape-the-spreading-fire/,Biweekly Contest 77,"array, binary search, breadth-first search, matrix"
 "April 16, 2022",2242,Maximum Score of a Node Sequence,2366,https://leetcode.com/problems/maximum-score-of-a-node-sequence/,Biweekly Contest 76,"array, enumeration, graph, sorting"
+"March 19, 2022",2204,Distance to a Cycle in Undirected Graph,2312,https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph/,,"breadth-first search, depth-first search, graph, union find"
 "Feb. 27, 2022",2188,Minimum Time to Finish the Race,2360,https://leetcode.com/problems/minimum-time-to-finish-the-race/,Weekly Contest 282,"array, dynamic programming"
+"Feb. 19, 2022",2173,Longest Winning Streak,2307,https://leetcode.com/problems/longest-winning-streak/,,database
 "Oct. 3, 2021",2029,Stone Game IX,2327,https://leetcode.com/problems/stone-game-ix/,Weekly Contest 261,"array, counting, game theory, greedy, math"
+"Sept. 19, 2021",2010,The Number of Seniors and Junio…rs to Join the Company II,2302,https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company-ii/,,database
 "Aug. 7, 2021",1959,Minimum Total Space Wasted W…ith K Resizing Operations,2323,https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/,Biweekly Contest 58,"array, dynamic programming"
+"July 4, 2021",1919,Leetcodify Similar Friends,2310,https://leetcode.com/problems/leetcodify-similar-friends/,,database
+"July 4, 2021",1917,Leetcodify Friends Recommendations,2303,https://leetcode.com/problems/leetcodify-friends-recommendations/,,database
 "May 16, 2021",1866,Number of Ways to Rearrange Sti…cks With K Sticks Visible,2366,https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/,Weekly Contest 241,"combinatorics, dynamic programming, math"
 "May 15, 2021",1862,Sum of Floored Pairs,2317,https://leetcode.com/problems/sum-of-floored-pairs/,Biweekly Contest 52,"array, binary search, math, prefix sum"
 "May 9, 2021",1857,Largest Color Value in a Directed Graph,2354,https://leetcode.com/problems/largest-color-value-in-a-directed-graph/,Weekly Contest 240,"counting, dynamic programming, graph, hash table, memoization, topological sort"
 "May 2, 2021",1851,Minimum Interval to Include Each Query,2317,https://leetcode.com/problems/minimum-interval-to-include-each-query/,Weekly Contest 239,"array, binary search, heap (priority queue), line sweep, sorting"
+"May 1, 2021",1842,Next Palindrome Using Same Digits,2386,https://leetcode.com/problems/next-palindrome-using-same-digits/,,"string, two pointers"
 "Jan. 10, 2021",1723,Find Minimum Time to Finish All Jobs,2323,https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/,Weekly Contest 223,"array, backtracking, bit manipulation, bitmask, dynamic programming"
 "Jan. 3, 2021",1713,Minimum Operations to Make a Subsequence,2387,https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/,Weekly Contest 222,"array, binary search, greedy, hash table"
 "Dec. 27, 2020",1707,Maximum XOR With an Element From Array,2388,https://leetcode.com/problems/maximum-xor-with-an-element-from-array/,Weekly Contest 221,"array, bit manipulation, trie"
@@ -51,6 +62,7 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Sept. 19, 2020",1591,Strange Printer II,2302,https://leetcode.com/problems/strange-printer-ii/,Biweekly Contest 35,"array, graph, matrix, topological sort"
 "Sept. 13, 2020",1585,Check If String Is Transformable With …Substring Sort Operations,2369,https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/,Weekly Contest 206,"greedy, sorting, string"
 "Aug. 30, 2020",1569,Number of Ways to Reorder Array to Get Same BST,2311,https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/,Weekly Contest 204,"array, binary search tree, binary tree, combinatorics, divide and conquer, dynamic programming, math, memoization, tree, union find"
+"July 19, 2020",1516,Move Sub-Tree of N-Ary Tree,2389,https://leetcode.com/problems/move-sub-tree-of-n-ary-tree/,,"depth-first search, tree"
 "July 5, 2020",1505,Minimum Possible Integer After at Most K …Adjacent Swaps On Digits,2364,https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/,Weekly Contest 196,"binary indexed tree, greedy, segment tree, string"
 "June 28, 2020",1499,Max Value of Equation,2366,https://leetcode.com/problems/max-value-of-equation/,Weekly Contest 195,"array, heap (priority queue), monotonic queue, queue, sliding window"
 "Feb. 9, 2020",1349,Maximum Students Taking Exam,2316,https://leetcode.com/problems/maximum-students-taking-exam/,Weekly Contest 175,"array, bit manipulation, bitmask, dynamic programming, matrix"

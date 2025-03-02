@@ -1,36 +1,69 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Feb. 15, 2025",3454,Separate Squares II,2614,https://leetcode.com/problems/separate-squares-ii/,Biweekly Contest 150,"array, binary search, line sweep, segment tree"
+"Feb. 13, 2025",3451,Find Invalid IP Addresses,2603,https://leetcode.com/problems/find-invalid-ip-addresses/,,database
 "Jan. 19, 2025",3430,Maximum and Minimum Sums of …at Most Size K Subarrays,2659,https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subarrays/,Weekly Contest 433,"array, math, monotonic stack, stack"
+"Jan. 12, 2025",3416,Subsequences with a Unique Middle Mode II,2616,https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-ii/,,"array, combinatorics, hash table, math"
+"Dec. 17, 2024",3390,Longest Team Pass Streak,2624,https://leetcode.com/problems/longest-team-pass-streak/,,database
+"Dec. 8, 2024",3384,Team Dominance by Pass Success,2688,https://leetcode.com/problems/team-dominance-by-pass-success/,,database
+"Dec. 8, 2024",3383,Minimum Runes to Add to Cast Spell,2620,https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell/,,"array, breadth-first search, depth-first search, graph, topological sort, union find"
+"Dec. 2, 2024",3374,First Letter Capitalization II,2604,https://leetcode.com/problems/first-letter-capitalization-ii/,,database
+"Nov. 30, 2024",3369,Design an Array Statistics Tracker,2647,https://leetcode.com/problems/design-an-array-statistics-tracker/,,"binary search, data stream, design, hash table, heap (priority queue), ordered set, queue"
+"Nov. 25, 2024",3368,First Letter Capitalization,2626,https://leetcode.com/problems/first-letter-capitalization/,,database
 "Nov. 24, 2024",3367,Maximize Sum of Weights after Edge Removals,2626,https://leetcode.com/problems/maximize-sum-of-weights-after-edge-removals/,Weekly Contest 425,
 "Nov. 3, 2024",3343,Count Number of Balanced Permutations,2627,https://leetcode.com/problems/count-number-of-balanced-permutations/,Weekly Contest 422,"combinatorics, dynamic programming, math, string"
 "Oct. 26, 2024",3333,Find the Original Typed String II,2634,https://leetcode.com/problems/find-the-original-typed-string-ii/,Biweekly Contest 142,"dynamic programming, prefix sum, string"
+"Oct. 8, 2024",3313,Find the Last Marked Nodes in Tree,2620,https://leetcode.com/problems/find-the-last-marked-nodes-in-tree/,,"depth-first search, tree"
 "Oct. 6, 2024",3311,Construct 2D Grid Matching Graph Layout,2645,https://leetcode.com/problems/construct-2d-grid-matching-graph-layout/,Weekly Contest 418,"array, graph, hash table, matrix"
+"Sept. 26, 2024",3299,Sum of Consecutive Subsequences,2646,https://leetcode.com/problems/sum-of-consecutive-subsequences/,,"array, dynamic programming, hash table"
 "Sept. 15, 2024",3292,Minimum Number of Valid Strings to Form Target II,2666,https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/,Weekly Contest 415,"array, binary search, dynamic programming, hash function, rolling hash, segment tree, string, string matching"
 "Aug. 18, 2024",3261,Count Substrings That Satisfy K-Constraint II,2675,https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/,Weekly Contest 411,"array, binary search, prefix sum, sliding window, string"
+"July 28, 2024",3231,Minimum Number of Increasing …Subsequence to Be Removed,2646,https://leetcode.com/problems/minimum-number-of-increasing-subsequence-to-be-removed/,,"array, binary search"
+"June 22, 2024",3188,Find Top Scoring Students II,2624,https://leetcode.com/problems/find-top-scoring-students-ii/,,database
+"May 25, 2024",3156,Employee Task Duration and Concurrent Tasks,2620,https://leetcode.com/problems/employee-task-duration-and-concurrent-tasks/,,database
 "May 12, 2024",3149,Find the Minimum Cost Array Permutation,2659,https://leetcode.com/problems/find-the-minimum-cost-array-permutation/,Weekly Contest 397,"array, bit manipulation, bitmask, dynamic programming"
+"May 11, 2024",3141,Maximum Hamming Distances,2620,https://leetcode.com/problems/maximum-hamming-distances/,,"array, bit manipulation, breadth-first search"
 "May 5, 2024",3139,Minimum Cost to Equalize Array,2677,https://leetcode.com/problems/minimum-cost-to-equalize-array/,Weekly Contest 396,"array, enumeration, greedy"
+"March 24, 2024",3088,Make String Anti-palindrome,2646,https://leetcode.com/problems/make-string-anti-palindrome/,,"counting sort, greedy, sorting, string"
+"March 2, 2024",3061,Calculate Trapping Rain Water,2632,https://leetcode.com/problems/calculate-trapping-rain-water/,,database
+"March 2, 2024",3060,User Activities within Time Bounds,2625,https://leetcode.com/problems/user-activities-within-time-bounds/,,database
+"Jan. 28, 2024",3018,Maximum Number of Removal Querie…s That Can Be Processed I,2650,https://leetcode.com/problems/maximum-number-of-removal-queries-that-can-be-processed-i/,,"array, dynamic programming"
+"Jan. 20, 2024",3009,Maximum Number of Intersections on the Chart,2646,https://leetcode.com/problems/maximum-number-of-intersections-on-the-chart/,,"array, binary indexed tree, geometry, math"
+"Jan. 6, 2024",2995,Viewers Turned Streamers,2634,https://leetcode.com/problems/viewers-turned-streamers/,,database
+"Dec. 23, 2023",2969,Minimum Number of Coins for Fruits II,2641,https://leetcode.com/problems/minimum-number-of-coins-for-fruits-ii/,,"array, dynamic programming, heap (priority queue), monotonic queue, queue"
 "Dec. 3, 2023",2954,Count the Number of Infection Sequences,2640,https://leetcode.com/problems/count-the-number-of-infection-sequences/,Weekly Contest 374,"array, combinatorics, math"
+"Nov. 25, 2023",2941,Maximum GCD-Sum of a Subarray,2637,https://leetcode.com/problems/maximum-gcd-sum-of-a-subarray/,,"array, binary search, math, number theory"
+"Nov. 11, 2023",2927,Distribute Candies Among Children III,2632,https://leetcode.com/problems/distribute-candies-among-children-iii/,,"combinatorics, math"
+"Nov. 5, 2023",2921,Maximum Profitable Triplets …With Increasing Prices II,2627,https://leetcode.com/problems/maximum-profitable-triplets-with-increasing-prices-ii/,,"array, binary indexed tree, segment tree"
 "Oct. 22, 2023",2911,Minimum Changes to Make K Semi-palindromes,2617,https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/,Weekly Contest 368,"dynamic programming, string, two pointers"
+"Aug. 19, 2023",2819,Minimum Relative Loss After Buying Chocolates,2637,https://leetcode.com/problems/minimum-relative-loss-after-buying-chocolates/,,"array, binary search, prefix sum, sorting"
 "Aug. 6, 2023",2813,Maximum Elegance of a K-Length Subsequence,2620,https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/,Weekly Contest 357,"array, greedy, hash table, heap (priority queue), sorting, stack"
+"July 30, 2023",2793,Status of Flight Tickets,2624,https://leetcode.com/problems/status-of-flight-tickets/,,database
 "July 23, 2023",2791,Count Paths That Can Form a Palindrome in a Tree,2699,https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree/,Weekly Contest 355,"bit manipulation, bitmask, depth-first search, dynamic programming, tree"
 "July 23, 2023",2790,Maximum Number of Groups With Increasing Length,2641,https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/,Weekly Contest 355,"array, binary search, greedy, math, sorting"
+"July 2, 2023",2752,Customers with Maximum Number of Transac…tions on Consecutive Days,2626,https://leetcode.com/problems/customers-with-maximum-number-of-transactions-on-consecutive-days/,,database
+"May 27, 2023",2701,Consecutive Transactions with Increasing Amounts,2602,https://leetcode.com/problems/consecutive-transactions-with-increasing-amounts/,,database
+"May 21, 2023",2691,Immutability Helper,2612,https://leetcode.com/problems/immutability-helper/,,javascript
 "April 9, 2023",2617,Minimum Number of Visited Cells in a Grid,2605,https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/,Weekly Contest 340,"array, breadth-first search, dynamic programming, heap (priority queue), matrix, monotonic stack, stack, union find"
 "March 26, 2023",2603,Collect Coins in a Tree,2672,https://leetcode.com/problems/collect-coins-in-a-tree/,Weekly Contest 338,"array, graph, topological sort, tree"
 "Jan. 8, 2023",2532,Time to Cross a Bridge,2615,https://leetcode.com/problems/time-to-cross-a-bridge/,Weekly Contest 327,"array, heap (priority queue), simulation"
 "Dec. 10, 2022",2499,Minimum Total Cost to Make Arrays Unequal,2632,https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal/,Biweekly Contest 93,"array, counting, greedy, hash table"
+"Dec. 10, 2022",2494,Merge Overlapping Events in the Same Hall,2614,https://leetcode.com/problems/merge-overlapping-events-in-the-same-hall/,,database
 "Aug. 21, 2022",2386,Find the K-Sum of an Array,2684,https://leetcode.com/problems/find-the-k-sum-of-an-array/,Weekly Contest 307,"array, heap (priority queue), sorting"
 "July 10, 2022",2338,Count the Number of Ideal Arrays,2635,https://leetcode.com/problems/count-the-number-of-ideal-arrays/,Weekly Contest 301,"combinatorics, dynamic programming, math, number theory"
 "May 28, 2022",2286,Booking Concert Tickets in Groups,2605,https://leetcode.com/problems/booking-concert-tickets-in-groups/,Biweekly Contest 79,"binary indexed tree, binary search, design, segment tree"
 "May 22, 2022",2281,Sum of Total Strength of Wizards,2655,https://leetcode.com/problems/sum-of-total-strength-of-wizards/,Weekly Contest 294,"array, monotonic stack, prefix sum, stack"
 "April 10, 2022",2234,Maximum Total Beauty of the Gardens,2601,https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/,Weekly Contest 288,"array, binary search, greedy, sorting, two pointers"
 "March 20, 2022",2213,Longest Substring of One Repeating Character,2658,https://leetcode.com/problems/longest-substring-of-one-repeating-character/,Weekly Contest 285,"array, ordered set, segment tree, string"
+"Jan. 2, 2022",2123,Minimum Operations to Remov…e Adjacent Ones in Matrix,2612,https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/,,"array, graph, matrix"
 "Oct. 30, 2021",2056,Number of Valid Move Combinations On Chessboard,2637,https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard/,Biweekly Contest 64,"array, backtracking, simulation, string"
 "Sept. 26, 2021",2019,The Score of Students Solving Math Expression,2617,https://leetcode.com/problems/the-score-of-students-solving-math-expression/,Weekly Contest 260,"array, dynamic programming, math, memoization, stack, string"
 "Sept. 19, 2021",2014,Longest Subsequence Repeated k Times,2626,https://leetcode.com/problems/longest-subsequence-repeated-k-times/,Weekly Contest 259,"backtracking, counting, enumeration, greedy, string"
+"Aug. 7, 2021",1956,Minimum Time For K Virus Variants to Spread,2600,https://leetcode.com/problems/minimum-time-for-k-virus-variants-to-spread/,,"array, binary search, enumeration, geometry, math"
 "July 25, 2021",1948,Delete Duplicate Folders in System,2666,https://leetcode.com/problems/delete-duplicate-folders-in-system/,Weekly Contest 251,"array, hash function, hash table, string, trie"
 "May 30, 2021",1883,Minimum Skips to Arrive at Meeting On Time,2646,https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/,Weekly Contest 243,"array, dynamic programming"
 "April 17, 2021",1830,Minimum Number of Operations to Make String Sorted,2663,https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/,Biweekly Contest 50,"combinatorics, math, string"
 "April 3, 2021",1815,Maximum Number of Groups Getting Fresh Donuts,2627,https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/,Biweekly Contest 49,"array, bit manipulation, bitmask, dynamic programming, memoization"
+"Jan. 17, 2021",1724,Checking Existence of Edge Length Limited Paths II,2622,https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/,,"graph, minimum spanning tree, union find"
 "Dec. 12, 2020",1687,Delivering Boxes from Storage to Ports,2639,https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/,Biweekly Contest 41,"array, dynamic programming, heap (priority queue), monotonic queue, prefix sum, queue, segment tree"
 "July 26, 2020",1531,String Compression II,2625,https://leetcode.com/problems/string-compression-ii/,Weekly Contest 199,"dynamic programming, string"
 "June 21, 2020",1489,Find Critical and Pseudo-Critical Edges …in Minimum Spanning Tree,2617,https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/,Weekly Contest 194,"graph, minimum spanning tree, sorting, strongly connected component, union find"

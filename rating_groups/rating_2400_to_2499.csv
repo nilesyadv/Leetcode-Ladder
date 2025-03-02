@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+today,3474,Lexicographically Smallest Generated String,2460,https://leetcode.com/problems/lexicographically-smallest-generated-string/,Weekly Contest 439,
+yesterday,3470,Permutations IV,2441,https://leetcode.com/problems/permutations-iv/,Biweekly Contest 151,
 "Jan. 4, 2025",3409,Longest Subsequence With Decre…asing Adjacent Difference,2481,https://leetcode.com/problems/longest-subsequence-with-decreasing-adjacent-difference/,Biweekly Contest 147,"array, dynamic programming"
 "Dec. 29, 2024",3404,Count Special Subsequences,2448,https://leetcode.com/problems/count-special-subsequences/,Weekly Contest 430,
 "Dec. 7, 2024",3378,Count Connected Components in LCM Graph,2465,https://leetcode.com/problems/count-connected-components-in-lcm-graph/,Biweekly Contest 145,"array, hash table, math, number theory, union find"
@@ -24,6 +26,7 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "June 18, 2023",2742,Painting the Walls,2447,https://leetcode.com/problems/painting-the-walls/,Weekly Contest 350,"array, dynamic programming"
 "May 28, 2023",2713,Maximum Strictly Increasing Cells in a Matrix,2414,https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/,Weekly Contest 347,"array, binary search, dynamic programming, hash table, matrix, memoization, ordered set, sorting"
 "April 30, 2023",2663,Lexicographically Smallest Beautiful String,2477,https://leetcode.com/problems/lexicographically-smallest-beautiful-string/,Weekly Contest 343,"greedy, string"
+"April 23, 2023",2647,Color the Triangle Red,2479,https://leetcode.com/problems/color-the-triangle-red/,,"array, math"
 "March 12, 2023",2589,Minimum Time to Complete All Tasks,2413,https://leetcode.com/problems/minimum-time-to-complete-all-tasks/,Weekly Contest 336,"array, binary search, greedy, sorting, stack"
 "Feb. 19, 2023",2572,Count the Number of Square-Free Subsets,2429,https://leetcode.com/problems/count-the-number-of-square-free-subsets/,Weekly Contest 333,"array, bit manipulation, bitmask, dynamic programming, math"
 "Feb. 12, 2023",2565,Subsequence With the Minimum Score,2459,https://leetcode.com/problems/subsequence-with-the-minimum-score/,Weekly Contest 332,"binary search, string, two pointers"
@@ -31,16 +34,26 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Jan. 15, 2023",2538,Difference Between Maximum and Minimum Price Sum,2420,https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/,Weekly Contest 328,"array, depth-first search, dynamic programming, tree"
 "Dec. 25, 2022",2518,Number of Great Partitions,2433,https://leetcode.com/problems/number-of-great-partitions/,Weekly Contest 325,"array, dynamic programming"
 "Dec. 4, 2022",2493,Divide Nodes Into the Maximum Number of Groups,2440,https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/,Weekly Contest 322,"breadth-first search, graph, union find"
+"Nov. 20, 2022",2474,Customers With Strictly Increasing Purchases,2477,https://leetcode.com/problems/customers-with-strictly-increasing-purchases/,,database
 "Nov. 6, 2022",2463,Minimum Total Distance Traveled,2488,https://leetcode.com/problems/minimum-total-distance-traveled/,Weekly Contest 318,"array, dynamic programming, sorting"
 "Oct. 15, 2022",2440,Create Components With Same Value,2481,https://leetcode.com/problems/create-components-with-same-value/,Biweekly Contest 89,"array, depth-first search, enumeration, math, tree"
 "Sept. 25, 2022",2421,Number of Good Paths,2479,https://leetcode.com/problems/number-of-good-paths/,Weekly Contest 312,"array, graph, hash table, sorting, tree, union find"
+"Sept. 11, 2022",2403,Minimum Time to Kill All Monsters,2486,https://leetcode.com/problems/minimum-time-to-kill-all-monsters/,,"array, bit manipulation, bitmask, dynamic programming"
 "June 26, 2022",2322,Minimum Score After Removals on a Tree,2435,https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/,Weekly Contest 299,"array, bit manipulation, depth-first search, tree"
+"June 25, 2022",2313,Minimum Flips in Binary Tree to Get Result,2409,https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/,,"binary tree, depth-first search, dynamic programming, tree"
 "June 19, 2022",2312,Selling Pieces of Wood,2402,https://leetcode.com/problems/selling-pieces-of-wood/,Weekly Contest 298,"array, dynamic programming, memoization"
+"May 8, 2022",2263,Make Array Non-decreasing or Non-increasing,2406,https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing/,,"dynamic programming, greedy"
+"April 30, 2022",2254,Design Video Sharing Platform,2406,https://leetcode.com/problems/design-video-sharing-platform/,,"design, hash table, ordered set, stack"
+"April 30, 2022",2253,Dynamic Unpivoting of a Table,2474,https://leetcode.com/problems/dynamic-unpivoting-of-a-table/,,database
+"April 30, 2022",2252,Dynamic Pivoting of a Table,2490,https://leetcode.com/problems/dynamic-pivoting-of-a-table/,,database
 "March 13, 2022",2203,Minimum Weighted Subgraph With the Required Paths,2414,https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/,Weekly Contest 284,"graph, shortest path"
+"March 13, 2022",2199,Finding the Topic of Each Post,2448,https://leetcode.com/problems/finding-the-topic-of-each-post/,,database
 "Feb. 13, 2022",2172,Maximum AND Sum of Array,2443,https://leetcode.com/problems/maximum-and-sum-of-array/,Weekly Contest 280,"array, bit manipulation, bitmask, dynamic programming"
 "Jan. 30, 2022",2157,Groups of Strings,2489,https://leetcode.com/problems/groups-of-strings/,Weekly Contest 278,"bit manipulation, string, union find"
 "Jan. 8, 2022",2132,Stamping the Grid,2440,https://leetcode.com/problems/stamping-the-grid/,Biweekly Contest 69,"array, greedy, matrix, prefix sum"
 "Jan. 2, 2022",2127,Maximum Employees to Be Invited to a Meeting,2490,https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/,Weekly Contest 274,"depth-first search, graph, topological sort"
+"Dec. 26, 2021",2118,Build the Equation,2493,https://leetcode.com/problems/build-the-equation/,,database
+"Sept. 18, 2021",2005,Subtree Removal Game with Fibonacci Tree,2427,https://leetcode.com/problems/subtree-removal-game-with-fibonacci-tree/,,"binary tree, dynamic programming, game theory, math, tree"
 "Sept. 12, 2021",2003,Smallest Missing Genetic Value in Each Subtree,2461,https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/,Weekly Contest 258,"depth-first search, dynamic programming, tree, union find"
 "Sept. 5, 2021",1998,GCD Sort of an Array,2459,https://leetcode.com/problems/gcd-sort-of-an-array/,Weekly Contest 257,"array, math, number theory, sorting, union find"
 "Aug. 29, 2021",1987,Number of Unique Good Subsequences,2461,https://leetcode.com/problems/number-of-unique-good-subsequences/,Weekly Contest 256,"dynamic programming, string"
@@ -71,3 +84,4 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "June 25, 2017",631,Design Excel Sum Formula,2401,https://leetcode.com/problems/design-excel-sum-formula/,Weekly Contest 38,"array, design, graph, matrix, topological sort"
 "June 25, 2017",630,Course Schedule III,2487,https://leetcode.com/problems/course-schedule-iii/,Weekly Contest 38,"array, greedy, heap (priority queue), sorting"
 "March 26, 2017",546,Remove Boxes,2450,https://leetcode.com/problems/remove-boxes/,Weekly Contest 25,"array, dynamic programming, memoization"
+"Oct. 16, 2016",420,Strong Password Checker,2463,https://leetcode.com/problems/strong-password-checker/,,"greedy, heap (priority queue), string"
