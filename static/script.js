@@ -697,8 +697,7 @@ function addLeetCodeUserSearch() {
     `;
     
     // Insert before the theme switcher
-    const themeSwitcherLi = document.querySelector('#themeSwitcher').parentElement;
-    navbarRight.insertBefore(userSearchLi, themeSwitcherLi);
+    navbarRight.appendChild(userSearchLi);
     
     // Set up event handler
     document.getElementById('leetcodeUserForm').addEventListener('submit', function(e) {
