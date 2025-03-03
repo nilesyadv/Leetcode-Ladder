@@ -252,7 +252,7 @@ def main():
             logger.info("No previous scrape information found. Will scrape all available data.")
 
         driver = setup_driver()
-        url = "https://clist.by/problems/?search=contest%3AWeekly+Contest+%7C%7C+Biweekly+Contest"
+        url = "https://clist.by/problems/?search=resource%3ALeetcode"
 
         logger.info("Opening webpage...")
         driver.get(url)

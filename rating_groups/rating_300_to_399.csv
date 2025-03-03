@@ -5,7 +5,9 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "July 11, 2021",1929,Concatenation of Array,337,https://leetcode.com/problems/concatenation-of-array/,Weekly Contest 249,"array, simulation"
 "June 27, 2021",1913,Maximum Product Difference Between Two Pairs,348,https://leetcode.com/problems/maximum-product-difference-between-two-pairs/,Weekly Contest 247,"array, sorting"
 "March 21, 2021",1800,Maximum Ascending Subarray Sum,386,https://leetcode.com/problems/maximum-ascending-subarray-sum/,Weekly Contest 233,array
+"Feb. 14, 2021",1757,Recyclable and Low Fat Products,395,https://leetcode.com/problems/recyclable-and-low-fat-products/,,database
 "Jan. 23, 2021",1732,Find the Highest Altitude,360,https://leetcode.com/problems/find-the-highest-altitude/,Biweekly Contest 44,"array, prefix sum"
+"Dec. 12, 2020",1683,Invalid Tweets,389,https://leetcode.com/problems/invalid-tweets/,,database
 "Nov. 29, 2020",1672,Richest Customer Wealth,363,https://leetcode.com/problems/richest-customer-wealth/,Weekly Contest 217,"array, matrix"
 "Sept. 5, 2020",1572,Matrix Diagonal Sum,399,https://leetcode.com/problems/matrix-diagonal-sum/,Biweekly Contest 34,"array, matrix"
 "July 19, 2020",1518,Water Bottles,393,https://leetcode.com/problems/water-bottles/,Weekly Contest 198,"math, simulation"

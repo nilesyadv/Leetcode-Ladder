@@ -5,6 +5,61 @@ let currentSort = { field: 'Problem Number', order: 'desc' }; // Changed default
 let showTags = localStorage.getItem('showTags') !== 'false';
 let searchTimer = null;
 
+// Add this style for solved problems highlighting
+const style = document.createElement('style');
+style.textContent = `
+    .solved-problem {
+        background-color: rgba(25, 135, 84, 0.1) !important;
+    }
+    
+    .solved-problem .problem-link {
+        text-decoration: line-through;
+        color: #198754;
+    }
+    
+    .solved-counter {
+        vertical-align: middle;
+    }
+    
+    .toggle-status-btn {
+        min-width: 80px;
+    }
+    
+    /* Custom rating badge colors */
+    .bg-purple {
+        background-color: #6f42c1 !important;
+    }
+    
+    .bg-orange {
+        background-color: #fd7e14 !important;
+    }
+    
+    /* Add rating badge style */
+    .rating-badge {
+        display: inline-block;
+        color: #fff;
+        border-radius: 0.25rem;
+        padding: 0.25em 0.5em;
+        font-size: 0.875em;
+        font-weight: 700;
+        text-align: center;
+    }
+`;
+document.head.appendChild(style);
+
+// Add this function for the rating badge color class
+function getRatingColorClass(rating) {
+    if (rating < 1200) return 'bg-secondary'; // Newbie
+    if (rating < 1400) return 'bg-success';   // Pupil
+    if (rating < 1600) return 'bg-info';      // Specialist
+    if (rating < 1900) return 'bg-primary';   // Expert
+    if (rating < 2100) return 'bg-purple';    // Candidate Master
+    if (rating < 2400) return 'bg-warning';   // Master
+    if (rating < 2600) return 'bg-orange';    // International Master
+    if (rating < 3000) return 'bg-danger';    // Grandmaster
+    return 'bg-danger';                       // Legendary Grandmaster
+}
+
 // Global functions (moved outside DOMContentLoaded)
 function createTable(data) {
     if (!Array.isArray(data) || data.length === 0) {
@@ -39,32 +94,26 @@ function createTable(data) {
             `<span class="tag-badge">${tag.trim()}</span>`).join(' ') : '';
         
         const rating = parseInt(row['Problem Rating']);
-        const ratingColor = getRatingColor(rating);
-        const ratingLabel = getRatingLabel(rating);
-            
+        const ratingClass = getRatingColorClass(rating);
+        
         html += `
             <tr class="${rowClass}" data-problem-id="${problemId}">
-                <td>${row['Date'] || ''}</td>
+                <td>${row.Date || ''}</td>
                 <td>${problemId}</td>
                 <td>
-                    <a href="${row['Problem Link']}" class="problem-link" target="_blank">
+                    <a href="${row['Problem Link'] || `https://leetcode.com/problems/${row.titleSlug || ''}`}" 
+                       target="_blank" class="problem-link">
                         ${row['Problem Name']}
                     </a>
                 </td>
-                <td class="rating-cell">
-                    <span class="rating-badge" style="color: ${ratingColor}; border-color: ${ratingColor};"
-                        data-bs-toggle="tooltip" title="${ratingLabel}">
-                        ${rating}
-                    </span>
-                </td>
+                <td><span class="rating-badge ${ratingClass}">${row['Problem Rating'] || 'N/A'}</span></td>
                 <td>${row['Contest Name'] || ''}</td>
                 <td style="${showTags ? '' : 'display: none;'}">${tags}</td>
                 <td>
-                    <span class="status-badge ${isSolved ? 'solved' : 'unsolved'}">
-                        ${isSolved ? 
-                            '<i class="bi bi-check2-circle"></i> Solved' : 
-                            '<i class="bi bi-circle"></i> Not Solved'}
-                    </span>
+                    <button class="btn btn-sm ${isSolved ? 'btn-success' : 'btn-outline-success'} toggle-status-btn"
+                            onclick="toggleProblemStatus(${problemId}, this)">
+                        ${isSolved ? 'Solved' : 'Unsolved'}
+                    </button>
                 </td>
             </tr>
         `;
@@ -75,14 +124,6 @@ function createTable(data) {
             </table>
         </div>
     `;
-    
-    // Initialize tooltips after table is created
-    setTimeout(() => {
-        const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-        tooltips.forEach(tooltip => {
-            new bootstrap.Tooltip(tooltip);
-        });
-    }, 100);
     
     return html;
 }
@@ -141,7 +182,11 @@ function loadProblems() {
             }
             
             problemStats.textContent = `${data.count} problems found`;
-            problemTable.innerHTML = createTable(data.problems);
+            const tableHtml = createTable(data.problems);
+            problemTable.innerHTML = tableHtml;
+            
+            // Add solved counter to the header
+            addSolvedCounter(data.problems);
             
             // Set up sort event listeners
             const thElements = problemTable.querySelectorAll('th[data-sort]');
@@ -172,6 +217,46 @@ function loadProblems() {
         });
 }
 
+function addSolvedCounter(problems) {
+    const problemsHeader = document.querySelector('.card-header');
+    if (!problemsHeader) return;
+    
+    // Get fresh data from localStorage
+    const solvedProblems = JSON.parse(localStorage.getItem('solvedProblems') || '{}');
+    const totalProblems = problems.length;
+    
+    // Count only problems from the CURRENT dataset that are marked as solved
+    const solvedInCurrentSet = problems.reduce((count, problem) => {
+        if (solvedProblems[problem['Problem Number']] === true) {
+            return count + 1;
+        }
+        return count;
+    }, 0);
+    
+    // Remove existing counter if any
+    const existingCounter = problemsHeader.querySelector('.solved-counter');
+    if (existingCounter) existingCounter.remove();
+    
+    // Create the counter element
+    const counterElement = document.createElement('div');
+    counterElement.className = 'solved-counter ms-2 d-inline-block';
+    counterElement.innerHTML = `
+        <span class="badge bg-success">
+            ${solvedInCurrentSet} / ${totalProblems} solved
+        </span>
+    `;
+    
+    // Add it to the header
+    const headerTitle = problemsHeader.querySelector('h5');
+    if (headerTitle) {
+        headerTitle.appendChild(counterElement);
+    } else {
+        problemsHeader.appendChild(counterElement);
+    }
+    
+    console.log(`Updated counter: ${solvedInCurrentSet} / ${totalProblems}`);
+}
+
 function toggleSolved(e) {
     const problemId = e.target.dataset.problemId;
     const solvedProblems = JSON.parse(localStorage.getItem('solvedProblems') || '{}');
@@ -186,87 +271,6 @@ function toggleSolved(e) {
     e.target.textContent = solvedProblems[problemId] ? 'Solved' : 'Not Solved';
 }
 
-// Move createTable outside of DOMContentLoaded to make it globally accessible
-function createTable(data) {
-    if (!Array.isArray(data) || data.length === 0) {
-        return `<div class="alert alert-info">No problems found matching your criteria.</div>`;
-    }
-    
-    // Get solved problems from localStorage
-    const solvedProblems = JSON.parse(localStorage.getItem('solvedProblems') || '{}');
-    
-    let html = `
-        <div class="table-responsive">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th data-sort="Date">Date</th>
-                        <th data-sort="Problem Number">Number</th>
-                        <th data-sort="Problem Name">Problem Name</th>
-                        <th data-sort="Problem Rating">Rating</th>
-                        <th data-sort="Contest Name">Contest</th>
-                        <th style="${showTags ? '' : 'display: none;'}">Tags</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-    `;
-    
-    data.forEach(row => {
-        const problemId = row['Problem Number'];
-        const isSolved = solvedProblems[problemId] === true;
-        const rowClass = isSolved ? 'solved-problem' : '';
-        const tags = row.Tags ? row.Tags.split(',').map(tag => 
-            `<span class="tag-badge">${tag.trim()}</span>`).join(' ') : '';
-        
-        const rating = parseInt(row['Problem Rating']);
-        const ratingColor = getRatingColor(rating);
-        const ratingLabel = getRatingLabel(rating);
-            
-        html += `
-            <tr class="${rowClass}" data-problem-id="${problemId}">
-                <td>${row['Date'] || ''}</td>
-                <td>${problemId}</td>
-                <td>
-                    <a href="${row['Problem Link']}" class="problem-link" target="_blank">
-                        ${row['Problem Name']}
-                    </a>
-                </td>
-                <td class="rating-cell">
-                    <span class="rating-badge" style="color: ${ratingColor}; border-color: ${ratingColor};"
-                        data-bs-toggle="tooltip" title="${ratingLabel}">
-                        ${rating}
-                    </span>
-                </td>
-                <td>${row['Contest Name'] || ''}</td>
-                <td style="${showTags ? '' : 'display: none;'}">${tags}</td>
-                <td>
-                    <span class="status-badge ${isSolved ? 'solved' : 'unsolved'}">
-                        ${isSolved ? 
-                            '<i class="bi bi-check2-circle"></i> Solved' : 
-                            '<i class="bi bi-circle"></i> Not Solved'}
-                    </span>
-                </td>
-            </tr>
-        `;
-    });
-    
-    html += `
-                </tbody>
-            </table>
-        </div>
-    `;
-    
-    // Initialize tooltips after table is created
-    setTimeout(() => {
-        const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-        tooltips.forEach(tooltip => {
-            new bootstrap.Tooltip(tooltip);
-        });
-    }, 100);
-    
-    return html;
-}
 
 // Other global functions
 
@@ -456,6 +460,42 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Update button states based on current sort
         updateSortButtons();
+
+        // Add the clear solved button
+        const controlsArea = document.querySelector('.card-header .float-end');
+        if (controlsArea) {
+            const clearBtn = document.createElement('button');
+            clearBtn.className = 'btn btn-sm btn-outline-danger ms-2';
+            clearBtn.innerHTML = '<i class="bi bi-trash"></i> Reset Progress';
+            clearBtn.onclick = confirmClearSolved;
+            
+            controlsArea.appendChild(clearBtn);
+        }
+    }
+
+    function confirmClearSolved() {
+        if (confirm('Are you sure you want to reset all your solved problem progress? This cannot be undone.')) {
+            // Clear localStorage
+            localStorage.setItem('solvedProblems', '{}');
+            
+            // Update UI - remove solved class from all rows
+            document.querySelectorAll('.solved-problem').forEach(row => {
+                row.classList.remove('solved-problem');
+                
+                // Reset the button
+                const button = row.querySelector('.toggle-status-btn');
+                if (button) {
+                    button.classList.replace('btn-success', 'btn-outline-success');
+                    button.textContent = 'Unsolved';
+                }
+            });
+            
+            // Update the counter
+            updateSolvedCountDisplay();
+            
+            // Show confirmation
+            alert('Progress has been reset.');
+        }
     }
 
     // Call this right after the DOMContentLoaded fires
@@ -794,9 +834,9 @@ function displayUserProfile(data) {
     // User avatar
     const avatarUrl = user.profile.userAvatar || 'https://assets.leetcode.com/users/default_avatar.jpg';
     
-    // Create a more compact and cleaner profile card HTML
+    // Create a more compact and cleaner profile card HTML - REMOVED CLOSE BUTTON
     profileCard.innerHTML = `
-        <div class="card-header d-flex justify-content-between align-items-center py-2">
+        <div class="card-header d-flex align-items-center py-2">
             <div class="d-flex align-items-center">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="me-2">
                     <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.661 1.837-.661s1.357.195 1.824.661l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.055 5.055 0 0 0-3.831-1.427c-1.459 0-2.781.538-3.786 1.543l-4.329 4.398C2.087 11.793 1.5 13.164 1.5 14.634c0 1.47.545 2.842 1.59 3.888l4.344 4.376c1.005 1.005 2.327 1.543 3.786 1.543 1.459 0 2.781-.538 3.786-1.543l2.697-2.606c.515-.515.498-1.366-.037-1.901-.534-.535-1.387-.552-1.902-.038z"/>
@@ -804,7 +844,6 @@ function displayUserProfile(data) {
                 </svg>
                 <span class="mb-0 fw-bold">LeetCode Profile: ${user.username}</span>
             </div>
-            <button type="button" class="btn-close" aria-label="Close" id="closeProfileCard"></button>
         </div>
         <div class="card-body py-3">
             <div class="d-flex align-items-center mb-3">
@@ -837,7 +876,6 @@ function displayUserProfile(data) {
                 <a href="https://leetcode.com/${user.username}" target="_blank" class="btn btn-sm btn-outline-primary">
                     <i class="bi bi-box-arrow-up-right"></i> View Profile
                 </a>
-                <div id="syncStatusContainer" class="mt-2"></div>
             </div>
         </div>
     `;
@@ -861,13 +899,7 @@ function displayUserProfile(data) {
         document.head.appendChild(style);
     }
     
-    // Add event handler for close button
-    document.getElementById('closeProfileCard').addEventListener('click', () => {
-        profileCard.remove();
-    });
-    
-    // Automatically sync solved problems whenever a profile is loaded
-    syncSolvedProblems(user.username);
+    // Remove the close button event handler - no longer needed
     
     // Add personalized recommendations if rating is available
     if (contestRating) {
@@ -952,131 +984,25 @@ async function autoLoadRecommendedProblems(ratingRange, username = null, userRat
     }, 500);
 }
 
-async function syncSolvedProblems(username) {
-    try {
-        // Display syncing status
-        const syncStatus = document.createElement('div');
-        syncStatus.id = 'syncStatus';
-        syncStatus.className = 'sync-status';
-        syncStatus.innerHTML = `
-            <div class="spinner-border spinner-border-sm text-primary" role="status"></div>
-            <span class="ms-2">Syncing solved problems...</span>
+// Replace the syncSolvedProblems function with this simplified version
+function syncSolvedProblems(username) {
+    // Instead of fetching data, just show a message about manual tracking
+    const syncStatusContainer = document.getElementById('syncStatusContainer');
+    if (syncStatusContainer) {
+        syncStatusContainer.innerHTML = `
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                <strong>Manual Tracking Enabled</strong>
+                <p>Problems are tracked manually. Mark solved problems using the "Solved" button on each problem.</p>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
         `;
-        
-        const syncContainer = document.getElementById('syncStatusContainer');
-        syncContainer.appendChild(syncStatus);
-        
-        // Step 1: Get the mapping from problem names to problem numbers
-        const mappingResponse = await fetch('/api/problem-mapping');
-        if (!mappingResponse.ok) {
-            try {
-                const errorData = await mappingResponse.json();
-                throw new Error(errorData.error || `Failed with status: ${mappingResponse.status}`);
-            } catch (jsonError) {
-                throw new Error(`Failed to load problem mapping (Status ${mappingResponse.status})`);
-            }
-        }
-        
-        const mappingData = await mappingResponse.json();
-        if (!mappingData.mapping) {
-            throw new Error('Invalid mapping data format returned from server');
-        }
-        
-        const problemMap = mappingData.mapping;
-        
-        // Step 2: Get the user's solved problems from LeetCode
-        const solvedResponse = await fetch(`/api/leetcode/solved/${username}`);
-        if (!solvedResponse.ok) {
-            throw new Error('Failed to fetch solved problems');
-        }
-        
-        const solvedData = await solvedResponse.json();
-        
-        if (!solvedData.recentAcSubmissionList) {
-            throw new Error('No solved problems data available');
-        }
-        
-        // Step 3: Process the solved problems
-        const solvedProblems = {};
-        let syncedCount = 0;
-        
-        solvedData.recentAcSubmissionList.forEach(submission => {
-            const problemTitle = submission.title;
-            const problemId = problemMap[problemTitle];
-            
-            if (problemId) {
-                solvedProblems[problemId] = true;
-                syncedCount++;
-            }
-        });
-        
-        // Step 4: Save the solved problems to localStorage
-        localStorage.setItem('solvedProblems', JSON.stringify(solvedProblems));
-        localStorage.setItem('lastSyncUsername', username);
-        localStorage.setItem('lastSyncTime', new Date().toISOString());
-        
-        // Step 5: Update all problems in the current view
-        updateAllProblemStatus();
-        
-        // Step 6: Show success message
-        syncStatus.className = 'sync-status success';
-        syncStatus.innerHTML = `
-            <i class="bi bi-check-circle-fill text-success"></i>
-            <span class="ms-2">${syncedCount} problems synced</span>
-        `;
-        
-        // Auto-remove the message after 5 seconds
-        setTimeout(() => {
-            if (syncStatus && syncStatus.parentNode) {
-                syncStatus.remove();
-            }
-        }, 5000);
-        
-    } catch (error) {
-        console.error('Error syncing solved problems:', error);
-        
-        const syncStatus = document.getElementById('syncStatus') || document.createElement('div');
-        syncStatus.id = 'syncStatus';
-        syncStatus.className = 'sync-status error';
-        syncStatus.innerHTML = `
-            <i class="bi bi-exclamation-triangle-fill text-danger"></i>
-            <span class="ms-2">Error: ${error.message}</span>
-        `;
-        
-        const syncContainer = document.getElementById('syncStatusContainer');
-        if (!document.getElementById('syncStatus')) {
-            syncContainer.appendChild(syncStatus);
-        }
     }
 }
 
-// Update the status of all problems currently displayed
+// 3. Remove the updateAllProblemStatus function since it was related to syncing
+// Or simplify it if you want to keep it for other purposes
 function updateAllProblemStatus() {
-    const solvedProblems = JSON.parse(localStorage.getItem('solvedProblems') || '{}');
-    const problemRows = document.querySelectorAll('tr[data-problem-id]');
-    
-    problemRows.forEach(row => {
-        const problemId = row.dataset.problemId;
-        const isSolved = solvedProblems[problemId] === true;
-        
-        // Update row class
-        row.classList.toggle('solved-problem', isSolved);
-        
-        // Update button
-        const solvedBtn = row.querySelector('.toggle-solved');
-        if (solvedBtn) {
-            solvedBtn.classList.toggle('btn-outline-secondary', !isSolved);
-            solvedBtn.classList.toggle('btn-success', isSolved);
-            solvedBtn.textContent = isSolved ? 'Solved' : 'Not Solved';
-            
-            // Add the "verified" icon for synced problems
-            if (isSolved) {
-                solvedBtn.innerHTML = `<i class="bi bi-check2-circle me-1"></i>Solved`;
-            } else {
-                solvedBtn.textContent = 'Not Solved';
-            }
-        }
-    });
+    // This can be left empty or removed entirely
 }
 
 // Add a function to create a rating distribution bar
@@ -1269,4 +1195,71 @@ function centerNavbarSearchBar() {
         }
     `;
     document.head.appendChild(style);
+}
+
+function toggleProblemStatus(problemId, button) {
+    console.log(`Toggling problem ${problemId}`);
+    
+    // Get current solved problems
+    const solvedProblems = JSON.parse(localStorage.getItem('solvedProblems') || '{}');
+    
+    // Toggle the problem's solved status
+    const isSolved = !solvedProblems[problemId];
+    
+    if (isSolved) {
+        solvedProblems[problemId] = true;
+        button.classList.replace('btn-outline-success', 'btn-success');
+        button.textContent = 'Solved';
+        console.log(`Problem ${problemId} marked as solved`);
+    } else {
+        delete solvedProblems[problemId];
+        button.classList.replace('btn-success', 'btn-outline-success');
+        button.textContent = 'Unsolved';
+        console.log(`Problem ${problemId} marked as unsolved`);
+    }
+    
+    // Update the row's appearance
+    const row = button.closest('tr');
+    if (row) {
+        row.classList.toggle('solved-problem', isSolved);
+    }
+    
+    // Save to localStorage
+    localStorage.setItem('solvedProblems', JSON.stringify(solvedProblems));
+    console.log('Updated localStorage');
+    
+    // Count total solved problems (for debugging)
+    const totalSolved = Object.keys(solvedProblems).filter(key => solvedProblems[key]).length;
+    console.log(`Total solved problems: ${totalSolved}`);
+    
+    // Update solved count if displayed
+    updateSolvedCountDisplay();
+}
+
+function updateSolvedCountDisplay() {
+    const solvedCountSpan = document.querySelector('.solved-counter .badge');
+    if (!solvedCountSpan) return;
+    
+    // Get fresh data from localStorage
+    const solvedProblems = JSON.parse(localStorage.getItem('solvedProblems') || '{}');
+    
+    // Get the total from the display
+    const displayText = solvedCountSpan.textContent;
+    const totalMatch = displayText.match(/\/\s*(\d+)/);
+    if (!totalMatch) return;
+    
+    const total = totalMatch[1];
+    
+    // Count solved problems but only for the visible table
+    const visibleProblemIds = [];
+    document.querySelectorAll('tr[data-problem-id]').forEach(row => {
+        visibleProblemIds.push(row.dataset.problemId);
+    });
+    
+    // Count only problems that are both in the current view and marked as solved
+    const solvedCount = visibleProblemIds.filter(id => solvedProblems[id] === true).length;
+    
+    // Update the display
+    solvedCountSpan.textContent = `${solvedCount} / ${total} solved`;
+    console.log(`Counter updated to: ${solvedCount} / ${total}`);
 }

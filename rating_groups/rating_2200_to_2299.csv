@@ -1,5 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-"Feb. 23, 2025",3463,Check If Digits Are Equal in S…tring After Operations II,2296,https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-ii/,Weekly Contest 438,"combinatorics, math, number theory, string"
+today,3473,Sum of K Subarrays With Length at Least M,2200,https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/,Weekly Contest 439,
+"Feb. 23, 2025",3463,Check If Digits Are Equal in S…tring After Operations II,2298,https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-ii/,Weekly Contest 438,"combinatorics, math, number theory, string"
 "Feb. 16, 2025",3458,Select K Disjoint Special Substrings,2238,https://leetcode.com/problems/select-k-disjoint-special-substrings/,Weekly Contest 437,"dynamic programming, greedy, hash table, sorting, string"
 "Feb. 15, 2025",3455,Shortest Matching Substring,2290,https://leetcode.com/problems/shortest-matching-substring/,Biweekly Contest 150,"binary search, string, string matching, two pointers"
 "Jan. 12, 2025",3419,Minimize the Maximum Edge Weight of Graph,2249,https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph/,Weekly Contest 432,"binary search, breadth-first search, depth-first search, graph, shortest path"
@@ -47,12 +48,14 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "Sept. 5, 2021",1997,First Day Where You Have Been in All the Rooms,2279,https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/,Weekly Contest 257,"array, dynamic programming"
 "July 11, 2021",1931,Painting a Grid With Three Different Colors,2203,https://leetcode.com/problems/painting-a-grid-with-three-different-colors/,Weekly Contest 249,dynamic programming
 "June 27, 2021",1915,Number of Wonderful Substrings,2259,https://leetcode.com/problems/number-of-wonderful-substrings/,Weekly Contest 247,"bit manipulation, hash table, prefix sum, string"
+"June 12, 2021",1892,Page Recommendations II,2217,https://leetcode.com/problems/page-recommendations-ii/,,database
 "June 6, 2021",1889,Minimum Space Wasted From Packaging,2240,https://leetcode.com/problems/minimum-space-wasted-from-packaging/,Weekly Contest 244,"array, binary search, prefix sum, sorting"
 "Feb. 21, 2021",1771,Maximize Palindrome Length From Subsequences,2212,https://leetcode.com/problems/maximize-palindrome-length-from-subsequences/,Weekly Contest 229,"dynamic programming, string"
 "Feb. 20, 2021",1766,Tree of Coprimes,2247,https://leetcode.com/problems/tree-of-coprimes/,Biweekly Contest 46,"array, depth-first search, math, number theory, tree"
 "Jan. 24, 2021",1739,Building Boxes,2233,https://leetcode.com/problems/building-boxes/,Weekly Contest 225,"binary search, greedy, math"
 "Dec. 13, 2020",1691,Maximum Height by Stacking Cuboids,2202,https://leetcode.com/problems/maximum-height-by-stacking-cuboids/,Weekly Contest 219,"array, dynamic programming, sorting"
 "Nov. 8, 2020",1649,Create Sorted Array through Instructions,2229,https://leetcode.com/problems/create-sorted-array-through-instructions/,Weekly Contest 214,"array, binary indexed tree, binary search, divide and conquer, merge sort, ordered set, segment tree"
+"Nov. 8, 2020",1645,Hopper Company Queries II,2217,https://leetcode.com/problems/hopper-company-queries-ii/,,database
 "Oct. 18, 2020",1627,Graph Connectivity With Threshold,2250,https://leetcode.com/problems/graph-connectivity-with-threshold/,Weekly Contest 211,"array, math, number theory, union find"
 "Oct. 3, 2020",1606,Find Servers That Handled Most Number of Requests,2285,https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/,Biweekly Contest 36,"array, greedy, heap (priority queue), ordered set"
 "Aug. 30, 2020",1568,Minimum Number of Days to Disconnect Island,2225,https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/,Weekly Contest 204,"array, breadth-first search, depth-first search, matrix, strongly connected component"

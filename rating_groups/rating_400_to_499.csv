@@ -31,6 +31,7 @@ Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
 "May 30, 2020",1460,Make Two Arrays Equal by Reversing Subarrays,481,https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/,Biweekly Contest 27,"array, hash table, sorting"
 "May 16, 2020",1446,Consecutive Characters,475,https://leetcode.com/problems/consecutive-characters/,Biweekly Contest 26,string
 "Dec. 22, 2019",1295,Find Numbers with Even Number of Digits,487,https://leetcode.com/problems/find-numbers-with-even-number-of-digits/,Weekly Contest 168,array
+"Sept. 1, 2019",1173,Immediate Food Delivery I,487,https://leetcode.com/problems/immediate-food-delivery-i/,,database
 "July 27, 2019",1133,Largest Unique Number,484,https://leetcode.com/problems/largest-unique-number/,Biweekly Contest 5,"array, hash table, sorting"
 "June 15, 2019",1085,Sum of Digits in the Minimum Number,400,https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/,Biweekly Contest 2,"array, math"
 "June 1, 2019",1064,Fixed Point,461,https://leetcode.com/problems/fixed-point/,Biweekly Contest 1,"array, binary search"
