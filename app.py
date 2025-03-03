@@ -238,94 +238,94 @@ def leetcode_user_profile(username):
         app.logger.error(f"Unexpected error: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
-@app.route('/api/leetcode/solved/<username>')
-def leetcode_solved_problems(username):
-    app.logger.info(f"Fetching solved problems for username: {username}")
+# @app.route('/api/leetcode/solved/<username>')
+# def leetcode_solved_problems(username):
+#     app.logger.info(f"Fetching solved problems for username: {username}")
     
-    query = """
-    query userSolvedProblems($username: String!) {
-        matchedUser(username: $username) {
-            submitStats: submitStatsGlobal {
-                acSubmissionNum {
-                    difficulty
-                    count
-                }
-            }
-        }
-        recentAcSubmissionList(username: $username, limit: 2000) {
-            id
-            title
-            titleSlug
-        }
-        allQuestionsCount {
-            difficulty
-            count
-        }
-    }"""
+#     query = """
+#     query userSolvedProblems($username: String!) {
+#         matchedUser(username: $username) {
+#             submitStats: submitStatsGlobal {
+#                 acSubmissionNum {
+#                     difficulty
+#                     count
+#                 }
+#             }
+#         }
+#         recentAcSubmissionList(username: $username, limit: 2000) {
+#             id
+#             title
+#             titleSlug
+#         }
+#         allQuestionsCount {
+#             difficulty
+#             count
+#         }
+#     }"""
     
-    try:
-        app.logger.info("Sending request to LeetCode GraphQL API")
-        response = requests.post(
-            'https://leetcode.com/graphql',
-            json={
-                'query': query,
-                'variables': {'username': username}
-            },
-            headers={
-                'Content-Type': 'application/json',
-                'Referer': 'https://leetcode.com',
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
-            },
-            timeout=15
-        )
+#     try:
+#         app.logger.info("Sending request to LeetCode GraphQL API")
+#         response = requests.post(
+#             'https://leetcode.com/graphql',
+#             json={
+#                 'query': query,
+#                 'variables': {'username': username}
+#             },
+#             headers={
+#                 'Content-Type': 'application/json',
+#                 'Referer': 'https://leetcode.com',
+#                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+#             },
+#             timeout=15
+#         )
         
-        app.logger.info(f"Response status: {response.status_code}")
+#         app.logger.info(f"Response status: {response.status_code}")
         
-        if response.status_code == 200:
-            data = response.json()
-            if 'errors' in data:
-                app.logger.error(f"LeetCode API returned error: {data['errors'][0]['message']}")
-                return jsonify({'error': data['errors'][0]['message']}), 404
+#         if response.status_code == 200:
+#             data = response.json()
+#             if 'errors' in data:
+#                 app.logger.error(f"LeetCode API returned error: {data['errors'][0]['message']}")
+#                 return jsonify({'error': data['errors'][0]['message']}), 404
                 
-            app.logger.info(f"Successfully retrieved solved problems for {username}")
-            return jsonify(data['data'])
-        else:
-            app.logger.error(f"LeetCode API returned status {response.status_code}")
-            return jsonify({'error': f"LeetCode API returned status {response.status_code}"}), response.status_code
+#             app.logger.info(f"Successfully retrieved solved problems for {username}")
+#             return jsonify(data['data'])
+#         else:
+#             app.logger.error(f"LeetCode API returned status {response.status_code}")
+#             return jsonify({'error': f"LeetCode API returned status {response.status_code}"}), response.status_code
             
-    except requests.exceptions.Timeout:
-        app.logger.error("Timeout when connecting to LeetCode API")
-        return jsonify({'error': "Timeout when connecting to LeetCode API. Please try again later."}), 504
-    except requests.exceptions.ConnectionError:
-        app.logger.error("Connection error when connecting to LeetCode API")
-        return jsonify({'error': "Failed to connect to LeetCode API. Please check your internet connection."}), 503
-    except Exception as e:
-        app.logger.error(f"Unexpected error: {str(e)}")
-        return jsonify({'error': str(e)}), 500
+#     except requests.exceptions.Timeout:
+#         app.logger.error("Timeout when connecting to LeetCode API")
+#         return jsonify({'error': "Timeout when connecting to LeetCode API. Please try again later."}), 504
+#     except requests.exceptions.ConnectionError:
+#         app.logger.error("Connection error when connecting to LeetCode API")
+#         return jsonify({'error': "Failed to connect to LeetCode API. Please check your internet connection."}), 503
+#     except Exception as e:
+#         app.logger.error(f"Unexpected error: {str(e)}")
+#         return jsonify({'error': str(e)}), 500
 
-@app.route('/api/problem-mapping')
-def problem_mapping():
-    try:
-        # Read all CSV files and combine them to create a mapping
-        all_problems = []
-        rating_dir = 'rating_groups'
+# @app.route('/api/problem-mapping')
+# def problem_mapping():
+#     try:
+#         # Read all CSV files and combine them to create a mapping
+#         all_problems = []
+#         rating_dir = 'rating_groups'
         
-        for file in os.listdir(rating_dir):
-            if file.startswith('rating_') and file.endswith('.csv'):
-                file_path = os.path.join('rating_groups', file)
-                df = pd.read_csv(file_path)
-                all_problems.extend(df[['Problem Number', 'Problem Name']].to_dict('records'))
+#         for file in os.listdir(rating_dir):
+#             if file.startswith('rating_') and file.endswith('.csv'):
+#                 file_path = os.path.join('rating_groups', file)
+#                 df = pd.read_csv(file_path)
+#                 all_problems.extend(df[['Problem Number', 'Problem Name']].to_dict('records'))
         
-        # Create mapping of problem name to problem ID
-        problem_map = {}
-        for problem in all_problems:
-            problem_map[problem['Problem Name']] = str(problem['Problem Number'])
+#         # Create mapping of problem name to problem ID
+#         problem_map = {}
+#         for problem in all_problems:
+#             problem_map[problem['Problem Name']] = str(problem['Problem Number'])
         
-        return jsonify({'mapping': problem_map})
+#         return jsonify({'mapping': problem_map})
     
-    except Exception as e:
-        app.logger.error(f"Error generating problem mapping: {str(e)}")
-        return jsonify({'error': str(e)}), 500
+#     except Exception as e:
+#         app.logger.error(f"Error generating problem mapping: {str(e)}")
+#         return jsonify({'error': str(e)}), 500
 
 @app.route('/api/problem-distribution')
 def problem_distribution():
