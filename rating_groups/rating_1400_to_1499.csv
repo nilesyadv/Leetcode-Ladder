@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 1, 2025",3468,Find the Number of Copy Arrays,1476,https://leetcode.com/problems/find-the-number-of-copy-arrays/,Biweekly Contest 151,"array, math"
 "Jan. 18, 2025",3424,Minimum Cost to Make Arrays Identical,1481,https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/,Biweekly Contest 148,"array, greedy, sorting"
 "Jan. 5, 2025",3412,Find Mirror Score of a String,1424,https://leetcode.com/problems/find-mirror-score-of-a-string/,Weekly Contest 431,"hash table, simulation, stack, string"
 "Nov. 23, 2024",3361,Shift Distance Between Two Strings,1445,https://leetcode.com/problems/shift-distance-between-two-strings/,Biweekly Contest 144,

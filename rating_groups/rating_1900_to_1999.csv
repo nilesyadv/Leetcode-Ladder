@@ -1,4 +1,7 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 11, 2025",3481,Apply Substitutions,1978,https://leetcode.com/problems/apply-substitutions/,,
+"March 4, 2025",3476,Maximize Profit from Task Assignment,1933,https://leetcode.com/problems/maximize-profit-from-task-assignment/,,"array, greedy, heap (priority queue), sorting"
+"March 3, 2025",3475,DNA Pattern Recognition,1927,https://leetcode.com/problems/dna-pattern-recognition/,,database
 "Feb. 25, 2025",3466,Maximum Coin Collection,1929,https://leetcode.com/problems/maximum-coin-collection/,,
 "Feb. 17, 2025",3460,Longest Common Prefix After at Most One Removal,1904,https://leetcode.com/problems/longest-common-prefix-after-at-most-one-removal/,,"string, two pointers"
 "Jan. 31, 2025",3437,Permutations III,1978,https://leetcode.com/problems/permutations-iii/,,"array, backtracking"

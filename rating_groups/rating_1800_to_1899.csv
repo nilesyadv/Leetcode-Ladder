@@ -1,5 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-today,3472,Longest Palindromic Subsequence A…fter at Most K Operations,1842,https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/,Weekly Contest 439,
+"March 2, 2025",3472,Longest Palindromic Subsequence A…fter at Most K Operations,1807,https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/,Weekly Contest 439,"dynamic programming, string"
 "Feb. 2, 2025",3443,Maximum Manhattan Distance After K Changes,1802,https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/,Weekly Contest 435,"counting, hash table, math, string"
 "Dec. 1, 2024",3372,Maximize the Number of Target Nodes …After Connecting Trees I,1879,https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/,Weekly Contest 426,"breadth-first search, depth-first search, tree"
 "Nov. 9, 2024",3346,Maximum Frequency of an Element Afte…r Performing Operations I,1856,https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/,Biweekly Contest 143,"array, binary search, prefix sum, sliding window, sorting"

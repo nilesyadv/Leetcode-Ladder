@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 9, 2025",3480,Maximize Subarrays After Remo…ving One Conflicting Pair,2759,https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/,Weekly Contest 440,"array, enumeration, prefix sum, segment tree"
 "Feb. 23, 2025",3464,Maximize the Distance Between Points on a Square,2790,https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/,Weekly Contest 438,"array, binary search, greedy"
 "Feb. 9, 2025",3449,Maximize the Minimum Game Score,2754,https://leetcode.com/problems/maximize-the-minimum-game-score/,Weekly Contest 436,"array, binary search, greedy"
 "Feb. 2, 2025",3445,Maximum Difference Between …Even and Odd Frequency II,2710,https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/,Weekly Contest 435,"enumeration, prefix sum, sliding window, string"

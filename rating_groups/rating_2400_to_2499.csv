@@ -1,6 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-today,3474,Lexicographically Smallest Generated String,2460,https://leetcode.com/problems/lexicographically-smallest-generated-string/,Weekly Contest 439,
-yesterday,3470,Permutations IV,2441,https://leetcode.com/problems/permutations-iv/,Biweekly Contest 151,
+"March 1, 2025",3470,Permutations IV,2496,https://leetcode.com/problems/permutations-iv/,Biweekly Contest 151,"array, combinatorics, enumeration, math"
 "Jan. 4, 2025",3409,Longest Subsequence With Decre…asing Adjacent Difference,2481,https://leetcode.com/problems/longest-subsequence-with-decreasing-adjacent-difference/,Biweekly Contest 147,"array, dynamic programming"
 "Dec. 29, 2024",3404,Count Special Subsequences,2448,https://leetcode.com/problems/count-special-subsequences/,Weekly Contest 430,
 "Dec. 7, 2024",3378,Count Connected Components in LCM Graph,2465,https://leetcode.com/problems/count-connected-components-in-lcm-graph/,Biweekly Contest 145,"array, hash table, math, number theory, union find"

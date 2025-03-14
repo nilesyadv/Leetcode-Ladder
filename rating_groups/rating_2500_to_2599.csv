@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 2, 2025",3474,Lexicographically Smallest Generated String,2586,https://leetcode.com/problems/lexicographically-smallest-generated-string/,Weekly Contest 439,"greedy, string, string matching"
 "Feb. 16, 2025",3459,Length of Longest V-Shaped Diagonal Segment,2539,https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/,Weekly Contest 437,"array, dynamic programming, matrix, memoization"
 "Jan. 1, 2025",3406,Find the Lexicographically Large…st String From the Box II,2596,https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-ii/,,"string, two pointers"
 "Dec. 29, 2024",3401,Find Circular Gift Exchange Chains,2519,https://leetcode.com/problems/find-circular-gift-exchange-chains/,,database
