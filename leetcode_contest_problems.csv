@@ -1,12 +1,20 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-today,3474,Lexicographically Smallest Generated String,2460,https://leetcode.com/problems/lexicographically-smallest-generated-string/,Weekly Contest 439,
-today,3473,Sum of K Subarrays With Length at Least M,2200,https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/,Weekly Contest 439,
-today,3472,Longest Palindromic Subsequence A…fter at Most K Operations,1842,https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/,Weekly Contest 439,
-today,3471,Find the Largest Almost Missing Integer,575,https://leetcode.com/problems/find-the-largest-almost-missing-integer/,Weekly Contest 439,
-yesterday,3470,Permutations IV,2441,https://leetcode.com/problems/permutations-iv/,Biweekly Contest 151,
-yesterday,3469,Find Minimum Cost to Remove Array Elements,2110,https://leetcode.com/problems/find-minimum-cost-to-remove-array-elements/,Biweekly Contest 151,
-yesterday,3468,Find the Number of Copy Arrays,1515,https://leetcode.com/problems/find-the-number-of-copy-arrays/,Biweekly Contest 151,
-yesterday,3467,Transform Array by Parity,522,https://leetcode.com/problems/transform-array-by-parity/,Biweekly Contest 151,
+"March 11, 2025",3482,Analyze Organization Hierarchy,2613,https://leetcode.com/problems/analyze-organization-hierarchy/,,database
+"March 11, 2025",3481,Apply Substitutions,1978,https://leetcode.com/problems/apply-substitutions/,,
+"March 9, 2025",3480,Maximize Subarrays After Remo…ving One Conflicting Pair,2759,https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/,Weekly Contest 440,"array, enumeration, prefix sum, segment tree"
+"March 9, 2025",3479,Fruits Into Baskets III,2164,https://leetcode.com/problems/fruits-into-baskets-iii/,Weekly Contest 440,"array, binary search, ordered set, segment tree"
+"March 9, 2025",3478,Choose K Elements With Maximum Sum,1648,https://leetcode.com/problems/choose-k-elements-with-maximum-sum/,Weekly Contest 440,"array, heap (priority queue), sorting"
+"March 9, 2025",3477,Fruits Into Baskets II,704,https://leetcode.com/problems/fruits-into-baskets-ii/,Weekly Contest 440,"array, binary search, segment tree, simulation"
+"March 4, 2025",3476,Maximize Profit from Task Assignment,1933,https://leetcode.com/problems/maximize-profit-from-task-assignment/,,"array, greedy, heap (priority queue), sorting"
+"March 3, 2025",3475,DNA Pattern Recognition,1927,https://leetcode.com/problems/dna-pattern-recognition/,,database
+"March 2, 2025",3474,Lexicographically Smallest Generated String,2586,https://leetcode.com/problems/lexicographically-smallest-generated-string/,Weekly Contest 439,"greedy, string, string matching"
+"March 2, 2025",3473,Sum of K Subarrays With Length at Least M,2251,https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/,Weekly Contest 439,"array, dynamic programming, prefix sum"
+"March 2, 2025",3472,Longest Palindromic Subsequence A…fter at Most K Operations,1807,https://leetcode.com/problems/longest-palindromic-subsequence-after-at-most-k-operations/,Weekly Contest 439,"dynamic programming, string"
+"March 2, 2025",3471,Find the Largest Almost Missing Integer,807,https://leetcode.com/problems/find-the-largest-almost-missing-integer/,Weekly Contest 439,"array, hash table"
+"March 1, 2025",3470,Permutations IV,2496,https://leetcode.com/problems/permutations-iv/,Biweekly Contest 151,"array, combinatorics, enumeration, math"
+"March 1, 2025",3469,Find Minimum Cost to Remove Array Elements,2115,https://leetcode.com/problems/find-minimum-cost-to-remove-array-elements/,Biweekly Contest 151,"array, dynamic programming"
+"March 1, 2025",3468,Find the Number of Copy Arrays,1476,https://leetcode.com/problems/find-the-number-of-copy-arrays/,Biweekly Contest 151,"array, math"
+"March 1, 2025",3467,Transform Array by Parity,640,https://leetcode.com/problems/transform-array-by-parity/,Biweekly Contest 151,"array, counting, sorting"
 "Feb. 25, 2025",3466,Maximum Coin Collection,1929,https://leetcode.com/problems/maximum-coin-collection/,,
 "Feb. 24, 2025",3465,Find Products with Valid Serial Numbers,1149,https://leetcode.com/problems/find-products-with-valid-serial-numbers/,,database
 "Feb. 23, 2025",3464,Maximize the Distance Between Points on a Square,2790,https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/,Weekly Contest 438,"array, binary search, greedy"

@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 9, 2025",3478,Choose K Elements With Maximum Sum,1648,https://leetcode.com/problems/choose-k-elements-with-maximum-sum/,Weekly Contest 440,"array, heap (priority queue), sorting"
 "Feb. 16, 2025",3457,Eat Pizzas!,1683,https://leetcode.com/problems/eat-pizzas/,Weekly Contest 437,"array, greedy, sorting"
 "Feb. 9, 2025",3447,Assign Elements to Groups with Constraints,1608,https://leetcode.com/problems/assign-elements-to-groups-with-constraints/,Weekly Contest 436,"array, hash table"
 "Dec. 15, 2024",3387,Maximize Amount After Two Days of Conversions,1685,https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions/,Weekly Contest 428,"array, breadth-first search, depth-first search, graph, string"
