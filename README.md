@@ -138,7 +138,7 @@ jobs:
 
 ## Backend Implementation
 
-The backend is implemented in Flask (`routes.py`):
+The backend is implemented in Flask (`app.py`):
 
 ### API Endpoints
 
