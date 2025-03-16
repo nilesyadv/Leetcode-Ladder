@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+yesterday,3486,Longest Special Path II,2821,https://leetcode.com/problems/longest-special-path-ii/,Biweekly Contest 152,
 "Jan. 12, 2025",3420,Count Non-Decreasing Subarrays After K Operations,2868,https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/,Weekly Contest 432,"array, monotonic queue, monotonic stack, queue, segment tree, stack, two pointers"
 "Jan. 4, 2025",3410,Maximize Subarray Sum After Removing All O…ccurrences of One Element,2840,https://leetcode.com/problems/maximize-subarray-sum-after-removing-all-occurrences-of-one-element/,Biweekly Contest 147,"array, dynamic programming, segment tree"
 "Dec. 21, 2024",3395,Subsequences with a Unique Middle Mode I,2818,https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/,Biweekly Contest 146,

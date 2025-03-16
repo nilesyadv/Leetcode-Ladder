@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+today,3487,Maximum Unique Subarray Sum After Deletion,854,https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/,Weekly Contest 441,
+yesterday,3483,Unique 3-Digit Even Numbers,882,https://leetcode.com/problems/unique-3-digit-even-numbers/,Biweekly Contest 152,
 "March 2, 2025",3471,Find the Largest Almost Missing Integer,807,https://leetcode.com/problems/find-the-largest-almost-missing-integer/,Weekly Contest 439,"array, hash table"
 "Nov. 24, 2024",3364,Minimum Positive Sum Subarray,825,https://leetcode.com/problems/minimum-positive-sum-subarray/,Weekly Contest 425,
 "Sept. 29, 2024",3304,Find the K-th Character in String Game I,811,https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/,Weekly Contest 417,"bit manipulation, math, recursion, simulation"
