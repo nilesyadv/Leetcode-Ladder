@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+today,3488,Closest Equal Element Queries,1599,https://leetcode.com/problems/closest-equal-element-queries/,Weekly Contest 441,
 "Dec. 22, 2024",3397,Maximum Number of Distinct …Elements After Operations,1596,https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/,Weekly Contest 429,
 "Dec. 21, 2024",3393,Count Paths With the Given XOR Value,1521,https://leetcode.com/problems/count-paths-with-the-given-xor-value/,Biweekly Contest 146,
 "Dec. 1, 2024",3371,Identify the Largest Outlier in an Array,1573,https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/,Weekly Contest 426,"array, counting, enumeration, hash table"
