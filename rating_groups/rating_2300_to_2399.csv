@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 30, 2025",3504,Longest Palindrome After S…ubstring Concatenation II,2381,https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-ii/,Weekly Contest 443,"dynamic programming, string, two pointers"
 "Feb. 9, 2025",3448,Count Substrings Divisible By Last Digit,2378,https://leetcode.com/problems/count-substrings-divisible-by-last-digit/,Weekly Contest 436,"dynamic programming, string"
 "Feb. 2, 2025",3444,Minimum Increments for Tar…get Multiples in an Array,2346,https://leetcode.com/problems/minimum-increments-for-target-multiples-in-an-array/,Weekly Contest 435,"array, bit manipulation, bitmask, dynamic programming, math, number theory"
 "Jan. 5, 2025",3413,Maximum Coins From K Consecutive Bags,2377,https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags/,Weekly Contest 431,"array, binary search, greedy, prefix sum, sliding window, sorting"

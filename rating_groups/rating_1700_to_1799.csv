@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 29, 2025",3499,Maximize Active Section with Trade I,1716,https://leetcode.com/problems/maximize-active-section-with-trade-i/,Biweekly Contest 153,
 "Feb. 15, 2025",3453,Separate Squares I,1730,https://leetcode.com/problems/separate-squares-i/,Biweekly Contest 150,"array, binary search"
 "Feb. 1, 2025",3439,Reschedule Meetings for Maximum Free Time I,1718,https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/,Biweekly Contest 149,"array, greedy, sliding window"
 "Jan. 26, 2025",3433,Count Mentions Per User,1703,https://leetcode.com/problems/count-mentions-per-user/,Weekly Contest 434,"array, math, simulation, sorting"

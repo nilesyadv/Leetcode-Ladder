@@ -1,4 +1,19 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+yesterday,3506,Find Time Required to Elimi…nate Bacterial Strains II,2511,https://leetcode.com/problems/find-time-required-to-eliminate-bacterial-strains-ii/,,
+"March 30, 2025",3505,Minimum Operations to Make Elements …Within K Subarrays Equal,2482,https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/,Weekly Contest 443,"array, dynamic programming, hash table, heap (priority queue), math, sliding window"
+"March 30, 2025",3504,Longest Palindrome After S…ubstring Concatenation II,2381,https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-ii/,Weekly Contest 443,"dynamic programming, string, two pointers"
+"March 30, 2025",3503,Longest Palindrome After Substring Concatenation I,1477,https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-i/,Weekly Contest 443,"dynamic programming, enumeration, string, two pointers"
+"March 30, 2025",3502,Minimum Cost to Reach Every Position,694,https://leetcode.com/problems/minimum-cost-to-reach-every-position/,Weekly Contest 443,array
+"March 29, 2025",3501,Maximize Active Section with Trade II,2939,https://leetcode.com/problems/maximize-active-section-with-trade-ii/,Biweekly Contest 153,
+"March 29, 2025",3500,Minimum Cost to Divide Array Into Subarrays,2499,https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays/,Biweekly Contest 153,
+"March 29, 2025",3499,Maximize Active Section with Trade I,1716,https://leetcode.com/problems/maximize-active-section-with-trade-i/,Biweekly Contest 153,
+"March 29, 2025",3498,Reverse Degree of a String,405,https://leetcode.com/problems/reverse-degree-of-a-string/,Biweekly Contest 153,
+"March 28, 2025",3497,Analyze Subscription Conversion,1941,https://leetcode.com/problems/analyze-subscription-conversion/,,database
+"March 24, 2025",3496,Maximize Score After Pair Deletions,1933,https://leetcode.com/problems/maximize-score-after-pair-deletions/,,"array, greedy"
+"March 23, 2025",3495,Minimum Operations to Make Array Elements Zero,2216,https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/,Weekly Contest 442,"array, bit manipulation, math"
+"March 23, 2025",3494,Find the Minimum Amount of Time to Brew Potions,2033,https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/,Weekly Contest 442,"array, prefix sum, simulation"
+"March 23, 2025",3493,Properties Graph,1500,https://leetcode.com/problems/properties-graph/,Weekly Contest 442,"array, breadth-first search, depth-first search, graph, hash table, union find"
+"March 23, 2025",3492,Maximum Containers on a Ship,524,https://leetcode.com/problems/maximum-containers-on-a-ship/,Weekly Contest 442,math
 "March 17, 2025",3491,Phone Number Prefix,1143,https://leetcode.com/problems/phone-number-prefix/,,
 today,3490,Count Beautiful Numbers,2446,https://leetcode.com/problems/count-beautiful-numbers/,Weekly Contest 441,
 today,3489,Zero Array Transformation IV,2025,https://leetcode.com/problems/zero-array-transformation-iv/,Weekly Contest 441,

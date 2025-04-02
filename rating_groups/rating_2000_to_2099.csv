@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 23, 2025",3494,Find the Minimum Amount of Time to Brew Potions,2033,https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/,Weekly Contest 442,"array, prefix sum, simulation"
 today,3489,Zero Array Transformation IV,2025,https://leetcode.com/problems/zero-array-transformation-iv/,Weekly Contest 441,
 "Feb. 1, 2025",3440,Reschedule Meetings for Maximum Free Time II,2011,https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/,Biweekly Contest 149,"array, enumeration, greedy"
 "Jan. 26, 2025",3434,Maximum Frequency After Subarray Operation,2093,https://leetcode.com/problems/maximum-frequency-after-subarray-operation/,Weekly Contest 434,"array, dynamic programming, greedy, hash table, prefix sum"

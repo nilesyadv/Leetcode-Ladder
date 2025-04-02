@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 28, 2025",3497,Analyze Subscription Conversion,1941,https://leetcode.com/problems/analyze-subscription-conversion/,,database
+"March 24, 2025",3496,Maximize Score After Pair Deletions,1933,https://leetcode.com/problems/maximize-score-after-pair-deletions/,,"array, greedy"
 "March 11, 2025",3481,Apply Substitutions,1978,https://leetcode.com/problems/apply-substitutions/,,
 "March 4, 2025",3476,Maximize Profit from Task Assignment,1933,https://leetcode.com/problems/maximize-profit-from-task-assignment/,,"array, greedy, heap (priority queue), sorting"
 "March 3, 2025",3475,DNA Pattern Recognition,1927,https://leetcode.com/problems/dna-pattern-recognition/,,database

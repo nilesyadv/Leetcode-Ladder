@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 29, 2025",3501,Maximize Active Section with Trade II,2939,https://leetcode.com/problems/maximize-active-section-with-trade-ii/,Biweekly Contest 153,
 "Dec. 15, 2024",3389,Minimum Operations to Make Ch…aracter Frequencies Equal,2934,https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/,Weekly Contest 428,"counting, dynamic programming, enumeration, hash table, string"
 "July 7, 2024",3213,Construct String with Minimum Cost,2923,https://leetcode.com/problems/construct-string-with-minimum-cost/,Weekly Contest 405,"array, dynamic programming, string, suffix array"
 "Jan. 28, 2024",3022,Minimize OR of Remaining Elements Using Operations,2945,https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/,Weekly Contest 382,"array, bit manipulation, greedy"

@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"March 23, 2025",3492,Maximum Containers on a Ship,524,https://leetcode.com/problems/maximum-containers-on-a-ship/,Weekly Contest 442,math
 "Feb. 16, 2025",3456,Find Special Substring of Length K,579,https://leetcode.com/problems/find-special-substring-of-length-k/,Weekly Contest 437,string
 "Feb. 2, 2025",3442,Maximum Difference Between …Even and Odd Frequency I,571,https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/,Weekly Contest 435,"counting, hash table, string"
 "Feb. 1, 2025",3438,Find Valid Pair of Adjacent Digits in String,532,https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/,Biweekly Contest 149,"counting, hash table, string"
