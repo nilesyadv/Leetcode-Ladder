@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"April 6, 2025",3510,Minimum Pair Removal to Sort Array II,2502,https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/,Weekly Contest 444,
 yesterday,3506,Find Time Required to Elimi…nate Bacterial Strains II,2511,https://leetcode.com/problems/find-time-required-to-eliminate-bacterial-strains-ii/,,
 "March 2, 2025",3474,Lexicographically Smallest Generated String,2586,https://leetcode.com/problems/lexicographically-smallest-generated-string/,Weekly Contest 439,"greedy, string, string matching"
 "Feb. 16, 2025",3459,Length of Longest V-Shaped Diagonal Segment,2539,https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/,Weekly Contest 437,"array, dynamic programming, matrix, memoization"

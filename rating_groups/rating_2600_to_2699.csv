@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"April 6, 2025",3509,Maximum Product of Subsequences With an A…lternating Sum Equal to K,2607,https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/,Weekly Contest 444,
 "March 11, 2025",3482,Analyze Organization Hierarchy,2613,https://leetcode.com/problems/analyze-organization-hierarchy/,,database
 "Feb. 15, 2025",3454,Separate Squares II,2614,https://leetcode.com/problems/separate-squares-ii/,Biweekly Contest 150,"array, binary search, line sweep, segment tree"
 "Feb. 13, 2025",3451,Find Invalid IP Addresses,2603,https://leetcode.com/problems/find-invalid-ip-addresses/,,database
