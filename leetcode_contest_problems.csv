@@ -1,4 +1,13 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+yesterday,3520,Minimum Threshold for Inversion Pairs Count,1899,https://leetcode.com/problems/minimum-threshold-for-inversion-pairs-count/,,
+"April 13, 2025",3519,Count Numbers with Non-Decreasing Digits,2184,https://leetcode.com/problems/count-numbers-with-non-decreasing-digits/,Weekly Contest 445,"dynamic programming, math, string"
+"April 13, 2025",3518,Smallest Palindromic Rearrangement II,2307,https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/,Weekly Contest 445,"combinatorics, counting, hash table, math, string"
+"April 13, 2025",3517,Smallest Palindromic Rearrangement I,1231,https://leetcode.com/problems/smallest-palindromic-rearrangement-i/,Weekly Contest 445,"counting sort, sorting, string"
+"April 13, 2025",3516,Find Closest Person,549,https://leetcode.com/problems/find-closest-person/,Weekly Contest 445,math
+"April 12, 2025",3515,Shortest Path in a Weighted Tree,2256,https://leetcode.com/problems/shortest-path-in-a-weighted-tree/,Biweekly Contest 154,"array, binary indexed tree, depth-first search, segment tree, tree"
+"April 12, 2025",3514,Number of Unique XOR Triplets II,1863,https://leetcode.com/problems/number-of-unique-xor-triplets-ii/,Biweekly Contest 154,"array, bit manipulation, enumeration, math"
+"April 12, 2025",3513,Number of Unique XOR Triplets I,1624,https://leetcode.com/problems/number-of-unique-xor-triplets-i/,Biweekly Contest 154,"array, bit manipulation, math"
+"April 12, 2025",3512,Minimum Operations to Make …Array Sum Divisible by K,547,https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/,Biweekly Contest 154,"array, math"
 yesterday,3511,Make a Positive Array,2172,https://leetcode.com/problems/make-a-positive-array/,,
 "April 6, 2025",3510,Minimum Pair Removal to Sort Array II,2502,https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/,Weekly Contest 444,
 "April 6, 2025",3509,Maximum Product of Subsequences With an A…lternating Sum Equal to K,2607,https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/,Weekly Contest 444,

@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"April 13, 2025",3519,Count Numbers with Non-Decreasing Digits,2184,https://leetcode.com/problems/count-numbers-with-non-decreasing-digits/,Weekly Contest 445,"dynamic programming, math, string"
 yesterday,3511,Make a Positive Array,2172,https://leetcode.com/problems/make-a-positive-array/,,
 "March 9, 2025",3479,Fruits Into Baskets III,2162,https://leetcode.com/problems/fruits-into-baskets-iii/,Weekly Contest 440,"array, binary search, ordered set, segment tree"
 "March 1, 2025",3469,Find Minimum Cost to Remove Array Elements,2115,https://leetcode.com/problems/find-minimum-cost-to-remove-array-elements/,Biweekly Contest 151,"array, dynamic programming"

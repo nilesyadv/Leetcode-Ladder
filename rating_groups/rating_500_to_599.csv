@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"April 13, 2025",3516,Find Closest Person,549,https://leetcode.com/problems/find-closest-person/,Weekly Contest 445,math
+"April 12, 2025",3512,Minimum Operations to Make …Array Sum Divisible by K,547,https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/,Biweekly Contest 154,"array, math"
 "March 23, 2025",3492,Maximum Containers on a Ship,524,https://leetcode.com/problems/maximum-containers-on-a-ship/,Weekly Contest 442,math
 "Feb. 16, 2025",3456,Find Special Substring of Length K,579,https://leetcode.com/problems/find-special-substring-of-length-k/,Weekly Contest 437,string
 "Feb. 2, 2025",3442,Maximum Difference Between …Even and Odd Frequency I,571,https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/,Weekly Contest 435,"counting, hash table, string"

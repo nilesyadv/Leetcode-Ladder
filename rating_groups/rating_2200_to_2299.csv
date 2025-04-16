@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"April 12, 2025",3515,Shortest Path in a Weighted Tree,2256,https://leetcode.com/problems/shortest-path-in-a-weighted-tree/,Biweekly Contest 154,"array, binary indexed tree, depth-first search, segment tree, tree"
 "March 23, 2025",3495,Minimum Operations to Make Array Elements Zero,2216,https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/,Weekly Contest 442,"array, bit manipulation, math"
 yesterday,3485,Longest Common Prefix of K Strings After Removal,2244,https://leetcode.com/problems/longest-common-prefix-of-k-strings-after-removal/,Biweekly Contest 152,
 "March 2, 2025",3473,Sum of K Subarrays With Length at Least M,2251,https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/,Weekly Contest 439,"array, dynamic programming, prefix sum"
