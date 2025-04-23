@@ -1,4 +1,10 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+yesterday,3526,Range XOR Queries with Subarray Reversals,2511,https://leetcode.com/problems/range-xor-queries-with-subarray-reversals/,,
+"April 20, 2025",3525,Find X Value of Array II,2487,https://leetcode.com/problems/find-x-value-of-array-ii/,Weekly Contest 446,
+"April 20, 2025",3524,Find X Value of Array I,1976,https://leetcode.com/problems/find-x-value-of-array-i/,Weekly Contest 446,
+"April 20, 2025",3523,Make Array Non-decreasing,1314,https://leetcode.com/problems/make-array-non-decreasing/,Weekly Contest 446,
+"April 20, 2025",3522,Calculate Score After Performing Instructions,743,https://leetcode.com/problems/calculate-score-after-performing-instructions/,Weekly Contest 446,
+"April 17, 2025",3521,Find Product Recommendation Pairs,1971,https://leetcode.com/problems/find-product-recommendation-pairs/,,database
 yesterday,3520,Minimum Threshold for Inversion Pairs Count,1899,https://leetcode.com/problems/minimum-threshold-for-inversion-pairs-count/,,
 "April 13, 2025",3519,Count Numbers with Non-Decreasing Digits,2184,https://leetcode.com/problems/count-numbers-with-non-decreasing-digits/,Weekly Contest 445,"dynamic programming, math, string"
 "April 13, 2025",3518,Smallest Palindromic Rearrangement II,2307,https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/,Weekly Contest 445,"combinatorics, counting, hash table, math, string"

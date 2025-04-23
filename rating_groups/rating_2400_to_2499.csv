@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"April 20, 2025",3525,Find X Value of Array II,2487,https://leetcode.com/problems/find-x-value-of-array-ii/,Weekly Contest 446,
 "March 30, 2025",3505,Minimum Operations to Make Elements …Within K Subarrays Equal,2482,https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/,Weekly Contest 443,"array, dynamic programming, hash table, heap (priority queue), math, sliding window"
 "March 29, 2025",3500,Minimum Cost to Divide Array Into Subarrays,2499,https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays/,Biweekly Contest 153,
 today,3490,Count Beautiful Numbers,2446,https://leetcode.com/problems/count-beautiful-numbers/,Weekly Contest 441,
