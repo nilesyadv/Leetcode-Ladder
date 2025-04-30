@@ -1,41 +1,41 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-"March 29, 2025",3498,Reverse Degree of a String,405,https://leetcode.com/problems/reverse-degree-of-a-string/,Biweekly Contest 153,
-"Feb. 15, 2025",3452,Sum of Good Numbers,462,https://leetcode.com/problems/sum-of-good-numbers/,Biweekly Contest 150,array
-"Jan. 19, 2025",3427,Sum of Variable Length Subarrays,497,https://leetcode.com/problems/sum-of-variable-length-subarrays/,Weekly Contest 433,"array, prefix sum"
-"Dec. 29, 2024",3402,Minimum Operations to Make Co…lumns Strictly Increasing,484,https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/,Weekly Contest 430,
-"Nov. 9, 2024",3345,Smallest Divisible Digit Product I,475,https://leetcode.com/problems/smallest-divisible-digit-product-i/,Biweekly Contest 143,"enumeration, math"
-"Sept. 14, 2024",3285,Find Indices of Stable Mountains,461,https://leetcode.com/problems/find-indices-of-stable-mountains/,Biweekly Contest 139,array
-"Feb. 4, 2024",3028,Ant on the Boundary,495,https://leetcode.com/problems/ant-on-the-boundary/,Weekly Contest 383,"array, prefix sum, simulation"
-"Dec. 24, 2023",2974,Minimum Number Game,487,https://leetcode.com/problems/minimum-number-game/,Weekly Contest 377,"array, heap (priority queue), simulation, sorting"
-"March 19, 2022",2206,Divide Array Into Equal Pairs,494,https://leetcode.com/problems/divide-array-into-equal-pairs/,Biweekly Contest 74,"array, bit manipulation, counting, hash table"
-"Jan. 22, 2022",2144,Minimum Cost of Buying Candies With Discount,494,https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/,Biweekly Contest 70,"array, greedy, sorting"
-"Dec. 26, 2021",2119,A Number After a Double Reversal,490,https://leetcode.com/problems/a-number-after-a-double-reversal/,Weekly Contest 273,math
-"Dec. 25, 2021",2114,Maximum Number of Words Found in Sentences,415,https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/,Biweekly Contest 68,"array, string"
-"Nov. 13, 2021",2068,Check Whether Two Strings are Almost Equivalent,434,https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/,Biweekly Contest 65,"counting, hash table, string"
-"Oct. 31, 2021",2057,Smallest Index With Equal Value,474,https://leetcode.com/problems/smallest-index-with-equal-value/,Weekly Contest 265,array
-"Oct. 30, 2021",2053,Kth Distinct String in an Array,421,https://leetcode.com/problems/kth-distinct-string-in-an-array/,Biweekly Contest 64,"array, counting, hash table, string"
-"Sept. 26, 2021",2016,Maximum Difference Between Increasing Elements,433,https://leetcode.com/problems/maximum-difference-between-increasing-elements/,Weekly Contest 260,array
-"Sept. 18, 2021",2006,Count Number of Pairs With Absolute Difference K,470,https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/,Biweekly Contest 61,"array, counting, hash table"
-"Sept. 12, 2021",2000,Reverse Prefix of Word,471,https://leetcode.com/problems/reverse-prefix-of-word/,Weekly Contest 258,"string, two pointers"
-"July 4, 2021",1920,Build Array from Permutation,461,https://leetcode.com/problems/build-array-from-permutation/,Weekly Contest 248,"array, simulation"
-"May 2, 2021",1848,Minimum Distance to the Target Element,401,https://leetcode.com/problems/minimum-distance-to-the-target-element/,Weekly Contest 239,array
-"April 3, 2021",1812,Determine Color of a Chessboard Square,472,https://leetcode.com/problems/determine-color-of-a-chessboard-square/,Biweekly Contest 49,"math, string"
-"Feb. 28, 2021",1773,Count Items Matching a Rule,497,https://leetcode.com/problems/count-items-matching-a-rule/,Weekly Contest 230,"array, string"
-"Feb. 6, 2021",1748,Sum of Unique Elements,420,https://leetcode.com/problems/sum-of-unique-elements/,Biweekly Contest 45,"array, counting, hash table"
-"Jan. 9, 2021",1716,Calculate Money in Leetcode Bank,441,https://leetcode.com/problems/calculate-money-in-leetcode-bank/,Biweekly Contest 43,math
-"Aug. 8, 2020",1539,Kth Missing Positive Number,470,https://leetcode.com/problems/kth-missing-positive-number/,Biweekly Contest 32,"array, binary search"
-"July 26, 2020",1528,Shuffle String,499,https://leetcode.com/problems/shuffle-string/,Weekly Contest 199,"array, string"
-"July 12, 2020",1512,Number of Good Pairs,441,https://leetcode.com/problems/number-of-good-pairs/,Weekly Contest 197,"array, counting, hash table, math"
-"July 5, 2020",1502,Can Make Arithmetic Progression From Sequence,436,https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/,Weekly Contest 196,"array, sorting"
-"June 14, 2020",1480,Running Sum of 1d Array,473,https://leetcode.com/problems/running-sum-of-1d-array/,Weekly Contest 193,"array, prefix sum"
-"May 31, 2020",1464,Maximum Product of Two Elements in an Array,462,https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/,Weekly Contest 191,"array, heap (priority queue), sorting"
-"May 30, 2020",1460,Make Two Arrays Equal by Reversing Subarrays,481,https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/,Biweekly Contest 27,"array, hash table, sorting"
-"May 16, 2020",1446,Consecutive Characters,475,https://leetcode.com/problems/consecutive-characters/,Biweekly Contest 26,string
-"Dec. 22, 2019",1295,Find Numbers with Even Number of Digits,487,https://leetcode.com/problems/find-numbers-with-even-number-of-digits/,Weekly Contest 168,array
-"Sept. 1, 2019",1173,Immediate Food Delivery I,487,https://leetcode.com/problems/immediate-food-delivery-i/,,database
-"July 27, 2019",1133,Largest Unique Number,484,https://leetcode.com/problems/largest-unique-number/,Biweekly Contest 5,"array, hash table, sorting"
-"June 15, 2019",1085,Sum of Digits in the Minimum Number,400,https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/,Biweekly Contest 2,"array, math"
-"June 1, 2019",1064,Fixed Point,461,https://leetcode.com/problems/fixed-point/,Biweekly Contest 1,"array, binary search"
-"June 17, 2018",852,Peak Index in a Mountain Array,461,https://leetcode.com/problems/peak-index-in-a-mountain-array/,Weekly Contest 89,"array, binary search"
-"Aug. 13, 2017",657,Robot Return to Origin,483,https://leetcode.com/problems/robot-return-to-origin/,Weekly Contest 45,"simulation, string"
-"July 9, 2017",637,Average of Levels in Binary Tree,485,https://leetcode.com/problems/average-of-levels-in-binary-tree/,Weekly Contest 40,"binary tree, breadth-first search, depth-first search, tree"
+"March 29, 2025",3498,Reverse Degree of a String,405.0,https://leetcode.com/problems/reverse-degree-of-a-string/,Biweekly Contest 153,
+"Feb. 15, 2025",3452,Sum of Good Numbers,462.0,https://leetcode.com/problems/sum-of-good-numbers/,Biweekly Contest 150,array
+"Jan. 19, 2025",3427,Sum of Variable Length Subarrays,497.0,https://leetcode.com/problems/sum-of-variable-length-subarrays/,Weekly Contest 433,"array, prefix sum"
+"Dec. 29, 2024",3402,Minimum Operations to Make Co…lumns Strictly Increasing,484.0,https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/,Weekly Contest 430,
+"Nov. 9, 2024",3345,Smallest Divisible Digit Product I,475.0,https://leetcode.com/problems/smallest-divisible-digit-product-i/,Biweekly Contest 143,"enumeration, math"
+"Sept. 14, 2024",3285,Find Indices of Stable Mountains,461.0,https://leetcode.com/problems/find-indices-of-stable-mountains/,Biweekly Contest 139,array
+"Feb. 4, 2024",3028,Ant on the Boundary,495.0,https://leetcode.com/problems/ant-on-the-boundary/,Weekly Contest 383,"array, prefix sum, simulation"
+"Dec. 24, 2023",2974,Minimum Number Game,487.0,https://leetcode.com/problems/minimum-number-game/,Weekly Contest 377,"array, heap (priority queue), simulation, sorting"
+"March 19, 2022",2206,Divide Array Into Equal Pairs,494.0,https://leetcode.com/problems/divide-array-into-equal-pairs/,Biweekly Contest 74,"array, bit manipulation, counting, hash table"
+"Jan. 22, 2022",2144,Minimum Cost of Buying Candies With Discount,494.0,https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/,Biweekly Contest 70,"array, greedy, sorting"
+"Dec. 26, 2021",2119,A Number After a Double Reversal,490.0,https://leetcode.com/problems/a-number-after-a-double-reversal/,Weekly Contest 273,math
+"Dec. 25, 2021",2114,Maximum Number of Words Found in Sentences,415.0,https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/,Biweekly Contest 68,"array, string"
+"Nov. 13, 2021",2068,Check Whether Two Strings are Almost Equivalent,434.0,https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/,Biweekly Contest 65,"counting, hash table, string"
+"Oct. 31, 2021",2057,Smallest Index With Equal Value,474.0,https://leetcode.com/problems/smallest-index-with-equal-value/,Weekly Contest 265,array
+"Oct. 30, 2021",2053,Kth Distinct String in an Array,421.0,https://leetcode.com/problems/kth-distinct-string-in-an-array/,Biweekly Contest 64,"array, counting, hash table, string"
+"Sept. 26, 2021",2016,Maximum Difference Between Increasing Elements,433.0,https://leetcode.com/problems/maximum-difference-between-increasing-elements/,Weekly Contest 260,array
+"Sept. 18, 2021",2006,Count Number of Pairs With Absolute Difference K,470.0,https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/,Biweekly Contest 61,"array, counting, hash table"
+"Sept. 12, 2021",2000,Reverse Prefix of Word,471.0,https://leetcode.com/problems/reverse-prefix-of-word/,Weekly Contest 258,"string, two pointers"
+"July 4, 2021",1920,Build Array from Permutation,461.0,https://leetcode.com/problems/build-array-from-permutation/,Weekly Contest 248,"array, simulation"
+"May 2, 2021",1848,Minimum Distance to the Target Element,401.0,https://leetcode.com/problems/minimum-distance-to-the-target-element/,Weekly Contest 239,array
+"April 3, 2021",1812,Determine Color of a Chessboard Square,472.0,https://leetcode.com/problems/determine-color-of-a-chessboard-square/,Biweekly Contest 49,"math, string"
+"Feb. 28, 2021",1773,Count Items Matching a Rule,497.0,https://leetcode.com/problems/count-items-matching-a-rule/,Weekly Contest 230,"array, string"
+"Feb. 6, 2021",1748,Sum of Unique Elements,420.0,https://leetcode.com/problems/sum-of-unique-elements/,Biweekly Contest 45,"array, counting, hash table"
+"Jan. 9, 2021",1716,Calculate Money in Leetcode Bank,441.0,https://leetcode.com/problems/calculate-money-in-leetcode-bank/,Biweekly Contest 43,math
+"Aug. 8, 2020",1539,Kth Missing Positive Number,470.0,https://leetcode.com/problems/kth-missing-positive-number/,Biweekly Contest 32,"array, binary search"
+"July 26, 2020",1528,Shuffle String,499.0,https://leetcode.com/problems/shuffle-string/,Weekly Contest 199,"array, string"
+"July 12, 2020",1512,Number of Good Pairs,441.0,https://leetcode.com/problems/number-of-good-pairs/,Weekly Contest 197,"array, counting, hash table, math"
+"July 5, 2020",1502,Can Make Arithmetic Progression From Sequence,436.0,https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/,Weekly Contest 196,"array, sorting"
+"June 14, 2020",1480,Running Sum of 1d Array,473.0,https://leetcode.com/problems/running-sum-of-1d-array/,Weekly Contest 193,"array, prefix sum"
+"May 31, 2020",1464,Maximum Product of Two Elements in an Array,462.0,https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/,Weekly Contest 191,"array, heap (priority queue), sorting"
+"May 30, 2020",1460,Make Two Arrays Equal by Reversing Subarrays,481.0,https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/,Biweekly Contest 27,"array, hash table, sorting"
+"May 16, 2020",1446,Consecutive Characters,475.0,https://leetcode.com/problems/consecutive-characters/,Biweekly Contest 26,string
+"Dec. 22, 2019",1295,Find Numbers with Even Number of Digits,487.0,https://leetcode.com/problems/find-numbers-with-even-number-of-digits/,Weekly Contest 168,array
+"Sept. 1, 2019",1173,Immediate Food Delivery I,487.0,https://leetcode.com/problems/immediate-food-delivery-i/,,database
+"July 27, 2019",1133,Largest Unique Number,484.0,https://leetcode.com/problems/largest-unique-number/,Biweekly Contest 5,"array, hash table, sorting"
+"June 15, 2019",1085,Sum of Digits in the Minimum Number,400.0,https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/,Biweekly Contest 2,"array, math"
+"June 1, 2019",1064,Fixed Point,461.0,https://leetcode.com/problems/fixed-point/,Biweekly Contest 1,"array, binary search"
+"June 17, 2018",852,Peak Index in a Mountain Array,461.0,https://leetcode.com/problems/peak-index-in-a-mountain-array/,Weekly Contest 89,"array, binary search"
+"Aug. 13, 2017",657,Robot Return to Origin,483.0,https://leetcode.com/problems/robot-return-to-origin/,Weekly Contest 45,"simulation, string"
+"July 9, 2017",637,Average of Levels in Binary Tree,485.0,https://leetcode.com/problems/average-of-levels-in-binary-tree/,Weekly Contest 40,"binary tree, breadth-first search, depth-first search, tree"

@@ -1,4 +1,13 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+yesterday,3535,Unit Conversion II,2027,https://leetcode.com/problems/unit-conversion-ii/,,
+"April 27, 2025",3534,Path Existence Queries in a Graph II,,https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/,Weekly Contest 447,
+"April 27, 2025",3533,Concatenated Divisibility,,https://leetcode.com/problems/concatenated-divisibility/,Weekly Contest 447,
+"April 27, 2025",3532,Path Existence Queries in a Graph I,,https://leetcode.com/problems/path-existence-queries-in-a-graph-i/,Weekly Contest 447,
+"April 27, 2025",3531,Count Covered Buildings,,https://leetcode.com/problems/count-covered-buildings/,Weekly Contest 447,
+"April 26, 2025",3530,Maximum Profit from Valid Topological Order in DAG,2272,https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag/,Biweekly Contest 155,
+"April 26, 2025",3529,Count Cells in Overlapping Horizonta…l and Vertical Substrings,2084,https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/,Biweekly Contest 155,
+"April 26, 2025",3528,Unit Conversion I,1434,https://leetcode.com/problems/unit-conversion-i/,Biweekly Contest 155,
+"April 26, 2025",3527,Find the Most Common Response,604,https://leetcode.com/problems/find-the-most-common-response/,Biweekly Contest 155,
 yesterday,3526,Range XOR Queries with Subarray Reversals,2511,https://leetcode.com/problems/range-xor-queries-with-subarray-reversals/,,
 "April 20, 2025",3525,Find X Value of Array II,2487,https://leetcode.com/problems/find-x-value-of-array-ii/,Weekly Contest 446,
 "April 20, 2025",3524,Find X Value of Array I,1976,https://leetcode.com/problems/find-x-value-of-array-i/,Weekly Contest 446,

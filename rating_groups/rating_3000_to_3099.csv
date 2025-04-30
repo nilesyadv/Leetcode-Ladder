@@ -1,6 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-"Jan. 26, 2025",3435,Frequencies of Shortest Supersequences,3025,https://leetcode.com/problems/frequencies-of-shortest-supersequences/,Weekly Contest 434,"array, bit manipulation, enumeration, graph, string, topological sort"
-"July 20, 2024",3225,Maximum Score From Grid Operations,3011,https://leetcode.com/problems/maximum-score-from-grid-operations/,Biweekly Contest 135,"array, dynamic programming, matrix, prefix sum"
-"Jan. 7, 2024",3003,Maximize the Number of Partitions After Operations,3055,https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/,Weekly Contest 379,"bit manipulation, bitmask, dynamic programming, string"
-"Aug. 5, 2023",2809,Minimum Time to Make Array Sum At Most x,3008,https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/,Biweekly Contest 110,"array, dynamic programming, sorting"
-"Jan. 9, 2021",1719,Number Of Ways To Reconstruct A Tree,3063,https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/,Biweekly Contest 43,"graph, tree"
+"Jan. 26, 2025",3435,Frequencies of Shortest Supersequences,3025.0,https://leetcode.com/problems/frequencies-of-shortest-supersequences/,Weekly Contest 434,"array, bit manipulation, enumeration, graph, string, topological sort"
+"July 20, 2024",3225,Maximum Score From Grid Operations,3011.0,https://leetcode.com/problems/maximum-score-from-grid-operations/,Biweekly Contest 135,"array, dynamic programming, matrix, prefix sum"
+"Jan. 7, 2024",3003,Maximize the Number of Partitions After Operations,3055.0,https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/,Weekly Contest 379,"bit manipulation, bitmask, dynamic programming, string"
+"Aug. 5, 2023",2809,Minimum Time to Make Array Sum At Most x,3008.0,https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/,Biweekly Contest 110,"array, dynamic programming, sorting"
+"Jan. 9, 2021",1719,Number Of Ways To Reconstruct A Tree,3063.0,https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/,Biweekly Contest 43,"graph, tree"
