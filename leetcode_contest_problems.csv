@@ -1,9 +1,18 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-yesterday,3540,Minimum Time to Visit All Houses,1874,https://leetcode.com/problems/minimum-time-to-visit-all-houses/,,
-"May 4, 2025",3539,Find Sum of Array Product of Magical Sequences,2685,https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/,Weekly Contest 448,
-"May 4, 2025",3538,Merge Operations for Minimum Travel Time,2460,https://leetcode.com/problems/merge-operations-for-minimum-travel-time/,Weekly Contest 448,
-"May 4, 2025",3537,Fill a Special Grid,1482,https://leetcode.com/problems/fill-a-special-grid/,Weekly Contest 448,
-"May 4, 2025",3536,Maximum Product of Two Digits,566,https://leetcode.com/problems/maximum-product-of-two-digits/,Weekly Contest 448,
+yesterday,3549,Multiply Two Polynomials,2641,https://leetcode.com/problems/multiply-two-polynomials/,,
+"May 11, 2025",3548,Equal Sum Grid Partition II,2270,https://leetcode.com/problems/equal-sum-grid-partition-ii/,Weekly Contest 449,"array, enumeration, hash table, matrix, prefix sum"
+"May 11, 2025",3547,Maximum Sum of Edge Values in a Graph,2365,https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/,Weekly Contest 449,"depth-first search, graph, greedy, sorting"
+"May 11, 2025",3546,Equal Sum Grid Partition I,1286,https://leetcode.com/problems/equal-sum-grid-partition-i/,Weekly Contest 449,"array, enumeration, matrix, prefix sum"
+"May 11, 2025",3545,Minimum Deletions for At M…ost K Distinct Characters,583,https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/,Weekly Contest 449,"counting, greedy, hash table, sorting, string"
+"May 10, 2025",3544,Subtree Inversion Sum,2547,https://leetcode.com/problems/subtree-inversion-sum/,Biweekly Contest 156,"array, depth-first search, dynamic programming, tree"
+"May 10, 2025",3543,Maximum Weighted K-Edge Path,2122,https://leetcode.com/problems/maximum-weighted-k-edge-path/,Biweekly Contest 156,"dynamic programming, graph, hash table"
+"May 10, 2025",3542,Minimum Operations to Convert All Elements to Zero,1885,https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/,Biweekly Contest 156,"array, greedy, hash table, monotonic stack, stack"
+"May 10, 2025",3541,Find Most Frequent Vowel and Consonant,416,https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/,Biweekly Contest 156,"counting, hash table, string"
+yesterday,3540,Minimum Time to Visit All Houses,1874.0,https://leetcode.com/problems/minimum-time-to-visit-all-houses/,,
+"May 4, 2025",3539,Find Sum of Array Product of Magical Sequences,2685.0,https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/,Weekly Contest 448,
+"May 4, 2025",3538,Merge Operations for Minimum Travel Time,2460.0,https://leetcode.com/problems/merge-operations-for-minimum-travel-time/,Weekly Contest 448,
+"May 4, 2025",3537,Fill a Special Grid,1482.0,https://leetcode.com/problems/fill-a-special-grid/,Weekly Contest 448,
+"May 4, 2025",3536,Maximum Product of Two Digits,566.0,https://leetcode.com/problems/maximum-product-of-two-digits/,Weekly Contest 448,
 yesterday,3535,Unit Conversion II,2027.0,https://leetcode.com/problems/unit-conversion-ii/,,
 "April 27, 2025",3534,Path Existence Queries in a Graph II,,https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/,Weekly Contest 447,
 "April 27, 2025",3533,Concatenated Divisibility,,https://leetcode.com/problems/concatenated-divisibility/,Weekly Contest 447,

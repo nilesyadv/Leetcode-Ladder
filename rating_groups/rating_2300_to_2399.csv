@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"May 11, 2025",3547,Maximum Sum of Edge Values in a Graph,2365.0,https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/,Weekly Contest 449,"depth-first search, graph, greedy, sorting"
 "April 13, 2025",3518,Smallest Palindromic Rearrangement II,2307.0,https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/,Weekly Contest 445,"combinatorics, counting, hash table, math, string"
 "March 30, 2025",3504,Longest Palindrome After S…ubstring Concatenation II,2381.0,https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-ii/,Weekly Contest 443,"dynamic programming, string, two pointers"
 "Feb. 9, 2025",3448,Count Substrings Divisible By Last Digit,2378.0,https://leetcode.com/problems/count-substrings-divisible-by-last-digit/,Weekly Contest 436,"dynamic programming, string"

@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"May 10, 2025",3543,Maximum Weighted K-Edge Path,2122.0,https://leetcode.com/problems/maximum-weighted-k-edge-path/,Biweekly Contest 156,"dynamic programming, graph, hash table"
 "April 13, 2025",3519,Count Numbers with Non-Decreasing Digits,2184.0,https://leetcode.com/problems/count-numbers-with-non-decreasing-digits/,Weekly Contest 445,"dynamic programming, math, string"
 yesterday,3511,Make a Positive Array,2172.0,https://leetcode.com/problems/make-a-positive-array/,,
 "March 9, 2025",3479,Fruits Into Baskets III,2162.0,https://leetcode.com/problems/fruits-into-baskets-iii/,Weekly Contest 440,"array, binary search, ordered set, segment tree"

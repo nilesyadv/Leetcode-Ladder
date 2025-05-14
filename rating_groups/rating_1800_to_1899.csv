@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"May 10, 2025",3542,Minimum Operations to Convert All Elements to Zero,1885.0,https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/,Biweekly Contest 156,"array, greedy, hash table, monotonic stack, stack"
 yesterday,3540,Minimum Time to Visit All Houses,1874.0,https://leetcode.com/problems/minimum-time-to-visit-all-houses/,,
 yesterday,3520,Minimum Threshold for Inversion Pairs Count,1899.0,https://leetcode.com/problems/minimum-threshold-for-inversion-pairs-count/,,
 "April 12, 2025",3514,Number of Unique XOR Triplets II,1863.0,https://leetcode.com/problems/number-of-unique-xor-triplets-ii/,Biweekly Contest 154,"array, bit manipulation, enumeration, math"

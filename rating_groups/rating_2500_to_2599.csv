@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"May 10, 2025",3544,Subtree Inversion Sum,2547.0,https://leetcode.com/problems/subtree-inversion-sum/,Biweekly Contest 156,"array, depth-first search, dynamic programming, tree"
 yesterday,3526,Range XOR Queries with Subarray Reversals,2511.0,https://leetcode.com/problems/range-xor-queries-with-subarray-reversals/,,
 "April 6, 2025",3510,Minimum Pair Removal to Sort Array II,2502.0,https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/,Weekly Contest 444,
 yesterday,3506,Find Time Required to Elimi…nate Bacterial Strains II,2511.0,https://leetcode.com/problems/find-time-required-to-eliminate-bacterial-strains-ii/,,
