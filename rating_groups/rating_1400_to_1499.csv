@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"May 18, 2025",3551,Minimum Swaps to Sort by Digit Sum,1434.0,https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/,Weekly Contest 450,"array, hash table, sorting"
 "May 4, 2025",3537,Fill a Special Grid,1482.0,https://leetcode.com/problems/fill-a-special-grid/,Weekly Contest 448,
 "April 26, 2025",3528,Unit Conversion I,1434.0,https://leetcode.com/problems/unit-conversion-i/,Biweekly Contest 155,
 "March 30, 2025",3503,Longest Palindrome After Substring Concatenation I,1477.0,https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-i/,Weekly Contest 443,"dynamic programming, enumeration, string, two pointers"

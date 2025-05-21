@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"May 18, 2025",3550,Smallest Index With Digit Sum Equal to Index,515.0,https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/,Weekly Contest 450,"array, math"
 "May 11, 2025",3545,Minimum Deletions for At M…ost K Distinct Characters,583.0,https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/,Weekly Contest 449,"counting, greedy, hash table, sorting, string"
 "May 4, 2025",3536,Maximum Product of Two Digits,566.0,https://leetcode.com/problems/maximum-product-of-two-digits/,Weekly Contest 448,
 "April 13, 2025",3516,Find Closest Person,549.0,https://leetcode.com/problems/find-closest-person/,Weekly Contest 445,math

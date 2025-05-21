@@ -1,13 +1,19 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-yesterday,3549,Multiply Two Polynomials,2641,https://leetcode.com/problems/multiply-two-polynomials/,,
-"May 11, 2025",3548,Equal Sum Grid Partition II,2270,https://leetcode.com/problems/equal-sum-grid-partition-ii/,Weekly Contest 449,"array, enumeration, hash table, matrix, prefix sum"
-"May 11, 2025",3547,Maximum Sum of Edge Values in a Graph,2365,https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/,Weekly Contest 449,"depth-first search, graph, greedy, sorting"
-"May 11, 2025",3546,Equal Sum Grid Partition I,1286,https://leetcode.com/problems/equal-sum-grid-partition-i/,Weekly Contest 449,"array, enumeration, matrix, prefix sum"
-"May 11, 2025",3545,Minimum Deletions for At M…ost K Distinct Characters,583,https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/,Weekly Contest 449,"counting, greedy, hash table, sorting, string"
-"May 10, 2025",3544,Subtree Inversion Sum,2547,https://leetcode.com/problems/subtree-inversion-sum/,Biweekly Contest 156,"array, depth-first search, dynamic programming, tree"
-"May 10, 2025",3543,Maximum Weighted K-Edge Path,2122,https://leetcode.com/problems/maximum-weighted-k-edge-path/,Biweekly Contest 156,"dynamic programming, graph, hash table"
-"May 10, 2025",3542,Minimum Operations to Convert All Elements to Zero,1885,https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/,Biweekly Contest 156,"array, greedy, hash table, monotonic stack, stack"
-"May 10, 2025",3541,Find Most Frequent Vowel and Consonant,416,https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/,Biweekly Contest 156,"counting, hash table, string"
+yesterday,3555,Smallest Subarray to Sort in Every Sliding Window,1994,https://leetcode.com/problems/smallest-subarray-to-sort-in-every-sliding-window/,,
+"May 19, 2025",3554,Find Category Recommendation Pairs,2608,https://leetcode.com/problems/find-category-recommendation-pairs/,,database
+"May 18, 2025",3553,Minimum Weighted Subgraph W…ith the Required Paths II,2345,https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths-ii/,Weekly Contest 450,"array, depth-first search, tree"
+"May 18, 2025",3552,Grid Teleportation Traversal,2015,https://leetcode.com/problems/grid-teleportation-traversal/,Weekly Contest 450,"array, breadth-first search, hash table, matrix"
+"May 18, 2025",3551,Minimum Swaps to Sort by Digit Sum,1434,https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/,Weekly Contest 450,"array, hash table, sorting"
+"May 18, 2025",3550,Smallest Index With Digit Sum Equal to Index,515,https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/,Weekly Contest 450,"array, math"
+yesterday,3549,Multiply Two Polynomials,2641.0,https://leetcode.com/problems/multiply-two-polynomials/,,
+"May 11, 2025",3548,Equal Sum Grid Partition II,2270.0,https://leetcode.com/problems/equal-sum-grid-partition-ii/,Weekly Contest 449,"array, enumeration, hash table, matrix, prefix sum"
+"May 11, 2025",3547,Maximum Sum of Edge Values in a Graph,2365.0,https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/,Weekly Contest 449,"depth-first search, graph, greedy, sorting"
+"May 11, 2025",3546,Equal Sum Grid Partition I,1286.0,https://leetcode.com/problems/equal-sum-grid-partition-i/,Weekly Contest 449,"array, enumeration, matrix, prefix sum"
+"May 11, 2025",3545,Minimum Deletions for At M…ost K Distinct Characters,583.0,https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/,Weekly Contest 449,"counting, greedy, hash table, sorting, string"
+"May 10, 2025",3544,Subtree Inversion Sum,2547.0,https://leetcode.com/problems/subtree-inversion-sum/,Biweekly Contest 156,"array, depth-first search, dynamic programming, tree"
+"May 10, 2025",3543,Maximum Weighted K-Edge Path,2122.0,https://leetcode.com/problems/maximum-weighted-k-edge-path/,Biweekly Contest 156,"dynamic programming, graph, hash table"
+"May 10, 2025",3542,Minimum Operations to Convert All Elements to Zero,1885.0,https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/,Biweekly Contest 156,"array, greedy, hash table, monotonic stack, stack"
+"May 10, 2025",3541,Find Most Frequent Vowel and Consonant,416.0,https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/,Biweekly Contest 156,"counting, hash table, string"
 yesterday,3540,Minimum Time to Visit All Houses,1874.0,https://leetcode.com/problems/minimum-time-to-visit-all-houses/,,
 "May 4, 2025",3539,Find Sum of Array Product of Magical Sequences,2685.0,https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/,Weekly Contest 448,
 "May 4, 2025",3538,Merge Operations for Minimum Travel Time,2460.0,https://leetcode.com/problems/merge-operations-for-minimum-travel-time/,Weekly Contest 448,
