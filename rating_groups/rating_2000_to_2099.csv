@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"May 24, 2025",3559,Number of Ways to Assign Edge Weights II,2024.0,https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/,Biweekly Contest 157,"array, depth-first search, dynamic programming, math, tree"
 "May 18, 2025",3552,Grid Teleportation Traversal,2015.0,https://leetcode.com/problems/grid-teleportation-traversal/,Weekly Contest 450,"array, breadth-first search, hash table, matrix"
 yesterday,3535,Unit Conversion II,2027.0,https://leetcode.com/problems/unit-conversion-ii/,,
 "April 26, 2025",3529,Count Cells in Overlapping Horizonta…l and Vertical Substrings,2084.0,https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/,Biweekly Contest 155,

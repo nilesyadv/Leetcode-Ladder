@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"May 24, 2025",3557,Find Maximum Number of Non Intersecting Substrings,1611.0,https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings/,Biweekly Contest 157,"dynamic programming, greedy, hash table, string"
 "April 12, 2025",3513,Number of Unique XOR Triplets I,1624.0,https://leetcode.com/problems/number-of-unique-xor-triplets-i/,Biweekly Contest 154,"array, bit manipulation, math"
 "March 9, 2025",3478,Choose K Elements With Maximum Sum,1648.0,https://leetcode.com/problems/choose-k-elements-with-maximum-sum/,Weekly Contest 440,"array, heap (priority queue), sorting"
 "Feb. 16, 2025",3457,Eat Pizzas!,1683.0,https://leetcode.com/problems/eat-pizzas/,Weekly Contest 437,"array, greedy, sorting"

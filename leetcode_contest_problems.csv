@@ -1,10 +1,20 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-yesterday,3555,Smallest Subarray to Sort in Every Sliding Window,1994,https://leetcode.com/problems/smallest-subarray-to-sort-in-every-sliding-window/,,
-"May 19, 2025",3554,Find Category Recommendation Pairs,2608,https://leetcode.com/problems/find-category-recommendation-pairs/,,database
-"May 18, 2025",3553,Minimum Weighted Subgraph W…ith the Required Paths II,2345,https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths-ii/,Weekly Contest 450,"array, depth-first search, tree"
-"May 18, 2025",3552,Grid Teleportation Traversal,2015,https://leetcode.com/problems/grid-teleportation-traversal/,Weekly Contest 450,"array, breadth-first search, hash table, matrix"
-"May 18, 2025",3551,Minimum Swaps to Sort by Digit Sum,1434,https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/,Weekly Contest 450,"array, hash table, sorting"
-"May 18, 2025",3550,Smallest Index With Digit Sum Equal to Index,515,https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/,Weekly Contest 450,"array, math"
+yesterday,3565,Sequential Grid Path Cover,1885,https://leetcode.com/problems/sequential-grid-path-cover/,,
+"May 25, 2025",3564,Seasonal Sales Analysis,1956,https://leetcode.com/problems/seasonal-sales-analysis/,,database
+"May 25, 2025",3563,Lexicographically Smallest Strin…g After Adjacent Removals,2488,https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/,Weekly Contest 451,
+"May 25, 2025",3562,Maximum Profit from Trading Stocks with Discounts,2382,https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/,Weekly Contest 451,
+"May 25, 2025",3561,Resulting String After Adjacent Removals,1210,https://leetcode.com/problems/resulting-string-after-adjacent-removals/,Weekly Contest 451,
+"May 25, 2025",3560,Find Minimum Log Transportation Cost,1049,https://leetcode.com/problems/find-minimum-log-transportation-cost/,Weekly Contest 451,
+"May 24, 2025",3559,Number of Ways to Assign Edge Weights II,2024,https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/,Biweekly Contest 157,"array, depth-first search, dynamic programming, math, tree"
+"May 24, 2025",3558,Number of Ways to Assign Edge Weights I,1711,https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/,Biweekly Contest 157,"depth-first search, math, tree"
+"May 24, 2025",3557,Find Maximum Number of Non Intersecting Substrings,1611,https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings/,Biweekly Contest 157,"dynamic programming, greedy, hash table, string"
+"May 24, 2025",3556,Sum of Largest Prime Substrings,963,https://leetcode.com/problems/sum-of-largest-prime-substrings/,Biweekly Contest 157,"hash table, math, number theory, sorting, string"
+yesterday,3555,Smallest Subarray to Sort in Every Sliding Window,1994.0,https://leetcode.com/problems/smallest-subarray-to-sort-in-every-sliding-window/,,
+"May 19, 2025",3554,Find Category Recommendation Pairs,2608.0,https://leetcode.com/problems/find-category-recommendation-pairs/,,database
+"May 18, 2025",3553,Minimum Weighted Subgraph W…ith the Required Paths II,2345.0,https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths-ii/,Weekly Contest 450,"array, depth-first search, tree"
+"May 18, 2025",3552,Grid Teleportation Traversal,2015.0,https://leetcode.com/problems/grid-teleportation-traversal/,Weekly Contest 450,"array, breadth-first search, hash table, matrix"
+"May 18, 2025",3551,Minimum Swaps to Sort by Digit Sum,1434.0,https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/,Weekly Contest 450,"array, hash table, sorting"
+"May 18, 2025",3550,Smallest Index With Digit Sum Equal to Index,515.0,https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/,Weekly Contest 450,"array, math"
 yesterday,3549,Multiply Two Polynomials,2641.0,https://leetcode.com/problems/multiply-two-polynomials/,,
 "May 11, 2025",3548,Equal Sum Grid Partition II,2270.0,https://leetcode.com/problems/equal-sum-grid-partition-ii/,Weekly Contest 449,"array, enumeration, hash table, matrix, prefix sum"
 "May 11, 2025",3547,Maximum Sum of Edge Values in a Graph,2365.0,https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/,Weekly Contest 449,"depth-first search, graph, greedy, sorting"

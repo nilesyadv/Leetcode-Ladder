@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"May 24, 2025",3558,Number of Ways to Assign Edge Weights I,1711.0,https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/,Biweekly Contest 157,"depth-first search, math, tree"
 "April 6, 2025",3508,Implement Router,1777.0,https://leetcode.com/problems/implement-router/,Weekly Contest 444,
 "March 29, 2025",3499,Maximize Active Section with Trade I,1716.0,https://leetcode.com/problems/maximize-active-section-with-trade-i/,Biweekly Contest 153,
 "Feb. 15, 2025",3453,Separate Squares I,1730.0,https://leetcode.com/problems/separate-squares-i/,Biweekly Contest 150,"array, binary search"
