@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 1, 2025",3566,Partition Array into Two Equal Product Subsets,1036.0,https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/,Weekly Contest 452,"array, bit manipulation, enumeration, recursion"
 "May 25, 2025",3560,Find Minimum Log Transportation Cost,1049.0,https://leetcode.com/problems/find-minimum-log-transportation-cost/,Weekly Contest 451,
 "Nov. 17, 2024",3354,Make Array Elements Equal to Zero,1016.0,https://leetcode.com/problems/make-array-elements-equal-to-zero/,Weekly Contest 424,"array, prefix sum, simulation"
 "Oct. 27, 2024",3334,Find the Maximum Factor Score of Array,1001.0,https://leetcode.com/problems/find-the-maximum-factor-score-of-array/,Weekly Contest 421,"array, math, number theory"

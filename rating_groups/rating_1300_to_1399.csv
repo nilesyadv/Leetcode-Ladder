@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 1, 2025",3567,Minimum Absolute Difference in Sliding Submatrix,1392.0,https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/,Weekly Contest 452,"array, matrix, sorting"
 "April 20, 2025",3523,Make Array Non-decreasing,1314.0,https://leetcode.com/problems/make-array-non-decreasing/,Weekly Contest 446,
 "Feb. 23, 2025",3462,Maximum Sum With at Most K Elements,1334.0,https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/,Weekly Contest 438,"array, greedy, heap (priority queue), matrix, sorting"
 "Dec. 7, 2024",3376,Minimum Time to Break Locks I,1316.0,https://leetcode.com/problems/minimum-time-to-break-locks-i/,Biweekly Contest 145,"array, backtracking, bit manipulation, bitmask, dynamic programming"
