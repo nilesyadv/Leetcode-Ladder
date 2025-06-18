@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 15, 2025",3586,Find COVID Recovery Patients,2215.0,https://leetcode.com/problems/find-covid-recovery-patients/,,database
+"June 7, 2025",3574,Maximize Subarray GCD Score,2252.0,https://leetcode.com/problems/maximize-subarray-gcd-score/,Biweekly Contest 158,"array, enumeration, math, number theory"
 "May 11, 2025",3548,Equal Sum Grid Partition II,2270.0,https://leetcode.com/problems/equal-sum-grid-partition-ii/,Weekly Contest 449,"array, enumeration, hash table, matrix, prefix sum"
 "April 26, 2025",3530,Maximum Profit from Valid Topological Order in DAG,2272.0,https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag/,Biweekly Contest 155,
 "April 12, 2025",3515,Shortest Path in a Weighted Tree,2256.0,https://leetcode.com/problems/shortest-path-in-a-weighted-tree/,Biweekly Contest 154,"array, binary indexed tree, depth-first search, segment tree, tree"

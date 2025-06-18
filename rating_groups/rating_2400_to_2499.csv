@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 8, 2025",3579,Minimum Steps to Convert String with Operations,2476.0,https://leetcode.com/problems/minimum-steps-to-convert-string-with-operations/,Weekly Contest 453,"dynamic programming, greedy, string"
 "May 25, 2025",3563,Lexicographically Smallest Strin…g After Adjacent Removals,2488.0,https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/,Weekly Contest 451,
 "May 4, 2025",3538,Merge Operations for Minimum Travel Time,2460.0,https://leetcode.com/problems/merge-operations-for-minimum-travel-time/,Weekly Contest 448,
 "April 20, 2025",3525,Find X Value of Array II,2487.0,https://leetcode.com/problems/find-x-value-of-array-ii/,Weekly Contest 446,

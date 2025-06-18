@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 8, 2025",3580,Find Consistently Improving Employees,1971.0,https://leetcode.com/problems/find-consistently-improving-employees/,,database
+"June 8, 2025",3578,Count Partitions With Max-Min Difference at Most K,1957.0,https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/,Weekly Contest 453,"array, dynamic programming, monotonic queue, prefix sum, queue, sliding window"
 "May 25, 2025",3564,Seasonal Sales Analysis,1956.0,https://leetcode.com/problems/seasonal-sales-analysis/,,database
 yesterday,3555,Smallest Subarray to Sort in Every Sliding Window,1994.0,https://leetcode.com/problems/smallest-subarray-to-sort-in-every-sliding-window/,,
 "April 20, 2025",3524,Find X Value of Array I,1976.0,https://leetcode.com/problems/find-x-value-of-array-i/,Weekly Contest 446,

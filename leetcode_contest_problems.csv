@@ -1,10 +1,25 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-yesterday,3571,Find the Shortest Superstring II,1403,https://leetcode.com/problems/find-the-shortest-superstring-ii/,,
-"June 2, 2025",3570,Find Books with No Available Copies,1197,https://leetcode.com/problems/find-books-with-no-available-copies/,,database
-"June 1, 2025",3569,Maximize Count of Distinct Primes After Split,2543,https://leetcode.com/problems/maximize-count-of-distinct-primes-after-split/,Weekly Contest 452,"array, math, number theory, segment tree"
-"June 1, 2025",3568,Minimum Moves to Clean the Classroom,2042,https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/,Weekly Contest 452,"array, bit manipulation, breadth-first search, hash table, matrix"
-"June 1, 2025",3567,Minimum Absolute Difference in Sliding Submatrix,1392,https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/,Weekly Contest 452,"array, matrix, sorting"
-"June 1, 2025",3566,Partition Array into Two Equal Product Subsets,1036,https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/,Weekly Contest 452,"array, bit manipulation, enumeration, recursion"
+"June 15, 2025",3586,Find COVID Recovery Patients,2215,https://leetcode.com/problems/find-covid-recovery-patients/,,database
+"June 15, 2025",3585,Find Weighted Median Node in Tree,2398,https://leetcode.com/problems/find-weighted-median-node-in-tree/,Weekly Contest 454,"array, binary search, depth-first search, dynamic programming, tree"
+"June 15, 2025",3584,Maximum Product of First and Last …Elements of a Subsequence,1709,https://leetcode.com/problems/maximum-product-of-first-and-last-elements-of-a-subsequence/,Weekly Contest 454,"array, two pointers"
+"June 15, 2025",3583,Count Special Triplets,1395,https://leetcode.com/problems/count-special-triplets/,Weekly Contest 454,"array, counting, hash table"
+"June 15, 2025",3582,Generate Tag for Video Caption,752,https://leetcode.com/problems/generate-tag-for-video-caption/,Weekly Contest 454,"simulation, string"
+"June 15, 2025",3581,Count Odd Letters from Number,1204,https://leetcode.com/problems/count-odd-letters-from-number/,,"counting, hash table, simulation, string"
+"June 8, 2025",3580,Find Consistently Improving Employees,1971,https://leetcode.com/problems/find-consistently-improving-employees/,,database
+"June 8, 2025",3579,Minimum Steps to Convert String with Operations,2476,https://leetcode.com/problems/minimum-steps-to-convert-string-with-operations/,Weekly Contest 453,"dynamic programming, greedy, string"
+"June 8, 2025",3578,Count Partitions With Max-Min Difference at Most K,1957,https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/,Weekly Contest 453,"array, dynamic programming, monotonic queue, prefix sum, queue, sliding window"
+"June 8, 2025",3577,Count the Number of Comput…er Unlocking Permutations,1644,https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/,Weekly Contest 453,"array, brainteaser, combinatorics, math"
+"June 8, 2025",3576,Transform Array to All Equal Elements,1123,https://leetcode.com/problems/transform-array-to-all-equal-elements/,Weekly Contest 453,"array, greedy"
+"June 7, 2025",3575,Maximum Good Subtree Score,2350,https://leetcode.com/problems/maximum-good-subtree-score/,Biweekly Contest 158,"array, bit manipulation, bitmask, depth-first search, dynamic programming, tree"
+"June 7, 2025",3574,Maximize Subarray GCD Score,2252,https://leetcode.com/problems/maximize-subarray-gcd-score/,Biweekly Contest 158,"array, enumeration, math, number theory"
+"June 7, 2025",3573,Best Time to Buy and Sell Stock V,1734,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/,Biweekly Contest 158,"array, dynamic programming"
+"June 7, 2025",3572,Maximize Y‑Sum by Picking a Tri…plet of Distinct X‑Values,608,https://leetcode.com/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues/,Biweekly Contest 158,"array, greedy, hash table, heap (priority queue), sorting"
+yesterday,3571,Find the Shortest Superstring II,1403.0,https://leetcode.com/problems/find-the-shortest-superstring-ii/,,
+"June 2, 2025",3570,Find Books with No Available Copies,1197.0,https://leetcode.com/problems/find-books-with-no-available-copies/,,database
+"June 1, 2025",3569,Maximize Count of Distinct Primes After Split,2543.0,https://leetcode.com/problems/maximize-count-of-distinct-primes-after-split/,Weekly Contest 452,"array, math, number theory, segment tree"
+"June 1, 2025",3568,Minimum Moves to Clean the Classroom,2042.0,https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/,Weekly Contest 452,"array, bit manipulation, breadth-first search, hash table, matrix"
+"June 1, 2025",3567,Minimum Absolute Difference in Sliding Submatrix,1392.0,https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/,Weekly Contest 452,"array, matrix, sorting"
+"June 1, 2025",3566,Partition Array into Two Equal Product Subsets,1036.0,https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/,Weekly Contest 452,"array, bit manipulation, enumeration, recursion"
 yesterday,3565,Sequential Grid Path Cover,1885.0,https://leetcode.com/problems/sequential-grid-path-cover/,,
 "May 25, 2025",3564,Seasonal Sales Analysis,1956.0,https://leetcode.com/problems/seasonal-sales-analysis/,,database
 "May 25, 2025",3563,Lexicographically Smallest Strin…g After Adjacent Removals,2488.0,https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/,Weekly Contest 451,

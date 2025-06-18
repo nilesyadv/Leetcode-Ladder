@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 15, 2025",3582,Generate Tag for Video Caption,752.0,https://leetcode.com/problems/generate-tag-for-video-caption/,Weekly Contest 454,"simulation, string"
 "April 20, 2025",3522,Calculate Score After Performing Instructions,743.0,https://leetcode.com/problems/calculate-score-after-performing-instructions/,Weekly Contest 446,
 "March 9, 2025",3477,Fruits Into Baskets II,706.0,https://leetcode.com/problems/fruits-into-baskets-ii/,Weekly Contest 440,"array, binary search, segment tree, simulation"
 "Feb. 9, 2025",3446,Sort Matrix by Diagonals,780.0,https://leetcode.com/problems/sort-matrix-by-diagonals/,Weekly Contest 436,"array, matrix, sorting"

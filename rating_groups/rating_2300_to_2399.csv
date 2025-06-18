@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 15, 2025",3585,Find Weighted Median Node in Tree,2398.0,https://leetcode.com/problems/find-weighted-median-node-in-tree/,Weekly Contest 454,"array, binary search, depth-first search, dynamic programming, tree"
+"June 7, 2025",3575,Maximum Good Subtree Score,2350.0,https://leetcode.com/problems/maximum-good-subtree-score/,Biweekly Contest 158,"array, bit manipulation, bitmask, depth-first search, dynamic programming, tree"
 "May 25, 2025",3562,Maximum Profit from Trading Stocks with Discounts,2382.0,https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/,Weekly Contest 451,
 "May 18, 2025",3553,Minimum Weighted Subgraph W…ith the Required Paths II,2345.0,https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths-ii/,Weekly Contest 450,"array, depth-first search, tree"
 "May 11, 2025",3547,Maximum Sum of Edge Values in a Graph,2365.0,https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/,Weekly Contest 449,"depth-first search, graph, greedy, sorting"
