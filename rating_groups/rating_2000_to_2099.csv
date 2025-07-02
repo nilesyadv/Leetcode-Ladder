@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+yesterday,3601,Find Drivers with Improved Fuel Efficiency,2085.0,https://leetcode.com/problems/find-drivers-with-improved-fuel-efficiency/,,database
 "June 1, 2025",3568,Minimum Moves to Clean the Classroom,2042.0,https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/,Weekly Contest 452,"array, bit manipulation, breadth-first search, hash table, matrix"
 "May 24, 2025",3559,Number of Ways to Assign Edge Weights II,2024.0,https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/,Biweekly Contest 157,"array, depth-first search, dynamic programming, math, tree"
 "May 18, 2025",3552,Grid Teleportation Traversal,2015.0,https://leetcode.com/problems/grid-teleportation-traversal/,Weekly Contest 450,"array, breadth-first search, hash table, matrix"

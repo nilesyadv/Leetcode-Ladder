@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 29, 2025",3599,Partition Array to Minimize XOR,1893.0,https://leetcode.com/problems/partition-array-to-minimize-xor/,Weekly Contest 456,"array, bit manipulation, dynamic programming, prefix sum"
+"June 26, 2025",3596,Minimum Cost Path with Alternating Directions I,1897.0,https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-i/,,"brainteaser, math"
 yesterday,3565,Sequential Grid Path Cover,1885.0,https://leetcode.com/problems/sequential-grid-path-cover/,,
 "May 10, 2025",3542,Minimum Operations to Convert All Elements to Zero,1885.0,https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/,Biweekly Contest 156,"array, greedy, hash table, monotonic stack, stack"
 yesterday,3540,Minimum Time to Visit All Houses,1874.0,https://leetcode.com/problems/minimum-time-to-visit-all-houses/,,

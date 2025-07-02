@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 23, 2025",3595,Once Twice,1984.0,https://leetcode.com/problems/once-twice/,,"array, bit manipulation"
+"June 22, 2025",3593,Minimum Increments to Equalize Leaf Paths,1939.0,https://leetcode.com/problems/minimum-increments-to-equalize-leaf-paths/,Weekly Contest 455,"array, depth-first search, dynamic programming, tree"
 "June 8, 2025",3580,Find Consistently Improving Employees,1971.0,https://leetcode.com/problems/find-consistently-improving-employees/,,database
 "June 8, 2025",3578,Count Partitions With Max-Min Difference at Most K,1957.0,https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/,Weekly Contest 453,"array, dynamic programming, monotonic queue, prefix sum, queue, sliding window"
 "May 25, 2025",3564,Seasonal Sales Analysis,1956.0,https://leetcode.com/problems/seasonal-sales-analysis/,,database

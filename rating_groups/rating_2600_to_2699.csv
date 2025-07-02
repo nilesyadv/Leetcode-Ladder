@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"June 22, 2025",3594,Minimum Time to Transport All Individuals,2615.0,https://leetcode.com/problems/minimum-time-to-transport-all-individuals/,Weekly Contest 455,"array, bit manipulation, bitmask, dynamic programming, graph, heap (priority queue), shortest path"
+"June 21, 2025",3590,Kth Smallest Path XOR Sum,2608.0,https://leetcode.com/problems/kth-smallest-path-xor-sum/,Biweekly Contest 159,"array, depth-first search, ordered set, tree"
 "May 19, 2025",3554,Find Category Recommendation Pairs,2608.0,https://leetcode.com/problems/find-category-recommendation-pairs/,,database
 yesterday,3549,Multiply Two Polynomials,2641.0,https://leetcode.com/problems/multiply-two-polynomials/,,
 "May 4, 2025",3539,Find Sum of Array Product of Magical Sequences,2685.0,https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/,Weekly Contest 448,
