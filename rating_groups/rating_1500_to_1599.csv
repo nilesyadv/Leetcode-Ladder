@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 5, 2025",3603,Minimum Cost Path with Alternating Directions II,1574.0,https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/,Biweekly Contest 160,"array, dynamic programming, matrix"
 "June 29, 2025",3598,Longest Common Prefix Between Adjace…nt Strings After Removals,1562.0,https://leetcode.com/problems/longest-common-prefix-between-adjacent-strings-after-removals/,Weekly Contest 456,"array, string"
 "March 23, 2025",3493,Properties Graph,1500.0,https://leetcode.com/problems/properties-graph/,Weekly Contest 442,"array, breadth-first search, depth-first search, graph, hash table, union find"
 today,3488,Closest Equal Element Queries,1599.0,https://leetcode.com/problems/closest-equal-element-queries/,Weekly Contest 441,

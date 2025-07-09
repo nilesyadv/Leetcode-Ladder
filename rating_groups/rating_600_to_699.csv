@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 6, 2025",3606,Coupon Code Validator,640.0,https://leetcode.com/problems/coupon-code-validator/,Weekly Contest 457,"array, hash table, sorting, string"
 "June 7, 2025",3572,Maximize Y‑Sum by Picking a Tri…plet of Distinct X‑Values,608.0,https://leetcode.com/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues/,Biweekly Contest 158,"array, greedy, hash table, heap (priority queue), sorting"
 "April 26, 2025",3527,Find the Most Common Response,604.0,https://leetcode.com/problems/find-the-most-common-response/,Biweekly Contest 155,
 "April 6, 2025",3507,Minimum Pair Removal to Sort Array I,685.0,https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/,Weekly Contest 444,
