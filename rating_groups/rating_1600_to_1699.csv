@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 13, 2025",3613,Minimize Maximum Component Cost,1602.0,https://leetcode.com/problems/minimize-maximum-component-cost/,Weekly Contest 458,"binary search, graph, sort, union find"
 "July 6, 2025",3607,Power Grid Maintenance,1615.0,https://leetcode.com/problems/power-grid-maintenance/,Weekly Contest 457,"array, breadth-first search, depth-first search, graph, hash table, heap (priority queue), ordered set, union find"
 "June 22, 2025",3592,Inverse Coin Change,1628.0,https://leetcode.com/problems/inverse-coin-change/,Weekly Contest 455,"array, dynamic programming"
 "June 21, 2025",3588,Find Maximum Area of a Triangle,1682.0,https://leetcode.com/problems/find-maximum-area-of-a-triangle/,Biweekly Contest 159,"array, enumeration, geometry, greedy, hash table, math"

@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+yesterday,3617,Find Students with Study Spiral Pattern,2706.0,https://leetcode.com/problems/find-students-with-study-spiral-pattern/,,database
 "March 9, 2025",3480,Maximize Subarrays After Remo…ving One Conflicting Pair,2760.0,https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/,Weekly Contest 440,"array, enumeration, prefix sum, segment tree"
 "Feb. 23, 2025",3464,Maximize the Distance Between Points on a Square,2790.0,https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/,Weekly Contest 438,"array, binary search, greedy"
 "Feb. 9, 2025",3449,Maximize the Minimum Game Score,2754.0,https://leetcode.com/problems/maximize-the-minimum-game-score/,Weekly Contest 436,"array, binary search, greedy"

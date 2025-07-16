@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 13, 2025",3612,Process String with Special Operations I,497.0,https://leetcode.com/problems/process-string-with-special-operations-i/,Weekly Contest 458,"simulation, string"
 "May 10, 2025",3541,Find Most Frequent Vowel and Consonant,416.0,https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/,Biweekly Contest 156,"counting, hash table, string"
 "March 29, 2025",3498,Reverse Degree of a String,405.0,https://leetcode.com/problems/reverse-degree-of-a-string/,Biweekly Contest 153,
 "Feb. 15, 2025",3452,Sum of Good Numbers,462.0,https://leetcode.com/problems/sum-of-good-numbers/,Biweekly Contest 150,array

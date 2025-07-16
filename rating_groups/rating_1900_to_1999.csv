@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 14, 2025",3616,Number of Student Replacements,1973.0,https://leetcode.com/problems/number-of-student-replacements/,,
+"July 13, 2025",3614,Process String with Special Operations II,1974.0,https://leetcode.com/problems/process-string-with-special-operations-ii/,Weekly Contest 458,"simulation, string"
 "June 23, 2025",3595,Once Twice,1984.0,https://leetcode.com/problems/once-twice/,,"array, bit manipulation"
 "June 22, 2025",3593,Minimum Increments to Equalize Leaf Paths,1939.0,https://leetcode.com/problems/minimum-increments-to-equalize-leaf-paths/,Weekly Contest 455,"array, depth-first search, dynamic programming, tree"
 "June 8, 2025",3580,Find Consistently Improving Employees,1971.0,https://leetcode.com/problems/find-consistently-improving-employees/,,database

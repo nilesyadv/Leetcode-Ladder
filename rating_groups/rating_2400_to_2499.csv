@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 13, 2025",3615,Longest Palindromic Path in Graph,2421.0,https://leetcode.com/problems/longest-palindromic-path-in-graph/,Weekly Contest 458,"bit manipulation, dynamic programming, graph, string"
 "July 5, 2025",3605,Minimum Stability Factor of Array,2418.0,https://leetcode.com/problems/minimum-stability-factor-of-array/,Biweekly Contest 160,"array, binary search, greedy, math, number theory, segment tree"
 "June 8, 2025",3579,Minimum Steps to Convert String with Operations,2476.0,https://leetcode.com/problems/minimum-steps-to-convert-string-with-operations/,Weekly Contest 453,"dynamic programming, greedy, string"
 "May 25, 2025",3563,Lexicographically Smallest Strin…g After Adjacent Removals,2488.0,https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/,Weekly Contest 451,
