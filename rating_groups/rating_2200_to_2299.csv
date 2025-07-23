@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 19, 2025",3621,Number of Integers With Po…pcount-Depth Equal to K I,2265.0,https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-i/,Biweekly Contest 161,
 "June 29, 2025",3600,Maximize Spanning Tree Stability with Upgrades,2237.0,https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/,Weekly Contest 456,"binary search, graph, greedy, minimum spanning tree, union find"
 "June 15, 2025",3586,Find COVID Recovery Patients,2215.0,https://leetcode.com/problems/find-covid-recovery-patients/,,database
 "June 7, 2025",3574,Maximize Subarray GCD Score,2252.0,https://leetcode.com/problems/maximize-subarray-gcd-score/,Biweekly Contest 158,"array, enumeration, math, number theory"

@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 20, 2025",3622,Check Divisibility by Digit Sum and Product,470.0,https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/,Weekly Contest 459,
 "July 13, 2025",3612,Process String with Special Operations I,497.0,https://leetcode.com/problems/process-string-with-special-operations-i/,Weekly Contest 458,"simulation, string"
 "May 10, 2025",3541,Find Most Frequent Vowel and Consonant,416.0,https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/,Biweekly Contest 156,"counting, hash table, string"
 "March 29, 2025",3498,Reverse Degree of a String,405.0,https://leetcode.com/problems/reverse-degree-of-a-string/,Biweekly Contest 153,
