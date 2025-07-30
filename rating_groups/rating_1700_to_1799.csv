@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"July 27, 2025",3628,Maximum Number of Subsequences After One Inserting,1730.0,https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting/,Weekly Contest 460,
 "July 5, 2025",3604,Minimum Time to Reach Dest…ination in Directed Graph,1799.0,https://leetcode.com/problems/minimum-time-to-reach-destination-in-directed-graph/,Biweekly Contest 160,"graph, heap (priority queue), shortest path"
 "June 15, 2025",3584,Maximum Product of First and Last …Elements of a Subsequence,1709.0,https://leetcode.com/problems/maximum-product-of-first-and-last-elements-of-a-subsequence/,Weekly Contest 454,"array, two pointers"
 "June 7, 2025",3573,Best Time to Buy and Sell Stock V,1734.0,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/,Biweekly Contest 158,"array, dynamic programming"

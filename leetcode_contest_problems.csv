@@ -1,12 +1,18 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-"July 20, 2025",3625,Count Number of Trapezoids II,2564,https://leetcode.com/problems/count-number-of-trapezoids-ii/,Weekly Contest 459,
-"July 20, 2025",3624,Number of Integers With Pop…count-Depth Equal to K II,2043,https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/,Weekly Contest 459,
-"July 20, 2025",3623,Count Number of Trapezoids I,1540,https://leetcode.com/problems/count-number-of-trapezoids-i/,Weekly Contest 459,
-"July 20, 2025",3622,Check Divisibility by Digit Sum and Product,470,https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/,Weekly Contest 459,
-"July 19, 2025",3621,Number of Integers With Po…pcount-Depth Equal to K I,2265,https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-i/,Biweekly Contest 161,
-"July 19, 2025",3620,Network Recovery Pathways,1865,https://leetcode.com/problems/network-recovery-pathways/,Biweekly Contest 161,
-"July 19, 2025",3619,Count Islands With Total Value Divisible by K,1357,https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/,Biweekly Contest 161,
-"July 19, 2025",3618,Split Array by Prime Indices,649,https://leetcode.com/problems/split-array-by-prime-indices/,Biweekly Contest 161,
+"July 28, 2025",3631,Sort Threats by Severity and Exploitability,1905,https://leetcode.com/problems/sort-threats-by-severity-and-exploitability/,,
+"July 27, 2025",3630,Partition Array for Maximum XOR and AND,2731,https://leetcode.com/problems/partition-array-for-maximum-xor-and-and/,Weekly Contest 460,
+"July 27, 2025",3629,Minimum Jumps to Reach End via Prime Teleportation,2150,https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/,Weekly Contest 460,
+"July 27, 2025",3628,Maximum Number of Subsequences After One Inserting,1730,https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting/,Weekly Contest 460,
+"July 27, 2025",3627,Maximum Median Sum of Subsequences of Size 3,514,https://leetcode.com/problems/maximum-median-sum-of-subsequences-of-size-3/,Weekly Contest 460,
+"July 24, 2025",3626,Find Stores with Inventory Imbalance,2054,https://leetcode.com/problems/find-stores-with-inventory-imbalance/,,database
+"July 20, 2025",3625,Count Number of Trapezoids II,2564.0,https://leetcode.com/problems/count-number-of-trapezoids-ii/,Weekly Contest 459,
+"July 20, 2025",3624,Number of Integers With Pop…count-Depth Equal to K II,2043.0,https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/,Weekly Contest 459,
+"July 20, 2025",3623,Count Number of Trapezoids I,1540.0,https://leetcode.com/problems/count-number-of-trapezoids-i/,Weekly Contest 459,
+"July 20, 2025",3622,Check Divisibility by Digit Sum and Product,470.0,https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/,Weekly Contest 459,
+"July 19, 2025",3621,Number of Integers With Po…pcount-Depth Equal to K I,2265.0,https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-i/,Biweekly Contest 161,
+"July 19, 2025",3620,Network Recovery Pathways,1865.0,https://leetcode.com/problems/network-recovery-pathways/,Biweekly Contest 161,
+"July 19, 2025",3619,Count Islands With Total Value Divisible by K,1357.0,https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/,Biweekly Contest 161,
+"July 19, 2025",3618,Split Array by Prime Indices,649.0,https://leetcode.com/problems/split-array-by-prime-indices/,Biweekly Contest 161,
 yesterday,3617,Find Students with Study Spiral Pattern,2706.0,https://leetcode.com/problems/find-students-with-study-spiral-pattern/,,database
 "July 14, 2025",3616,Number of Student Replacements,1973.0,https://leetcode.com/problems/number-of-student-replacements/,,
 "July 13, 2025",3615,Longest Palindromic Path in Graph,2421.0,https://leetcode.com/problems/longest-palindromic-path-in-graph/,Weekly Contest 458,"bit manipulation, dynamic programming, graph, string"
