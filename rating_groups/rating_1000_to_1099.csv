@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 2, 2025",3633,Earliest Finish Time for Land and Water Rides I,1009.0,https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/,Biweekly Contest 162,
 "June 21, 2025",3587,Minimum Adjacent Swaps to Alternate Parity,1085.0,https://leetcode.com/problems/minimum-adjacent-swaps-to-alternate-parity/,Biweekly Contest 159,"array, greedy"
 "June 1, 2025",3566,Partition Array into Two Equal Product Subsets,1036.0,https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/,Weekly Contest 452,"array, bit manipulation, enumeration, recursion"
 "May 25, 2025",3560,Find Minimum Log Transportation Cost,1049.0,https://leetcode.com/problems/find-minimum-log-transportation-cost/,Weekly Contest 451,

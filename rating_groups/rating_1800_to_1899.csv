@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 3, 2025",3639,Minimum Time to Activate String,1850.0,https://leetcode.com/problems/minimum-time-to-activate-string/,Weekly Contest 461,
+"Aug. 2, 2025",3635,Earliest Finish Time for Land and Water Rides II,1848.0,https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/,Biweekly Contest 162,
 "July 19, 2025",3620,Network Recovery Pathways,1865.0,https://leetcode.com/problems/network-recovery-pathways/,Biweekly Contest 161,
 "July 6, 2025",3608,Minimum Time for K Connected Components,1808.0,https://leetcode.com/problems/minimum-time-for-k-connected-components/,Weekly Contest 457,"binary search, graph, sorting, union find"
 "June 29, 2025",3599,Partition Array to Minimize XOR,1893.0,https://leetcode.com/problems/partition-array-to-minimize-xor/,Weekly Contest 456,"array, bit manipulation, dynamic programming, prefix sum"

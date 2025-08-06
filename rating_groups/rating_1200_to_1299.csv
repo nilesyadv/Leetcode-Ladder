@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 2, 2025",3634,Minimum Removals to Balance Array,1288.0,https://leetcode.com/problems/minimum-removals-to-balance-array/,Biweekly Contest 162,
 "June 15, 2025",3581,Count Odd Letters from Number,1204.0,https://leetcode.com/problems/count-odd-letters-from-number/,,"counting, hash table, simulation, string"
 "May 25, 2025",3561,Resulting String After Adjacent Removals,1210.0,https://leetcode.com/problems/resulting-string-after-adjacent-removals/,Weekly Contest 451,
 "May 11, 2025",3546,Equal Sum Grid Partition I,1286.0,https://leetcode.com/problems/equal-sum-grid-partition-i/,Weekly Contest 449,"array, enumeration, matrix, prefix sum"
