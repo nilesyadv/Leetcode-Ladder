@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 17, 2025",3653,XOR After Range Multiplication Queries I,1315.0,https://leetcode.com/problems/xor-after-range-multiplication-queries-i/,Weekly Contest 463,"array, divide and conquer, simulation"
+"Aug. 17, 2025",3652,Best Time to Buy and Sell Stock using Strategy,1303.0,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/,Weekly Contest 463,"array, prefix sum, sliding window"
 "Aug. 3, 2025",3638,Maximum Balanced Shipments,1354.0,https://leetcode.com/problems/maximum-balanced-shipments/,Weekly Contest 461,
 "July 19, 2025",3619,Count Islands With Total Value Divisible by K,1357.0,https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/,Biweekly Contest 161,
 "June 15, 2025",3583,Count Special Triplets,1395.0,https://leetcode.com/problems/count-special-triplets/,Weekly Contest 454,"array, counting, hash table"

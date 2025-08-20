@@ -1,4 +1,6 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 17, 2025",3655,XOR After Range Multiplication Queries II,2442.0,https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/,Weekly Contest 463,"array, divide and conquer"
+"Aug. 16, 2025",3651,Minimum Cost Path with Teleportations,2406.0,https://leetcode.com/problems/minimum-cost-path-with-teleportations/,Biweekly Contest 163,
 "Aug. 10, 2025",3646,Next Special Palindrome Number,2470.0,https://leetcode.com/problems/next-special-palindrome-number/,Weekly Contest 462,
 "Aug. 2, 2025",3636,Threshold Majority Queries,2402.0,https://leetcode.com/problems/threshold-majority-queries/,Biweekly Contest 162,
 "July 13, 2025",3615,Longest Palindromic Path in Graph,2421.0,https://leetcode.com/problems/longest-palindromic-path-in-graph/,Weekly Contest 458,"bit manipulation, dynamic programming, graph, string"
