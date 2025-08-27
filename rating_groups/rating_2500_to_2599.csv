@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 24, 2025",3661,Maximum Walls Destroyed by Robots,2526.0,https://leetcode.com/problems/maximum-walls-destroyed-by-robots/,Weekly Contest 464,
 "July 20, 2025",3625,Count Number of Trapezoids II,2564.0,https://leetcode.com/problems/count-number-of-trapezoids-ii/,Weekly Contest 459,
 "June 1, 2025",3569,Maximize Count of Distinct Primes After Split,2543.0,https://leetcode.com/problems/maximize-count-of-distinct-primes-after-split/,Weekly Contest 452,"array, math, number theory, segment tree"
 "May 10, 2025",3544,Subtree Inversion Sum,2547.0,https://leetcode.com/problems/subtree-inversion-sum/,Biweekly Contest 156,"array, depth-first search, dynamic programming, tree"

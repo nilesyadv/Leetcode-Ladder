@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 24, 2025",3659,Partition Array Into K-Distinct Groups,1334.0,https://leetcode.com/problems/partition-array-into-k-distinct-groups/,Weekly Contest 464,
 "Aug. 17, 2025",3653,XOR After Range Multiplication Queries I,1315.0,https://leetcode.com/problems/xor-after-range-multiplication-queries-i/,Weekly Contest 463,"array, divide and conquer, simulation"
 "Aug. 17, 2025",3652,Best Time to Buy and Sell Stock using Strategy,1303.0,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/,Weekly Contest 463,"array, prefix sum, sliding window"
 "Aug. 3, 2025",3638,Maximum Balanced Shipments,1354.0,https://leetcode.com/problems/maximum-balanced-shipments/,Weekly Contest 461,

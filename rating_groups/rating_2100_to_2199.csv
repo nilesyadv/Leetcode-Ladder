@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 24, 2025",3660,Jump Game IX,2198.0,https://leetcode.com/problems/jump-game-ix/,Weekly Contest 464,
 "July 27, 2025",3629,Minimum Jumps to Reach End via Prime Teleportation,2150.0,https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/,Weekly Contest 460,
 "June 21, 2025",3589,Count Prime-Gap Balanced Subarrays,2198.0,https://leetcode.com/problems/count-prime-gap-balanced-subarrays/,Biweekly Contest 159,"array, math, monotonic queue, number theory, queue, sliding window"
 "May 10, 2025",3543,Maximum Weighted K-Edge Path,2122.0,https://leetcode.com/problems/maximum-weighted-k-edge-path/,Biweekly Contest 156,"dynamic programming, graph, hash table"

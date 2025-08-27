@@ -1,14 +1,20 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
-"Aug. 18, 2025",3656,Determine if a Simple Graph Exists,1921,https://leetcode.com/problems/determine-if-a-simple-graph-exists/,,
-"Aug. 17, 2025",3655,XOR After Range Multiplication Queries II,2442,https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/,Weekly Contest 463,"array, divide and conquer"
-"Aug. 17, 2025",3654,Minimum Sum After Divisible Sum Deletions,2007,https://leetcode.com/problems/minimum-sum-after-divisible-sum-deletions/,Weekly Contest 463,
-"Aug. 17, 2025",3653,XOR After Range Multiplication Queries I,1315,https://leetcode.com/problems/xor-after-range-multiplication-queries-i/,Weekly Contest 463,"array, divide and conquer, simulation"
-"Aug. 17, 2025",3652,Best Time to Buy and Sell Stock using Strategy,1303,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/,Weekly Contest 463,"array, prefix sum, sliding window"
-"Aug. 16, 2025",3651,Minimum Cost Path with Teleportations,2406,https://leetcode.com/problems/minimum-cost-path-with-teleportations/,Biweekly Contest 163,
-"Aug. 16, 2025",3650,Minimum Cost Path with Edge Reversals,1806,https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/,Biweekly Contest 163,
-"Aug. 16, 2025",3649,Number of Perfect Pairs,1632,https://leetcode.com/problems/number-of-perfect-pairs/,Biweekly Contest 163,
-"Aug. 16, 2025",3648,Minimum Sensors to Cover Grid,907,https://leetcode.com/problems/minimum-sensors-to-cover-grid/,Biweekly Contest 163,
-"Aug. 16, 2025",3647,Maximum Weight in Two Bags,1908,https://leetcode.com/problems/maximum-weight-in-two-bags/,,
+"Aug. 25, 2025",3662,Filter Characters by Frequency,1142,https://leetcode.com/problems/filter-characters-by-frequency/,,
+"Aug. 24, 2025",3661,Maximum Walls Destroyed by Robots,2526,https://leetcode.com/problems/maximum-walls-destroyed-by-robots/,Weekly Contest 464,
+"Aug. 24, 2025",3660,Jump Game IX,2198,https://leetcode.com/problems/jump-game-ix/,Weekly Contest 464,
+"Aug. 24, 2025",3659,Partition Array Into K-Distinct Groups,1334,https://leetcode.com/problems/partition-array-into-k-distinct-groups/,Weekly Contest 464,
+"Aug. 24, 2025",3658,GCD of Odd and Even Sums,543,https://leetcode.com/problems/gcd-of-odd-and-even-sums/,Weekly Contest 464,
+"Aug. 23, 2025",3657,Find Loyal Customers,1991,https://leetcode.com/problems/find-loyal-customers/,,database
+"Aug. 18, 2025",3656,Determine if a Simple Graph Exists,1921.0,https://leetcode.com/problems/determine-if-a-simple-graph-exists/,,
+"Aug. 17, 2025",3655,XOR After Range Multiplication Queries II,2442.0,https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/,Weekly Contest 463,"array, divide and conquer"
+"Aug. 17, 2025",3654,Minimum Sum After Divisible Sum Deletions,2007.0,https://leetcode.com/problems/minimum-sum-after-divisible-sum-deletions/,Weekly Contest 463,
+"Aug. 17, 2025",3653,XOR After Range Multiplication Queries I,1315.0,https://leetcode.com/problems/xor-after-range-multiplication-queries-i/,Weekly Contest 463,"array, divide and conquer, simulation"
+"Aug. 17, 2025",3652,Best Time to Buy and Sell Stock using Strategy,1303.0,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/,Weekly Contest 463,"array, prefix sum, sliding window"
+"Aug. 16, 2025",3651,Minimum Cost Path with Teleportations,2406.0,https://leetcode.com/problems/minimum-cost-path-with-teleportations/,Biweekly Contest 163,
+"Aug. 16, 2025",3650,Minimum Cost Path with Edge Reversals,1806.0,https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/,Biweekly Contest 163,
+"Aug. 16, 2025",3649,Number of Perfect Pairs,1632.0,https://leetcode.com/problems/number-of-perfect-pairs/,Biweekly Contest 163,
+"Aug. 16, 2025",3648,Minimum Sensors to Cover Grid,907.0,https://leetcode.com/problems/minimum-sensors-to-cover-grid/,Biweekly Contest 163,
+"Aug. 16, 2025",3647,Maximum Weight in Two Bags,1908.0,https://leetcode.com/problems/maximum-weight-in-two-bags/,,
 "Aug. 10, 2025",3646,Next Special Palindrome Number,2470.0,https://leetcode.com/problems/next-special-palindrome-number/,Weekly Contest 462,
 "Aug. 10, 2025",3645,Maximum Total from Optimal Activation Order,2032.0,https://leetcode.com/problems/maximum-total-from-optimal-activation-order/,Weekly Contest 462,
 "Aug. 10, 2025",3644,Maximum K to Sort a Permutation,1712.0,https://leetcode.com/problems/maximum-k-to-sort-a-permutation/,Weekly Contest 462,
