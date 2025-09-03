@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 31, 2025",3668,Restore Finishing Order,354.0,https://leetcode.com/problems/restore-finishing-order/,Weekly Contest 465,
 "Feb. 13, 2022",2169,Count Operations to Obtain Zero,377.0,https://leetcode.com/problems/count-operations-to-obtain-zero/,Weekly Contest 280,"math, simulation"
 "Sept. 19, 2021",2011,Final Value of Variable Af…ter Performing Operations,399.0,https://leetcode.com/problems/final-value-of-variable-after-performing-operations/,Weekly Contest 259,"array, simulation, string"
 "July 24, 2021",1941,Check if All Characters Have Eq…ual Number of Occurrences,346.0,https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/,Biweekly Contest 57,"counting, hash table, string"

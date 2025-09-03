@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Aug. 31, 2025",3671,Sum of Beautiful Subsequences,2681.0,https://leetcode.com/problems/sum-of-beautiful-subsequences/,Weekly Contest 465,
 "July 31, 2025",3632,Subarrays with XOR at Least K,2624.0,https://leetcode.com/problems/subarrays-with-xor-at-least-k/,,
 "June 22, 2025",3594,Minimum Time to Transport All Individuals,2615.0,https://leetcode.com/problems/minimum-time-to-transport-all-individuals/,Weekly Contest 455,"array, bit manipulation, bitmask, dynamic programming, graph, heap (priority queue), shortest path"
 "June 21, 2025",3590,Kth Smallest Path XOR Sum,2608.0,https://leetcode.com/problems/kth-smallest-path-xor-sum/,Biweekly Contest 159,"array, depth-first search, ordered set, tree"
