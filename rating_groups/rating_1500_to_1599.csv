@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Sept. 13, 2025",3679,Minimum Discards to Balance Inventory,1578.0,https://leetcode.com/problems/minimum-discards-to-balance-inventory/,Biweekly Contest 165,
 "July 20, 2025",3623,Count Number of Trapezoids I,1540.0,https://leetcode.com/problems/count-number-of-trapezoids-i/,Weekly Contest 459,
 "July 5, 2025",3603,Minimum Cost Path with Alternating Directions II,1574.0,https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/,Biweekly Contest 160,"array, dynamic programming, matrix"
 "June 29, 2025",3598,Longest Common Prefix Between Adjace…nt Strings After Removals,1562.0,https://leetcode.com/problems/longest-common-prefix-between-adjacent-strings-after-removals/,Weekly Contest 456,"array, string"

@@ -1,4 +1,5 @@
 Date,Problem Number,Problem Name,Problem Rating,Problem Link,Contest Name,Tags
+"Sept. 13, 2025",3680,Generate Schedule,2387.0,https://leetcode.com/problems/generate-schedule/,Biweekly Contest 165,
 yesterday,3611,Find Overbooked Employees,2330.0,https://leetcode.com/problems/find-overbooked-employees/,,database
 "July 6, 2025",3609,Minimum Moves to Reach Target in Grid,2393.0,https://leetcode.com/problems/minimum-moves-to-reach-target-in-grid/,Weekly Contest 457,math
 "June 15, 2025",3585,Find Weighted Median Node in Tree,2398.0,https://leetcode.com/problems/find-weighted-median-node-in-tree/,Weekly Contest 454,"array, binary search, depth-first search, dynamic programming, tree"
